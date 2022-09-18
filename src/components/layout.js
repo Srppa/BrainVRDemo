@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 
 import Header from "./header"
 import Logo from "./logo"
@@ -31,7 +31,11 @@ const Layout = ({ children, className, props }) => {
   return (
     <div className="primary-container">
       <Header>
-        <Logo title={siteTitle} />
+        <div className="site-logo">
+          <Link to="/">
+            <img src="/assets/brain-logo.png" style={{ width: "50px"}}/>
+          </Link>
+        </div>
         <div sx={layoutStyle.nav}>
           <Navigation />
         </div>

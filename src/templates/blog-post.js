@@ -103,8 +103,16 @@ const Post = ({ data, pageContext }) => {
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
+        {frontmatter.isActive ? (
+          <div className="contactActive">
+            <h3>Kontakt</h3>
+            <p>Kontaktní osobou pro tento projekt je {frontmatter.contactName}. Pokud máte zájem se účastnit na experimentu stačí kliknout na níže uvedenou emailovou adresu a poslat email.</p>
+            <a href={"mailto:" + frontmatter.contactEmail + "?subject=Účast na " + frontmatter.title}>{frontmatter.contactEmail}</a>
+          </div>
+        ) : (
+          ""
+        )}
       </article>
-      {(previous || next) && <Pagination {...props} />}
     </Layout>
   )
 }
@@ -122,6 +130,9 @@ export const pageQuery = graphql`
         slug
         title
         description
+        isActive
+        contactName
+        contactEmail
         featuredImage {
           childImageSharp {
             gatsbyImageData(layout: FULL_WIDTH)

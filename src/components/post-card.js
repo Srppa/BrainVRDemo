@@ -6,13 +6,20 @@ import { GatsbyImage } from "gatsby-plugin-image"
 const PostCard = ({ data }) => (
   <article className="post-card">
     {data.frontmatter.featuredImage ? (
-      <Link to={data.frontmatter.slug}>
-        <GatsbyImage
-          image={data.frontmatter.featuredImage.childImageSharp.gatsbyImageData}
-          alt={data.frontmatter.title + " - Featured image"}
-          className="featured-image"
-        />
-      </Link>
+      <div className="post-card-container">
+        {data.frontmatter.isActive ? (
+          <div className="blog-status-panel">
+          <span>Aktivní</span>
+        </div>
+        ): ""}
+        <Link to={data.frontmatter.slug}>
+          <GatsbyImage
+            image={data.frontmatter.featuredImage.childImageSharp.gatsbyImageData}
+            alt={data.frontmatter.title + " - Featured image"}
+            className="featured-image"
+          />
+        </Link>
+      </div>
     ) : (
       ""
     )}

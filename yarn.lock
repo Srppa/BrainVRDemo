@@ -6151,6 +6151,13 @@
     "objectFitPolyfill" "^2.3.5"
     "prop-types" "^15.7.2"
 
+"gatsby-plugin-mailgo@^0.12.2":
+  "integrity" "sha512-H67golEBSo//s1EoerNovKYTs1A2vO7b0mC8RX4T/BgfycIzmvv6l35YnGkpqRx6eqYkt5xfmJZPYnr2W035+A=="
+  "resolved" "https://registry.npmjs.org/gatsby-plugin-mailgo/-/gatsby-plugin-mailgo-0.12.2.tgz"
+  "version" "0.12.2"
+  dependencies:
+    "mailgo" "0.12.2"
+
 "gatsby-plugin-manifest@^4.7.0":
   "integrity" "sha512-jZsR7sqvJsxTm2J01ymPsCXlEoYw9duVQUR3oNy9VxHyuPOXctk2Cnp/vnWDZpQ6g+i7ha1RhyJEQgQEj1jhcQ=="
   "resolved" "https://registry.npmjs.org/gatsby-plugin-manifest/-/gatsby-plugin-manifest-4.7.0.tgz"
@@ -8648,6 +8655,11 @@
   "version" "0.1.0"
   dependencies:
     "es5-ext" "~0.10.2"
+
+"mailgo@0.12.2":
+  "integrity" "sha512-iX4F3eOhPJ+12YlM51UNV8yTYwxHywaGP1C9Qaep/iNP2ZS+xzqHR7U3o+7HoCL19gZKysc7+MwgBEiRy8ogzA=="
+  "resolved" "https://registry.npmjs.org/mailgo/-/mailgo-0.12.2.tgz"
+  "version" "0.12.2"
 
 "make-dir@^3.0.0", "make-dir@^3.0.2", "make-dir@^3.1.0":
   "integrity" "sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw=="
