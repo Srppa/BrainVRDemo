@@ -25,6 +25,7 @@ import Layout from "../components/layout"
 import BlogListHome from "../components/blog-list-home"
 import TeamListHome from "../components/team-list-home"
 import PublicationsListHome from "../components/publications-list-home"
+import AboutLinksList from "../components/aboutLinks-list"
 import Seo from "../components/seo"
 import Icons from "../util/socialmedia.json"
 
@@ -109,11 +110,27 @@ export const pageQuery = graphql`
         }
       }
     }
+    aboutLinks: allMarkdownRemark(
+      filter: { frontmatter: { template: { eq: "aboutLink" } } }
+      limit: 4
+    ) {
+      edges {
+        node {
+          id
+          excerpt(pruneLength: 250)
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            title
+            link
+          }
+        }
+      }
+    }
   }
 `
 
 const HomePage = ({ data }) => {
-  const { markdownRemark, posts, members, publications } = data // data.markdownRemark holds your post data
+  const { markdownRemark, posts, members, publications, aboutLinks } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
   const Image = frontmatter.featuredImage
     ? frontmatter.featuredImage.childImageSharp.gatsbyImageData
@@ -288,6 +305,7 @@ const HomePage = ({ data }) => {
       <BlogListHome data={posts} />
       <PublicationsListHome data={publications} />
       <TeamListHome data={members} />
+      <AboutLinksList data={aboutLinks}/>
     </Layout>
   )
 }

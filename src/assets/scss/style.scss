@@ -222,6 +222,11 @@
   row-gap: 10px;
 }
 
+.about-page .home-posts {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .contactActive {
   max-width: 70ch;
   margin: 0 auto;
@@ -268,13 +273,7 @@
 }
 
 .blog-page .blog-status-panel{
-  top: 80%;
-  height: 20%;
-
-  span{
-    color: #fff;
-    font-size: x-large;
-  }
+  display: none;
 }
 
 .publication-grid{
@@ -487,6 +486,29 @@ article img {
 .publication-content p{
   margin-top: 0;
 }
+
+.aboutLinks-container{
+  align-self: flex-start;
+}
+
+.aboutLinks-container .aboutLink-card{
+  margin-bottom: 15px;
+}
+
+.aboutLinks-container h3{
+  font-size: larger;
+  margin-bottom: 0px;
+}
+
+.aboutLinks-container p{
+  margin-top: 2px;
+}
+
+.about-page .aboutLinks{
+  max-width: 768px;
+  margin: 0 auto;
+}
+
 
 // Buttons
 .button {

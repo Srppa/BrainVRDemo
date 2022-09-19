@@ -36,6 +36,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   // Create markdown pages
   const posts = result.data.allMarkdownRemark.edges
+    	.filter(edge => edge.node.frontmatter.template != "aboutLink")
 
   posts.forEach((post, index) => {
     const id = post.node.id
