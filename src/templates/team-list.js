@@ -36,7 +36,7 @@ export const teamListQuery = graphql`
 class TeamIndex extends React.Component {
   render() {
     const { data } = this.props
-    const { currentPage, numPages } = this.props.pageContext
+    //this.props.pageContext
 
     const posts = data.allMarkdownRemark.edges
       .map(edge => <MemberCard key={edge.node.id} data={edge.node} />)
@@ -45,9 +45,9 @@ class TeamIndex extends React.Component {
     return (
       <Layout className="blog-page">
         <Seo
-          title={"Blog — Page " + currentPage + " of " + numPages}
+          title={"Blog"}
           description={
-            "Stackrole base blog page " + currentPage + " of " + numPages
+            "BrainVR blog page"
           }
         />
         <h1>Náš tým</h1>

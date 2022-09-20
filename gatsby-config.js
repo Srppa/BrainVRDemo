@@ -148,6 +148,15 @@ module.exports = {
         generateMatchPathRewrites: true,
       },
     },
-    `gatsby-plugin-mailgo`
+    `gatsby-plugin-mailgo`,
+    {
+      resolve: 'gatsby-plugin-i18n',
+      options: {        
+        langKeyDefault: 'cs',
+        langKeyForNull: 'cs',
+        prefixDefault: true,
+        useLangKeyLayout: false
+      }
+    }
   ],
 }

@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import { Link, graphql } from "gatsby"
-import { GatsbyImage } from "gatsby-plugin-image"
 import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
 
 import Layout from "../components/layout"
@@ -71,12 +70,7 @@ const Publication = ({ data, pageContext }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark
 
-  const { previous, next } = pageContext
-
-  let props = {
-    previous,
-    next,
-  }
+  //pageContext
 
   return (
     <Layout className="page">
@@ -97,7 +91,6 @@ const Publication = ({ data, pageContext }) => {
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </article>
-      {(previous || next) && <Pagination {...props} />}
     </Layout>
   )
 }

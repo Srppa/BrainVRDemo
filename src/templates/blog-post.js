@@ -74,12 +74,7 @@ const Post = ({ data, pageContext }) => {
   const Image = frontmatter.featuredImage
     ? frontmatter.featuredImage.childImageSharp.gatsbyImageData
     : ""
-  const { previous, next } = pageContext
-
-  let props = {
-    previous,
-    next,
-  }
+  //pageContext
 
   return (
     <Layout className="page">

@@ -31,7 +31,7 @@ export const publicationsListQuery = graphql`
 class PublicationsIndex extends React.Component {
   render() {
     const { data } = this.props
-    const { currentPage, numPages } = this.props.pageContext
+    //this.props.pageContext
     const blogSlug = "/publications/"
 
     const posts = data.allMarkdownRemark.edges
@@ -40,9 +40,9 @@ class PublicationsIndex extends React.Component {
     return (
       <Layout className="blog-page">
         <Seo
-          title={"Blog — Page " + currentPage + " of " + numPages}
+          title={"Blog — Page"}
           description={
-            "Stackrole base blog page " + currentPage + " of " + numPages
+            "Stackrole base blog page"
           }
         />
         <h1>Publikace</h1>
