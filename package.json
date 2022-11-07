@@ -23,6 +23,7 @@
   "dependencies": {
     "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^3.0.2",
     "@theme-ui/color": "^0.6.0",
+    "@theme-ui/core": "0.4.0-rc.1",
     "gatsby": "^4.7.1",
     "gatsby-plugin-google-analytics": "^4.7.0",
     "gatsby-plugin-i18n": "^1.0.1",

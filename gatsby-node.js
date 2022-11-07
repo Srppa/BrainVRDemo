@@ -11,6 +11,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   const publicationsList = path.resolve(`./src/templates/publications-list.js`)
 
+  const mediaList = path.resolve(`./src/templates/media-list.js`)
+
   const result = await graphql(`
     {
       allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
@@ -36,7 +38,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   // Create markdown pages
   const posts = result.data.allMarkdownRemark.edges
-    	.filter(edge => edge.node.frontmatter.template != "aboutLink")
+    	.filter(edge => edge.node.frontmatter.template != "media-link")
 
   posts.forEach((post, index) => {
     const id = post.node.id
@@ -76,6 +78,10 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     component: publicationsList,
   })
   
+  createPage({
+    path: `/media`,
+    component: mediaList,
+  })
 }
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
