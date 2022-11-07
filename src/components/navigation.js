@@ -10,6 +10,10 @@ const MenuItems = [
     title: "O nás",
   },
   {
+    path: "/news",
+    title: "Aktuality",
+  },
+  {
     path: "/media",
     title: "Média",
   },

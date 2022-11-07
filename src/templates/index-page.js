@@ -23,6 +23,7 @@ import { FaWordpress, FaVk } from "react-icons/fa"
 
 import Layout from "../components/layout"
 import BlogListHome from "../components/blog-list-home"
+import NewsListHome from "../components/news-list-home"
 import Seo from "../components/seo"
 import Icons from "../util/socialmedia.json"
 
@@ -68,11 +69,33 @@ export const pageQuery = graphql`
         }
       }
     }
+    news: allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      filter: { frontmatter: { template: { eq: "news-post" } } }
+      limit: 6
+    ) {
+      edges {
+        node {
+          id
+          excerpt(pruneLength: 250)
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            slug
+            title
+            featuredImage {
+              childImageSharp {
+                gatsbyImageData(layout: CONSTRAINED, width: 128, height: 128)
+              }
+            }
+          }
+        }
+      }
+    }
   }
 `
 
 const HomePage = ({ data }) => {
-  const { markdownRemark, posts, members, publications, aboutLinks } = data // data.markdownRemark holds your post data
+  const { markdownRemark, posts, news } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
   const Image = frontmatter.featuredImage
     ? frontmatter.featuredImage.childImageSharp.gatsbyImageData
@@ -244,7 +267,7 @@ const HomePage = ({ data }) => {
           )}
         </div>
       </div>
-      <BlogListHome data={posts} />
+      <NewsListHome data={news} />
     </Layout>
   )
 }
