@@ -36,58 +36,10 @@ const Contact = ({ data }) => {
       />
       <div className="wrapper">
         <h1>{frontmatter.title}</h1>
-        <div
-          className="description"
+        <div 
+          className="description contact-info"
           dangerouslySetInnerHTML={{ __html: html }}
         />
-        <form
-          className="contact-form"
-          action="/thanks"
-          name="contact"
-          method="POST"
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
-        >
-          <p className="formDescription">Nebo nám zanechte zprávu:</p>
-          <input type="hidden" name="form-name" value="contact" />
-          <p>
-            <label>
-              Jméno
-              <input type="text" name="name" required />
-            </label>
-          </p>
-          <p>
-            <label>
-              Email
-              <input type="email" name="email" required />
-            </label>
-          </p>
-          <p>
-            <label>
-              Předmět
-              <input type="text" name="subject" required />
-            </label>
-          </p>
-          <p>
-            <label>
-              Zpráva<textarea name="message" required></textarea>
-            </label>
-          </p>
-          <p className="text-align-right">
-            <button
-              className="button"
-              sx={{
-                variant: "variants.button",
-              }}
-              type="submit"
-            >
-              Poslat{" "}
-              <span className="icon -right">
-                <RiSendPlane2Line />
-              </span>
-            </button>
-          </p>
-        </form>
       </div>
     </Layout>
   )

@@ -23,9 +23,6 @@ import { FaWordpress, FaVk } from "react-icons/fa"
 
 import Layout from "../components/layout"
 import BlogListHome from "../components/blog-list-home"
-import TeamListHome from "../components/team-list-home"
-import PublicationsListHome from "../components/publications-list-home"
-import AboutLinksList from "../components/aboutLinks-list"
 import Seo from "../components/seo"
 import Icons from "../util/socialmedia.json"
 
@@ -67,61 +64,6 @@ export const pageQuery = graphql`
                 gatsbyImageData(layout: CONSTRAINED, width: 128, height: 128)
               }
             }
-          }
-        }
-      }
-    }
-    members: allMarkdownRemark(
-      sort: { order: ASC, fields: [frontmatter___order] }
-      filter: { frontmatter: { template: { eq: "team-member" } } }
-      limit: 6
-    ) {
-      edges {
-        node {
-          id
-          excerpt(pruneLength: 250)
-          frontmatter {
-            slug
-            title
-            description
-            featuredImage {
-              childImageSharp {
-                gatsbyImageData(layout: CONSTRAINED, width: 64, height: 64)
-              }
-            }
-          }
-        }
-      }
-    }
-    publications: allMarkdownRemark(
-      filter: { frontmatter: { template: { eq: "publication" } } }
-      limit: 6
-    ) {
-      edges {
-        node {
-          id
-          excerpt(pruneLength: 250)
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            slug
-            title
-            authors
-          }
-        }
-      }
-    }
-    aboutLinks: allMarkdownRemark(
-      filter: { frontmatter: { template: { eq: "aboutLink" } } }
-      limit: 4
-    ) {
-      edges {
-        node {
-          id
-          excerpt(pruneLength: 250)
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            link
           }
         }
       }
@@ -303,9 +245,6 @@ const HomePage = ({ data }) => {
         </div>
       </div>
       <BlogListHome data={posts} />
-      <PublicationsListHome data={publications} />
-      <TeamListHome data={members} />
-      <AboutLinksList data={aboutLinks}/>
     </Layout>
   )
 }

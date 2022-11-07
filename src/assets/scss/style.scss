@@ -7,9 +7,21 @@
 // 	grid-template-rows: 60px auto 60px;
 // 	min-height: 100vh;
 // }
+h1{
+  color: #004ca3;
+  margin-top: 40px;
+  
+  text-align: center;
+}
+
 .primary-container main {
   min-height: calc(100vh - 60px - 81px);
 }
+
+.header-outside{
+  background-color: #004ca3;
+}
+
 .site-header {
   display: flex;
   justify-content: space-between;
@@ -24,7 +36,6 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    background-color: #fff;
   }
   ul li {
     display: inline-block;
@@ -32,7 +43,7 @@
   }
   a {
     font-weight: bold;
-    color: #004ca3;
+    color: #fff;
     text-decoration: none;
     &:hover {
       color: #001d3d
@@ -43,10 +54,10 @@
   }
   .menu-trigger {
     display: none;
-    font-size: 24px;
+    font-size: 40px;
     background: none;
     border: none;
-    color: #004ca3;
+    color: #fff;
     padding: 0;
     cursor: pointer;
   }
@@ -82,6 +93,8 @@
       border-style: none none solid none;
       border-radius: 0 0 0 0px;
       overflow: hidden;
+      background-color: #f5fcff;
+
     }
     ul li {
       display: block;
@@ -90,6 +103,7 @@
     a {
       display: block;
       padding: 20px;
+      color: #004ca3;
     }
   }
 }
@@ -280,8 +294,12 @@
   row-gap: 5px;
 }
 
-.publications-home-posts .publication-card .meta {
+.publications-home-posts .publication-card a{
   color: #004ca3;
+}
+
+.publications-home-posts .publication-card .meta {
+  color: #001d3d;
 }
 
 .team-home-posts{
@@ -322,6 +340,15 @@
   .post-content {
     margin-top: 16px;
   }
+
+  .post-content a{
+    color: #004ca3;
+  }
+
+  .post-content a:hover{
+    color: #001d3d;
+  }
+
   @media (max-width: $breakpoint-md) {
     padding: 0;
     .post-content {
@@ -458,6 +485,10 @@ article img {
 }
 
 .member-card .member-card-content h2 a{
+  color: #004ca3;
+}
+
+.member-card .member-card-content h2 a:hover{
   color: #001d3d;
 }
 
@@ -502,6 +533,14 @@ article img {
 
 .aboutLinks-container p{
   margin-top: 2px;
+}
+
+.aboutLinks-container a{
+  color: #004ca3;
+}
+
+.aboutLinks-container a:hover{
+  color: #001d3d;
 }
 
 .about-page .aboutLinks{
@@ -567,9 +606,7 @@ article img {
 }
 
 .blog-page > h1{
-  margin-top: 0;
   margin-bottom: 10px;
-  text-align: center;
 }
 
 .blog-page .inActive-title {
@@ -611,6 +648,14 @@ article img {
 
 .contact-page .description a {
   color: #001d3d;
+}
+
+.contact-page .contact-info{
+  text-align: center;
+}
+
+.contact-page .description{
+  text-align: center;
 }
 
 .formDescription{

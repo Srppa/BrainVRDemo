@@ -3,7 +3,6 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import AboutLinksList from "../components/aboutLinks-list"
 
 export const pageQuery = graphql`
   query AboutQuery($id: String!) {
@@ -15,8 +14,8 @@ export const pageQuery = graphql`
         title
       }
     }
-    aboutLinks: allMarkdownRemark(
-      filter: { frontmatter: { template: { eq: "aboutLink" } } }
+    media: allMarkdownRemark(
+      filter: { frontmatter: { template: { eq: "media-link" } } }
       limit: 4
     ) {
       edges {
@@ -34,7 +33,7 @@ export const pageQuery = graphql`
   }
 `
 const AboutPage = ({ data }) => {
-  const { markdownRemark, aboutLinks } = data // data.markdownRemark holds your post data
+  const { markdownRemark, media } = data // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark
 
   return (
@@ -44,7 +43,6 @@ const AboutPage = ({ data }) => {
         <h1>{frontmatter.title}</h1>
         <article dangerouslySetInnerHTML={{ __html: html }} />
       </div>
-      <AboutLinksList data={aboutLinks}/>
     </Layout>
   )
 }

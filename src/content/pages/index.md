@@ -8,5 +8,3 @@ cta:
   ctaText: Více o nás
   ctaLink: /about
 ---
-
-[Národní ústav duševního zdraví](http://brainvr.cz/www.nudz.cz)

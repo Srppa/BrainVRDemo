@@ -30,16 +30,21 @@ const Layout = ({ children, className, props }) => {
 
   return (
     <div className="primary-container">
-      <Header>
-        <div className="site-logo">
-          <Link to="/">
-            <img src="/assets/brain-logo.png" style={{ width: "50px"}}/>
-          </Link>
-        </div>
-        <div sx={layoutStyle.nav}>
-          <Navigation />
-        </div>
-      </Header>
+      <div className="header-outside">
+        <Header>
+        
+          <div className="site-logo">
+            <Link to="/">
+              <img src="/assets/brain-logo-white.png" style={{ height: "75px"}}/>
+              <img src="/assets/nimh-logo-white.png" style={{ height: "75px", width: "auto"}}/>
+            </Link>
+          </div>
+          <div sx={layoutStyle.nav}>
+            <Navigation />
+          </div>
+        
+        </Header>
+      </div>
       <main className={"container " + className}>{children}</main>
       <Footer />
     </div>

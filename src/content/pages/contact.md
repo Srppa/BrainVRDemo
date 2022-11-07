@@ -4,6 +4,6 @@ slug: /contact
 title: Ozvěte se nám
 ---
 
-email: Iveta.Fajnerova@nudz.cz
+email:  info@brainvr.cz
 
 adresa: Topolová 748, Klecany
