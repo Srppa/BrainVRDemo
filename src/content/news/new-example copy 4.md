@@ -1,9 +1,9 @@
 ---
 template: news-post
-title: YouTube embeded example, very nice
-slug: /blog-youtube
+title: Začalo testování experimentu b-342
+slug: /news-example
 date: 2017-01-01 12:00
-description: Exaple of embeded youtube video
+description: Náš nový experiment zabívající se problematikou a a b se právě rozjízdí. Testování se odhrává tady a tady. Nevájte a přidejte se a podpořte nás
 featuredImage: /assets/emt-thumb.jpg
 ---
 

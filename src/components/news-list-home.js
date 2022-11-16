@@ -18,7 +18,7 @@ const NewsMaker = ({ data }) => (
     <h2>
       Aktuality{" "}
     </h2>
-    <div className="grids col-1 sm-1 lg-2">{data}</div>
+    <div className="news-flex">{data}</div>
     <Link
       className="button"
       to="/news"
@@ -26,7 +26,7 @@ const NewsMaker = ({ data }) => (
         variant: "variants.button",
       }}
     >
-      Všechny projekty
+      Více Aktualit
       <span className="icon -right">
         <RiArrowRightSLine />
       </span>

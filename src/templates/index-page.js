@@ -82,9 +82,10 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             slug
             title
+            description
             featuredImage {
               childImageSharp {
-                gatsbyImageData(layout: CONSTRAINED, width: 128, height: 128)
+                gatsbyImageData(layout: CONSTRAINED, width: 150, height: 150)
               }
             }
           }
@@ -222,7 +223,7 @@ const HomePage = ({ data }) => {
     <Layout>
       <Seo />
       <div className="home-banner grids">
-        <div>
+        <div className="title-box">
           <h1 className="title">{frontmatter.title}</h1>
           <p
             className="tagline"
@@ -232,10 +233,6 @@ const HomePage = ({ data }) => {
           >
             {frontmatter.tagline}
           </p>
-          <div
-            className="description"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
           <Link
             to={frontmatter.cta.ctaLink}
             className="button"
@@ -245,14 +242,6 @@ const HomePage = ({ data }) => {
               <RiArrowRightSLine />
             </span>
           </Link>
-          <div
-            className="social-icons"
-            sx={{
-              variant: "variants.socialIcons",
-            }}
-          >
-            {sIcons}
-          </div>
         </div>
         <div className="home-banner-img">
           {Image ? (

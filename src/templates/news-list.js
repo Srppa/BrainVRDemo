@@ -22,9 +22,10 @@ export const newsListQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             slug
             title
+            description
             featuredImage {
               childImageSharp {
-                gatsbyImageData(layout: CONSTRAINED, width: 345, height: 260)
+                gatsbyImageData(layout: CONSTRAINED, width: 275, height: 200)
               }
             }
           }
@@ -52,7 +53,7 @@ class NewsIndex extends React.Component {
           }
         />
         <h1>Aktuality</h1>
-        <div className="grids col-1 sm-2 lg-3">{news}</div>
+        <div className="news-flex">{news}</div>
       </Layout>
     )
   }

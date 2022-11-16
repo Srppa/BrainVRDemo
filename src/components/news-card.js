@@ -30,14 +30,13 @@ const NewsCard = ({ data }) => (
           {data.frontmatter.title}
         </Link>
       </h2>
-      <p
-        className="meta"
-        sx={{
-          color: "muted",
-        }}
-      >
+      <p className="meta" >
         <time>{data.frontmatter.date}</time>
       </p>
+      <p className="description">
+        {data.frontmatter.description}
+      </p>
+      
     </div>
   </article>
 )
