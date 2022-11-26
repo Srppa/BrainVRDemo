@@ -48,13 +48,12 @@ collections:
           timeFormat: "HH:mm",
           format: "YYYY-MM-DD HH:mm",
         }
-      - {
-        label: "Description",
-        name: "description",
-        widget: "string",
-        hint: "Short description",
+      - { 
+          label: "SEO Description",
+          name: "description",
+          widget: "string",
+          hint: "Short description",
         }
-      - { label: "SEO Description", name: "description", widget: "text" }
       - {
           label: "Featured Image",
           name: "featuredImage",
@@ -84,7 +83,7 @@ collections:
         label: "Contact Email Header",
         name: "contactEmailHeader",
         widget: "string",
-        hint: "Header of email that will in prewrriten when ",
+        hint: "Header of email that will in prewrriten when contact email will be generated",
         }
       - {
         label: "Body",
@@ -123,7 +122,12 @@ collections:
         timeFormat: "HH:mm",
         format: "YYYY-MM-DD HH:mm",
         }
-      - { label: "SEO Description", name: "description", widget: "text" }
+      - { 
+          label: "SEO Description",
+          name: "description",
+          widget: "string",
+          hint: "Short description",
+        }
       - {
         label: "Featured Image",
         name: "featuredImage",
