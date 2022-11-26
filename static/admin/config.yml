@@ -48,6 +48,12 @@ collections:
           timeFormat: "HH:mm",
           format: "YYYY-MM-DD HH:mm",
         }
+      - {
+        label: "Description",
+        name: "description",
+        widget: "string",
+        hint: "Short description",
+      }
       - { label: "SEO Description", name: "description", widget: "text" }
       - {
           label: "Featured Image",
@@ -56,13 +62,81 @@ collections:
           required: false,
           tagname: "",
         }
-
+      - {
+          label: "Is active project?",
+          name: "isActive",
+          widget: "boolean",
+          hint: "is true then section with info to participate will be shown, i.e. contact name, contact email, contact email header MUST be filled",
+        }
+      - {
+        label: "Contact Name",
+        name: "contactName",
+        widget: "string",
+        hint: "Contact name",
+      }
+      - {
+        label: "Contact Email",
+        name: "contactEmail",
+        widget: "string",
+        hint: "Contact email",
+      }
+      - {
+        label: "Contact Email Header",
+        name: "contactEmailHeader",
+        widget: "string",
+        hint: "Header of email that will in prewrriten when ",
+      }
       - {
           label: "Body",
           name: "body",
           widget: "markdown",
           hint: "Main content goes here.",
         }
+  - name: "news" # Used in routes, ie.: /admin/collections/:slug/edit
+  label: "News" # Used in the UI
+  label_singular: "News" # Used in the UI, ie: "New Post"
+  description: >
+    Hre you can create and edit news section [aktuality].
+  folder: "src/content/news"
+  slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  summary: "{{title}} — {{year}}/{{month}}/{{day}}"
+  create: true # Allow users to create new documents in this collection
+  fields: # The fields each document in this collection have
+    - {
+        label: "Template",
+        name: "template",
+        widget: "hidden",
+        default: "news-post",
+      }
+    - { label: "Title", name: "title", widget: "string", tagname: "h1" }
+    - {
+        label: "Slug",
+        name: "slug",
+        widget: "string",
+        hint: "Start slug with /. Use only alphanumeric characters, - and _. Avoid spaces in any cases.",
+      }
+    - {
+        label: "Publish Date",
+        name: "date",
+        widget: "datetime",
+        dateFormat: "YYYY-MM-DD",
+        timeFormat: "HH:mm",
+        format: "YYYY-MM-DD HH:mm",
+      }
+    - { label: "SEO Description", name: "description", widget: "text" }
+    - {
+        label: "Featured Image",
+        name: "featuredImage",
+        widget: "image",
+        required: false,
+        tagname: "",
+      }
+    - {
+        label: "Body",
+        name: "body",
+        widget: "markdown",
+        hint: "Main content goes here.",
+      }
   - label: "Pages"
     name: "pages"
     files:
