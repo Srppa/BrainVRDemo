@@ -18,8 +18,8 @@ public_folder: "/assets"
 
 collections:
   - name: "posts" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Posts" # Used in the UI
-    label_singular: "Post" # Used in the UI, ie: "New Post"
+    label: "Projects" # Used in the UI
+    label_singular: "Project" # Used in the UI, ie: "New Post"
     description: >
       Create awesome content here.
     folder: "src/content/posts"
@@ -93,7 +93,7 @@ collections:
         }
   - name: "news" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "News" # Used in the UI
-    label_singular: "NewsActuality" # Used in the UI, ie: "New Post"
+    label_singular: "Actuality" # Used in the UI, ie: "New Post"
     description: >
       Hre you can create and edit news section [aktuality].
     folder: "src/content/news"
@@ -127,6 +127,62 @@ collections:
           name: "description",
           widget: "string",
           hint: "Short description",
+        }
+      - {
+        label: "Featured Image",
+        name: "featuredImage",
+        widget: "image",
+        required: false,
+        tagname: "",
+        }
+      - {
+        label: "Body",
+        name: "body",
+        widget: "markdown",
+        hint: "Main content goes here.",
+        }
+  - name: "members" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Members" # Used in the UI
+    label_singular: "Member" # Used in the UI, ie: "New Post"
+    description: >
+      Here you can create and edit memberes section [Tým].
+    folder: "src/content/team"
+    slug: "{{slug}}"
+    summary: "{{slug}}"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {
+        label: "Template",
+        name: "template",
+        widget: "hidden",
+        default: "team-member",
+        }
+      - { label: "Name", name: "title", widget: "string", tagname: "h1" }
+      - {
+        label: "Slug",
+        name: "slug",
+        widget: "string",
+        hint: "Start slug with /. Use only alphanumeric characters, - and _. Avoid spaces in any cases. Must unique",
+        }
+      - { 
+          label: "SEO Description",
+          name: "description",
+          widget: "string",
+          hint: "Short description",
+        }
+      - {
+        label: "Order",
+        name: "order",
+        widget: "number",
+        value_type: "int",
+        hint: "Order number, number 1 mean that it will be put first in team list. If one or more team members have same number than it's sorted alphabetically",
+        }
+      - {
+        label: "Category",
+        name: "category",
+        widget: "select",
+        options: ["core", "cooworkers", "alumni"],
+        hint: "Order number, number 1 mean that it will be put first in team list. If one or more team members have same number than it's sorted alphabetically",
         }
       - {
         label: "Featured Image",
