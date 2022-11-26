@@ -94,7 +94,7 @@ collections:
         }
   - name: "news" # Used in routes, ie.: /admin/collections/:slug/edit
   label: "News" # Used in the UI
-  label_singular: "News" # Used in the UI, ie: "New Post"
+  label_singular: "NewsActuality" # Used in the UI, ie: "New Post"
   description: >
     Hre you can create and edit news section [aktuality].
   folder: "src/content/news"
