@@ -60,6 +60,7 @@ collections:
           widget: "image",
           required: false,
           tagname: "",
+          hint: "picture that will be shown on project list tag, to be shown properly picture should be in 7:5 ratio",
         }
       - {
           label: "Is active project?",
@@ -134,6 +135,7 @@ collections:
         widget: "image",
         required: false,
         tagname: "",
+        hint: "picture of actuality that will be shown on thumnail in news list and on homepage, to be properly shown it shoud be in 3:2 ratio",
         }
       - {
         label: "Body",
@@ -181,8 +183,8 @@ collections:
         label: "Category",
         name: "category",
         widget: "select",
-        options: ["core", "cooworkers", "alumni"],
-        hint: "Order number, number 1 mean that it will be put first in team list. If one or more team members have same number than it's sorted alphabetically",
+        options: ["core", "external", "alumni"],
+        hint: "Category of team member [jádro, externí, alumni]",
         }
       - {
         label: "Featured Image",
@@ -190,6 +192,7 @@ collections:
         widget: "image",
         required: false,
         tagname: "",
+        hint: "Picture of team member, to be properly shown it shoud be in 1:1 ratio with face in center",
         }
       - {
         label: "Body",

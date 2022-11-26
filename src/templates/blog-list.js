@@ -25,7 +25,7 @@ export const blogListQuery = graphql`
             isActive
             featuredImage {
               childImageSharp {
-                gatsbyImageData(layout: CONSTRAINED, width: 345, height: 260)
+                gatsbyImageData(layout: CONSTRAINED, width: 350, height: 250)
               }
             }
           }
