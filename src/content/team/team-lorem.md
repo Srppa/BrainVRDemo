@@ -3,6 +3,7 @@ template: team-member
 title: Lorem Ipsum
 slug: /team-lorem
 order: 3
+category: core
 description: Turpis Magna
 featuredImage: /assets/team-member-default.jpg
 ---

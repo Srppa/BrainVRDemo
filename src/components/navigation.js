@@ -10,20 +10,20 @@ const MenuItems = [
     title: "O nás",
   },
   {
-    path: "/news",
-    title: "Aktuality",
-  },
-  {
-    path: "/media",
-    title: "Média",
-  },
-  {
     path: "/blog",
     title: "Projekty",
   },
   {
     path: "/team",
     title: "Tým",
+  },
+  {
+    path: "/news",
+    title: "Aktuality",
+  },
+  {
+    path: "/media",
+    title: "Média",
   },
   {
     path: "/publications",

@@ -21,6 +21,7 @@ export const teamListQuery = graphql`
             slug
             title
             description
+            category
             featuredImage {
               childImageSharp {
                 gatsbyImageData(layout: CONSTRAINED, width: 128, height: 128)
@@ -39,6 +40,15 @@ class TeamIndex extends React.Component {
     //this.props.pageContext
 
     const posts = data.allMarkdownRemark.edges
+      .filter(edge => edge.node.frontmatter.category == "core")
+      .map(edge => <MemberCard key={edge.node.id} data={edge.node} />)
+    
+    const alumniPosts = data.allMarkdownRemark.edges
+      .filter(edge => edge.node.frontmatter.category == "alumni")
+      .map(edge => <MemberCard key={edge.node.id} data={edge.node} />)
+
+    const externalPosts = data.allMarkdownRemark.edges
+      .filter(edge => edge.node.frontmatter.category == "external")
       .map(edge => <MemberCard key={edge.node.id} data={edge.node} />)
 
 
@@ -52,6 +62,10 @@ class TeamIndex extends React.Component {
         />
         <h1>Náš tým</h1>
         <div className="grids col-1 sm-2 lg-3">{posts}</div>
+        <h1>Alumni</h1>
+        <div className="grids col-1 sm-2 lg-3">{alumniPosts}</div>
+        <h1>Spolupracovníci</h1>
+        <div className="grids col-1 sm-2 lg-3">{externalPosts}</div>
       </Layout>
     )
   }

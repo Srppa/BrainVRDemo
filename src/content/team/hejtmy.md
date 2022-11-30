@@ -3,6 +3,7 @@ template: team-member
 title: Lukáš Hejtmánek
 slug: /hejtmy
 order: 1
+category: core
 description: Neurovědec, Data analytik
 featuredImage: /assets/team-member-hejtmy.jpg
 ---

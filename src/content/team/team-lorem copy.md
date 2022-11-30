@@ -1,9 +1,10 @@
 ---
 template: team-member
-title: Lorem Ipsum
-slug: /team-lorem
-order: 3
-description: Turpis Magna
+title: Alumni member
+slug: /team-alumni
+order: 1
+category: alumni
+description: Very alumni
 featuredImage: /assets/team-member-default.jpg
 ---
 

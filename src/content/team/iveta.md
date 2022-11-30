@@ -3,6 +3,7 @@ template: team-member
 title: Iveta Fajnerová
 slug: /iveta
 order: 0
+category: core
 description: Vedoucí skupiny
 featuredImage: /assets/team-member-default.jpg
 ---

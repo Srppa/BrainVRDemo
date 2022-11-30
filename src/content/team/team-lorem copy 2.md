@@ -1,9 +1,10 @@
 ---
 template: team-member
-title: Lorem Ipsum
-slug: /team-lorem
+title: External
+slug: /team-exra
 order: 3
-description: Turpis Magna
+category: external
+description: Very external
 featuredImage: /assets/team-member-default.jpg
 ---
 
