@@ -7,7 +7,6 @@ Národní ústav duševního zdraví
 
 Centrum výzkumu virtuální reality v duševním zdraví a neurovědách
 
-
 email:  info@brainvr.cz
 
 adresa: Topolová 748, Klecany
