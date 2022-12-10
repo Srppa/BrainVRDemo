@@ -73,18 +73,21 @@ collections:
         name: "contactName",
         widget: "string",
         hint: "Contact name",
+        required: false,
         }
       - {
         label: "Contact Email",
         name: "contactEmail",
         widget: "string",
         hint: "Contact email",
+        required: false,
         }
       - {
         label: "Contact Email Header",
         name: "contactEmailHeader",
         widget: "string",
         hint: "Header of email that will in prewrriten when contact email will be generated",
+        required: false,
         }
       - {
         label: "Body",
