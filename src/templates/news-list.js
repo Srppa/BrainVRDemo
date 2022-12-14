@@ -25,7 +25,7 @@ export const newsListQuery = graphql`
             description
             featuredImage {
               childImageSharp {
-                gatsbyImageData(layout: CONSTRAINED, width: 300, height: 200)
+                gatsbyImageData(layout: FIXED, width: 150, height: 150)
               }
             }
           }

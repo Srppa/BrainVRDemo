@@ -35,11 +35,11 @@ const Layout = ({ children, className, props }) => {
         
           <div className="site-logo">
             <Link to="/">
-              <img src="/assets/brain-logo-white.png" style={{ height: "75px"}}/>
+              <img src="/assets/brain-logo-blue.png" style={{ height: "75px"}}/>
               
             </Link>
             <Link to="https://www.nudz.cz/vyzkum/centrum-virtualni-reality-v-dusevnim-zdravi-a-neurovedach">
-              <img src="/assets/nudz-logo.png" style={{ height: "75px", width: "auto"}}/>
+              <img src="/assets/nudz-logo-blue.png" style={{ height: "75px", width: "auto"}}/>
               
             </Link>
           </div>
@@ -49,6 +49,9 @@ const Layout = ({ children, className, props }) => {
         
         </Header>
       </div>
+      <div className="participate-container">
+          <Link to="/blog"><span>&#x2022;</span> Zapojte se <span>&#x2022;</span></Link>
+        </div>
       <main className={"container " + className}>{children}</main>
       <Footer />
     </div>

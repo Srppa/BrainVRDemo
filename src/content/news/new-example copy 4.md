@@ -1,8 +1,8 @@
 ---
 template: news-post
-title: Začalo testování experimentu b-342
+title: Stále testujeme experimentu b-453 a jedeme dál a testujeme víc a víc a ještě víc
 slug: /news-example
-date: 2017-01-01 12:00
+date: 2019-01-01 12:00
 description: Náš nový experiment zabívající se problematikou a a b se právě rozjízdí. Testování se odhrává tady a tady. Nevájte a přidejte se a podpořte nás
 featuredImage: /assets/emt-thumb.jpg
 ---

@@ -33,9 +33,6 @@ const NewsCard = ({ data }) => (
       <p className="meta" >
         <time>{data.frontmatter.date}</time>
       </p>
-      <p className="description">
-        {data.frontmatter.description}
-      </p>
       
     </div>
   </article>
