@@ -2,7 +2,7 @@
 template: team-member
 title: Lukáš Hejtmánek
 slug: /hejtmy
-order: 1
+order: 3
 category: core
 description: Neurovědec, Data analytik
 featuredImage: /assets/team-member-hejtmy.jpg
@@ -26,6 +26,9 @@ V akademickém roce 2017-18 jsem absolvoval výzkumnou stáž v Kalifornii, kde 
 
 ### Zájmy
 -   Paměť
+
 -   Navigace
+
 -   Hry v remediaci duševních poruch
+
 -   Hry obecně :)

@@ -4,13 +4,18 @@ slug: /about
 title: O nás
 ---
 
-Naše skupina působí v Národním ústavu duševního zdraví (NUDZ) v Klecanech v rámci výzkumného programu VP3- Aplikované neurovědy a zobrazení mozku. Naše studie se orientují zejména na využití virtuálních technologií v neurobiologickém výzkumu. Cílem je vytvoření metod, které se pak uplatňují jednak v diagnostice a remediaci kognitivního deficitu u neuropsychiatrických poruch (např. schizofrenie a OCD) anebo v základním výzkumu zaměřeném na využití zobrazovacích metod (fMRI).
+Hlavním cílem centra je uplatnění technologie virtuální reality (VR) v komplexní péči o duševní zdraví, ve vzdělávání a výzkumu v oblasti psychiatrie a neurověd. Hlavním posláním centra je péče o duševní zdraví a s tím související vývoj a testování inovativních VR metod, které by bylo možné uplatnit v oblasti diagnostiky a terapie neuropsychiatrických onemocnění (zejména úzkostných poruch, obsedantně-kompulzivní poruchy atd.) a rehabilitaci kognitivního deficitu (zejména u neurodegenerativních onemocnění a schizofrenie).
 
-S ohledem na interdisciplinární témata výzkumu je náš tým složen z psychologů, neurovědců, přírodovědců, pedagogů a samozřejmě i programátorů. Spolupracujeme také s psychiatry, MRI specialisty, SW vývojáři nejen v rámci NUDZ a dalšími akademickými pracovišti (IKEM, FGÚ AVČR, MFF UK) či komerčními firmami (3dsense, Xlab-Virtuix).
+Mezi další činnosti centra patří také vzdělávání v oblasti duševního zdraví a duševních onemocnění s využitím VR metod, které zahrnuje nejen vzdělávání zdravotnických pracovníků (psychologů a psychiatrů) ve spolupráci s 3. lékařskou fakultou Univerzity Karlovy, ale také vzdělávání odborné a laické veřejnosti.
 
-Zaobíráme se mimo jiného následujícími tématy:
+Výzkumná činnost centra se orientuje na využití VR technologie v základním a aplikovaném neurovědném a psychologickém výzkumu, zejména v oblasti pochopení kognitivních procesů (prostorová orientace, paměť) a související činnosti mozku, či projevů duševních onemocnění. S ohledem na interdisciplinární zaměření je náš tým složen z psychologů, psychiatrů, neurovědců a samozřejmě i VR vývojářů a programátorů. Tým centra úzce spolupracuje nejen s dalšími výzkumnými organizacemi a univerzitami v ČR i v zahraničí, ale také se soukromou sférou.
 
--   Prostorová navigace a paměť v prostředí virtuálního města
--   Prostorová paměť a kognitivní koordinace v dynamickém prostředí rotující arény (kolotoče)
--   Deklarativní paměť epizodického (události) a sémantického typu (fakta)
--   Efekt chronotypu na výkon v kognitivních testech
+VR centrum tvoří sekce odpovídající jednotlivým druhům činností, tj. klinická sekce (VR klinika), výuková sekce (VR učebna) a výzkumná sekce (VR laboratoř).
+
+**Specifikace činností a cílů jednotlivých sekcí centra:**
+
+**VR klinika** – klinická sekce odpovídá za vývoj VR terapeutických nástrojů a jejich uplatnění v rámci klinického výzkumu a praxe
+
+**VR laboratoř** – výzkumná sekce odpovídá za výzkum v oblasti neurověd a neuropsychologie s využitím VR technologie zejména v oblasti testování kognitivních funkcí a souvisejících činností mozku
+
+**VR učebna** – výuková sekce odpovídá za vývoj a testování VR metod určených pro výuku psychiatrie pod výukovým pracovištěm 3LF UK
