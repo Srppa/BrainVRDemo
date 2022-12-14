@@ -280,6 +280,13 @@ h1{
 
 }
 
+@media (max-width: 500px) {
+  .news-flex .news-card{
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 .news-flex .news-content{
   margin-left: 30px;
 }

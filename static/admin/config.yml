@@ -138,7 +138,7 @@ collections:
         widget: "image",
         required: false,
         tagname: "",
-        hint: "picture of actuality that will be shown on thumnail in news list and on homepage, to be properly shown it shoud be in 3:2 ratio",
+        hint: "picture of actuality that will be shown on thumnail in news list and on homepage, to be properly shown it shoud be in 1:1 ratio",
         }
       - {
         label: "Body",
