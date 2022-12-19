@@ -877,6 +877,7 @@ article img {
 
 .footer-links .facebook-link > svg,
 .footer-links .github-link > svg{
+  color: white;
   width: 35px;
   height: 35px;
 }
@@ -887,6 +888,7 @@ article img {
 
 .footer-links .facebook-link,
 .footer-links .github-link {
+  color: white;
   margin-left: 25px;
 }
 
@@ -919,16 +921,19 @@ article img {
   .footer-links .l3lf-link {
     margin-top: 5px;
     margin-left: 0px;
+    color: white;
   }
 
   .small-logos{
     margin-top: 10px;
     margin-bottom: 10px;
+    color: white;
   }
 
   .footer-links .github-link,
   .footer-links .github-link:hover{
     margin-left: 5px;
+    color: white;
   }
 }
 
