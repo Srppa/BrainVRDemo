@@ -29,7 +29,7 @@ h1{
   position: relative;
   margin: 0 auto;
   max-width: 1240px;
-  padding: 10px 20px;
+  padding: 12px 20px;
 }
 .site-navigation {
   ul {
@@ -116,6 +116,7 @@ h1{
 .site-logo {
   font-size: 35px;
   font-weight: bold;
+  margin-bottom: -10px;
   a {
     margin-left: 1px;
     color: #004ca3;
@@ -854,20 +855,83 @@ article img {
   text-align: center;
   font-size: 14px;
   margin: 50px auto 0 auto;
-  max-width: 1240px;
-  padding: 20px 20px;
-  p {
-    margin: 0;
-    color: #001d3d;
+  padding: 10px 20px 20px 20px;
+  background-color: #004ca3;
+  
+}
+
+.footer-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links .nudz-link > img{
+  height: 100px;
+}
+
+.footer-links .l3lf-link > img{
+  height: 75px;
+}
+
+.footer-links .facebook-link > svg,
+.footer-links .github-link > svg{
+  width: 35px;
+  height: 35px;
+}
+
+.footer-links .l3lf-link {
+  margin-left: 10px;
+}
+
+.footer-links .facebook-link,
+.footer-links .github-link {
+  margin-left: 25px;
+}
+
+.footer-links .facebook-link:hover,
+.footer-links .github-link:hover {
+  color: #fff;
+  margin-left: 25px;
+}
+
+
+.footer-text{
+  color: white;
+}
+
+.footer-text p{
+  margin: 0;
+}
+
+.footer-text a{
+  text-decoration: underline;
+}
+
+@media (max-width: 420px) {
+  .footer-links{
+    flex-direction: column;
   }
-  a {
-    font-weight: normal;
-    color: #004ca3;
+
+  .footer-links .facebook-link,
+  .footer-links .facebook-link:hover,
+  .footer-links .l3lf-link {
+    margin-top: 5px;
+    margin-left: 0px;
   }
-  a:hover {
-    color: #001d3d;
+
+  .small-logos{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .footer-links .github-link,
+  .footer-links .github-link:hover{
+    margin-left: 5px;
   }
 }
+
 
 .pagination {
   text-align: center;
