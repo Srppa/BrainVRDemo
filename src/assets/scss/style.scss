@@ -315,6 +315,7 @@ h1{
 .news-flex .title{
   margin-top: 5px;
   margin-bottom: 5px;
+  font-size: larger;
 }
 
 .news-flex .meta{
@@ -419,9 +420,13 @@ h1{
   align-items: center;
 }
 
+.media-flex{
+  text-align: center;
+}
+
 .media-content .title {
   margin-bottom: 5px;
-  font-size: 30px;
+  font-size: larger;
 }
 
 .publication-content .title > a{
@@ -438,7 +443,7 @@ h1{
 }
 
 .title-box > h1{
-  text-align: start;
+  //text-align: start;
 }
 
 .title-box .button{

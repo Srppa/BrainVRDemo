@@ -42,7 +42,7 @@ const Contact = ({ data }) => {
         </div>
       </div>
       <div className="adress-container">
-        <p>Adresa: Topolová 748, 250 67, Klecany</p>
+        <p>Adresa: Národní ústav duševního zdraví, Topolová 748, 250 67, Klecany</p>
       </div>
       <div className="mail-container">
       <p>Email:  <a className="contact-mail" href="mailto:info@brainvr.cz">info@brainvr.cz</a></p>
