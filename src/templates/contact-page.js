@@ -46,7 +46,7 @@ const Contact = ({ data }) => {
       </div>
       <div className="mail-container">
       <p>Email:  <a className="contact-mail" href="mailto:info@brainvr.cz">info@brainvr.cz</a></p>
-      <p className="to-form">nebo vyplněte kontakní dotazník:</p>
+      <p className="to-form">nebo vyplňte kontaktní dotazník:</p>
       <form
           className="contact-form"
           action="/thanks"

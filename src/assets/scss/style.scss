@@ -138,7 +138,14 @@ h1{
   text-align: center;
 }
 
-.participate-container > a{
+.participate-container-inner {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: auto;
+  text-align: right;
+}
+
+.participate-container a{
   color: #fff;
 }
 
@@ -548,6 +555,10 @@ h1{
   padding-bottom: 25px;
 }
 
+.head-member{
+  margin-bottom: 30px;
+}
+
 .team-member .featured-banner .gatsby-image-wrapper{
   border-radius: 50%;
   max-width: 256px;
@@ -820,7 +831,8 @@ article img {
 }
 
 .contact-form {
-  margin-top: 0px;
+  max-width: 700px;
+  margin: 0px auto 0px auto;
   p{
     margin: 0 0 5px 0;
   }

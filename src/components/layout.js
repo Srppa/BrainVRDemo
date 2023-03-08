@@ -48,8 +48,11 @@ const Layout = ({ children, className, props }) => {
         </Header>
       </div>
       <div className="participate-container">
-          <Link to="/blog"><span>&#x2022;</span> Zapojte se <span>&#x2022;</span></Link>
+        <div className="participate-container-inner">
+          <Link to="/blog">Zapojte se</Link>
         </div>
+          
+      </div>
       <main className={"container " + className}>{children}</main>
       <Footer />
     </div>

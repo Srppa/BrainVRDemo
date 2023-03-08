@@ -59,9 +59,9 @@ class BlogIndex extends React.Component {
             "Stackrole base blog page "
           }
         />
-        <h1>Aktuální Projekty</h1>
+        <h1>Aktuální projekty</h1>
         <div className="grids col-1 sm-2 lg-3">{posts}</div>
-        <h1 className="inActive-title">Ukončené Projekty</h1>
+        <h1 className="inActive-title">Ukončené projekty</h1>
         <div className="grids col-1 sm-2 lg-3">{inactivePosts}</div>
       </Layout>
     )

@@ -2,7 +2,7 @@
 template: team-member
 title: External Member
 slug: /team-extra
-order: 3
+order: 1
 category: external
 description: Very external
 featuredImage: /assets/team-member-default.jpg

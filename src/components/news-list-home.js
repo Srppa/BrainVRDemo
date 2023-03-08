@@ -26,7 +26,7 @@ const NewsMaker = ({ data }) => (
         variant: "variants.button",
       }}
     >
-      Více Aktualit
+      Více aktualit
       <span className="icon -right">
         <RiArrowRightSLine />
       </span>
