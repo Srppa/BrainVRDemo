@@ -15,6 +15,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   const newsList = path.resolve(`./src/templates/news-list.js`)
 
+  const toolsList = path.resolve(`./src/templates/tools-list.js`)
+
   const result = await graphql(`
     {
       allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
@@ -88,6 +90,11 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   createPage({
     path: `/news`,
     component: newsList,
+  })
+
+  createPage({
+    path: `/tools`,
+    component: toolsList,
   })
 }
 

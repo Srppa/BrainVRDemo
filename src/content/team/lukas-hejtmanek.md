@@ -1,6 +1,8 @@
 ---
 template: team-member
 title: Lukáš Hejtmánek
+firstName: Lukáš
+lastName: Hejtmánek
 slug: /lukas-hejtmanek
 order: 1
 category: core

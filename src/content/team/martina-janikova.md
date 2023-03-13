@@ -1,6 +1,8 @@
 ---
 template: team-member
 title: Martina Janíková
+firstName: Martina
+lastName: Janíková
 slug: /martina-janikova
 order: 1
 category: core

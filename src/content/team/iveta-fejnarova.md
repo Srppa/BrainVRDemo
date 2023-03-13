@@ -1,6 +1,8 @@
 ---
 template: team-member
 title: Iveta Fajnerová
+firstName: Iveta
+lastName: Fajnerová
 slug: /iveta-fejnarova
 order: 0
 category: core

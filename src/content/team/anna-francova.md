@@ -1,6 +1,8 @@
 ---
 template: team-member
 title: Anna Francová
+firstName: Anna
+lastName: Francová
 slug: /anna-francova
 order: 1
 category: core

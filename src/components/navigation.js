@@ -30,6 +30,10 @@ const MenuItems = [
     title: "Publikace",
   },
   {
+    path: "/tools",
+    title: "Nástroje",
+  },
+  {
     path: "/contact",
     title: "Kontakt",
   },

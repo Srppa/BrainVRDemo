@@ -10,7 +10,7 @@ import Seo from "../components/seo"
 export const teamListQuery = graphql`
   query teamListQuery {
     allMarkdownRemark(
-      sort: { order: ASC, fields: [frontmatter___order] }
+      sort: { order: ASC, fields: [frontmatter___lastName] }
       filter: { frontmatter: { template: { eq: "team-member" } } }
     ) {
       edges {
@@ -50,6 +50,11 @@ class TeamIndex extends React.Component {
       .filter(edge => edge.node.frontmatter.order != 0)
       .map(edge => <MemberCard key={edge.node.id} data={edge.node} />)
 
+    const internPosts = data.allMarkdownRemark.edges
+      .filter(edge => edge.node.frontmatter.category == "intern")
+      .map(edge => <MemberCard key={edge.node.id} data={edge.node} />)
+
+
     const alumniPosts = data.allMarkdownRemark.edges
       .filter(edge => edge.node.frontmatter.category == "alumni")
       .map(edge => <MemberCard key={edge.node.id} data={edge.node} />)
@@ -70,6 +75,8 @@ class TeamIndex extends React.Component {
         <h1>Náš tým</h1>
         <div className="head-member">{headPosts}</div>
         <div className="grids col-1 sm-2 lg-3">{normalPosts}</div>
+        <h1>Praktikanti</h1>
+        <div className="grids col-1 sm-2 lg-3">{internPosts}</div>
         <h1>Alumni</h1>
         <div className="grids col-1 sm-2 lg-3">{alumniPosts}</div>
         <h1>Spolupracovníci</h1>

@@ -1,6 +1,8 @@
 ---
 template: team-member
 title: External Member
+firstName: External
+lastName: Member
 slug: /team-extra
 order: 1
 category: external

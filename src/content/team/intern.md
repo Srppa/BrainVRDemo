@@ -1,12 +1,12 @@
 ---
 template: team-member
-title: Alumni Member
-firstName: Alumni
-LastName: Member
-slug: /team-alumni
+title: Intern Member
+firstName: Intern
+lastName: Member
+slug: /team-intern
 order: 1
-category: alumni
-description: Very alumni
+category: intern
+description: Very intern
 featuredImage: /assets/team-member-default.jpg
 ---
 
