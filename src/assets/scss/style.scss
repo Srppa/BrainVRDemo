@@ -416,13 +416,18 @@ h1{
   font-size: 20px;
 }
 
-.publication-info-pdf{
+.publication-info-pdf > a{
   background: blue;
   padding: 5px 15px;
   border-radius: 10px;
   color: #fff;
   font-weight: 700;
   letter-spacing: 1px;
+}
+
+.publication-info-pdf > a:visited,
+.publication-info-pdf > a:hover{
+  color: #fff;
 }
 
 .post-card-container{
