@@ -71,7 +71,7 @@ const Publication = ({ data, pageContext }) => {
           </div>
           <div>
             <div className="publication-info-key"><span>Odkazy:</span></div>
-            <div className="publication-info-value publication-info-pdf"><Link to="pdfLink" download>pdf</Link></div>
+            <div className="publication-info-value publication-info-pdf"><Link to={pdfLink} download>PDF</Link></div>
           </div>
         </div>
       </article>
