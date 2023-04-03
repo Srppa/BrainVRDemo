@@ -77,7 +77,7 @@ const Publication = ({ data, pageContext }) => {
 export default Publication
 
 export const pageQuery = graphql`
-  query PublicationPostQuery($id: String!, $pdfPath: String) {
+  query PublicationPostQuery($id: String!, $pdfPath: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html

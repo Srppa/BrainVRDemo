@@ -6,7 +6,7 @@ date: 2015-01
 authors: Plechata A., Fajnerova I., Hejtmanek L., Sahula V.
 category: Conference proceedings
 jurnal: International Conference on Virtual Rehabilitation (ICVR) - 19.-21. 6. 2017, Montreal, Canada
-pdf: pdfs/2014_fajnerova_rodriguez_levcik_virtual_reality_task.pdf
+pdf: /pdfs/2014_fajnerova_rodriguez_levcik_virtual_reality_task.pdf
 ---
 
 ### Abstrakt

@@ -27,6 +27,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
               slug
               template
               title
+              pdf
             }
           }
         }
@@ -50,6 +51,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     const next = index === 0 ? null : posts[index - 1].node
 
     const pdfLink = post.node.frontmatter.pdf
+    console.log(pdfLink)
 
     createPage({
       path: post.node.frontmatter.slug,
