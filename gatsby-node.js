@@ -65,7 +65,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   //blog
   createPage({
-    path: `/blog`,
+    path: `/projects`,
     component: blogList,
   })
 

@@ -1,10 +1,13 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import { Link, graphql } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+
+
+
 
 const styles = {
   "article blockquote": {
@@ -23,54 +26,12 @@ const styles = {
   },
 }
 
-const Pagination = props => (
-  <div className="pagination -post" sx={styles.pagination}>
-    <ul>
-      {props.previous && props.previous.frontmatter.template === "publication" && (
-        <li>
-          <Link to={props.previous.frontmatter.slug} rel="prev">
-            <p
-              sx={{
-                color: "muted",
-              }}
-            >
-              <span className="icon -left">
-                <RiArrowLeftLine />
-              </span>{" "}
-              Previous
-            </p>
-            <span className="page-title">
-              {props.previous.frontmatter.title}
-            </span>
-          </Link>
-        </li>
-      )}
-      {props.next && props.next.frontmatter.template === "publication" && (
-        <li>
-          <Link to={props.next.frontmatter.slug} rel="next">
-            <p
-              sx={{
-                color: "muted",
-              }}
-            >
-              Next{" "}
-              <span className="icon -right">
-                <RiArrowRightLine />
-              </span>
-            </p>
-            <span className="page-title">{props.next.frontmatter.title}</span>
-          </Link>
-        </li>
-      )}
-    </ul>
-  </div>
-)
-
 const Publication = ({ data, pageContext }) => {
-  const { markdownRemark } = data // data.markdownRemark holds your post data
+  const { markdownRemark, download } = data // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark
 
-  //pageContext
+  console.log(download);
+  console.log("asdf");
 
   return (
     <Layout className="page">
@@ -90,6 +51,24 @@ const Publication = ({ data, pageContext }) => {
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
+        <div className="publication-additional-info">
+          <div>
+            <div className="publication-info-key"><span>Kategorie:</span></div>
+            <div className="publication-info-value"><span>{frontmatter.category}</span></div>
+          </div>
+          <div>
+            <div className="publication-info-key"><span>Publikace:</span></div>
+            <div className="publication-info-value"><span>{frontmatter.jurnal}</span></div>
+          </div>
+          <div>
+            <div className="publication-info-key"><span>Datum:</span></div>
+            <div className="publication-info-value"><span>{frontmatter.date}</span></div>
+          </div>
+          <div>
+            <div className="publication-info-key"><span>Odkazy:</span></div>
+            <div className="publication-info-value"><Link to={download.publicURL} download>fasdfa</Link></div>
+          </div>
+        </div>
       </article>
     </Layout>
   )
@@ -108,7 +87,15 @@ export const pageQuery = graphql`
         slug
         title
         authors
+        category
+        jurnal
       }
     }
+    download: file( relativePath: {eq: "pdfs/2017_plechata_fajnerova_hejtmanek_development_supermarket.pdf"} ) {
+      publicURL
+      name
+      relativePath
+    }
   }
+
 `

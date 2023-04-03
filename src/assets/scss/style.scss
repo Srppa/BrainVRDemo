@@ -392,6 +392,30 @@ h1{
   }
 }
 
+.publication-additional-info{
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.publication-additional-info > div{
+  display: flex;
+  justify-items: start;
+}
+
+.publication-info-key{
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 50px;
+  flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.publication-info-value{
+  font-size: 20px;
+}
+
 .post-card-container{
   position: relative;
 }
@@ -610,7 +634,7 @@ article img {
   max-width: 100%;
 }
 .blog-post-content {
-  max-width: 70ch;
+  max-width: 800px;
   margin: 0 auto;
   padding: 20px;
   line-height: 1.5;

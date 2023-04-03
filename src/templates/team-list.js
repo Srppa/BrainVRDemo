@@ -20,6 +20,7 @@ export const teamListQuery = graphql`
           frontmatter {
             slug
             title
+            lastName
             description
             order
             category
