@@ -6,7 +6,7 @@ date: 2019-06
 authors: Plechata A., Sahula V., Fayette Dan, Fajnerová I.
 category: Journal
 jurnal: Frontiers in Psychology
-pdf: /assets/pdfs/2014_fajnerova_rodriguez_levcik_virtual_reality_task.pdf
+pdf: /pdfs/2014_fajnerova_rodriguez_levcik_virtual_reality_task.pdf
 ---
 
 ### Abstrakt
