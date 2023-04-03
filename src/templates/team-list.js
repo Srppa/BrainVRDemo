@@ -10,7 +10,6 @@ import Seo from "../components/seo"
 export const teamListQuery = graphql`
   query teamListQuery {
     allMarkdownRemark(
-      sort: { order: ASC, fields: [frontmatter___lastName] }
       filter: { frontmatter: { template: { eq: "team-member" } } }
     ) {
       edges {
