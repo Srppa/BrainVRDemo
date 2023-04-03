@@ -6,7 +6,7 @@ date: 2019-06
 authors: Plechata A., Sahula V., Fayette Dan, Fajnerová I.
 category: Journal
 jurnal: Frontiers in Psychology
-pdf: /assets/pdfs/2017_plechata_fajnerova_hejtmanek_development_supermarket.pdf
+pdf: /assets/pdfs/2017_fajnerova_oravcova_plechata_episodic_memory_task_remediation.pdf
 ---
 
 ### Abstrakt

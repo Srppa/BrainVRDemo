@@ -66,7 +66,7 @@ const Publication = ({ data, pageContext }) => {
           </div>
           <div>
             <div className="publication-info-key"><span>Odkazy:</span></div>
-            <div className="publication-info-value"><Link to={download.publicURL} download>fasdfa</Link></div>
+            <div className="publication-info-value publication-info-pdf"><Link to={download.publicURL} download>pdf</Link></div>
           </div>
         </div>
       </article>
@@ -94,7 +94,6 @@ export const pageQuery = graphql`
     download: file( relativePath: {eq: "pdfs/2017_plechata_fajnerova_hejtmanek_development_supermarket.pdf"} ) {
       publicURL
       name
-      relativePath
     }
   }
 
