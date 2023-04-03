@@ -77,7 +77,7 @@ const Publication = ({ data, pageContext }) => {
 export default Publication
 
 export const pageQuery = graphql`
-  query PublicationPostQuery($id: String!) {
+  query PublicationPostQuery($id: String!, $pdfPath: String) {
     markdownRemark(id: { eq: $id }) {
       id
       html
@@ -91,7 +91,7 @@ export const pageQuery = graphql`
         jurnal
       }
     }
-    download: file( relativePath: {eq: "pdfs/2017_plechata_fajnerova_hejtmanek_development_supermarket.pdf"} ) {
+    download: file( relativePath: {eq: $pdfPath } ) {
       publicURL
       name
     }
