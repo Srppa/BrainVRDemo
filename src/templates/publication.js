@@ -27,11 +27,16 @@ const styles = {
 }
 
 const Publication = ({ data, pageContext }) => {
-  const { markdownRemark, download } = data // data.markdownRemark holds your post data
+  const { markdownRemark, pdfsData } = data // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark
 
-  console.log(download);
+  console.log(pdfsData);
   console.log("asdf");
+
+  const pdfData = pdfsData.edges
+      .filter(edge => edge.node.name == frontmatter.pdf)
+  
+  const pdfLink = pdfData[0].node.publicURL
 
   return (
     <Layout className="page">
@@ -66,7 +71,7 @@ const Publication = ({ data, pageContext }) => {
           </div>
           <div>
             <div className="publication-info-key"><span>Odkazy:</span></div>
-            <div className="publication-info-value publication-info-pdf"><Link to={download.publicURL} download>pdf</Link></div>
+            <div className="publication-info-value publication-info-pdf"><Link to="pdfLink" download>pdf</Link></div>
           </div>
         </div>
       </article>
@@ -77,7 +82,7 @@ const Publication = ({ data, pageContext }) => {
 export default Publication
 
 export const pageQuery = graphql`
-  query PublicationPostQuery($id: String!, $pdfName: String) {
+  query PublicationPostQuery($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
@@ -89,11 +94,17 @@ export const pageQuery = graphql`
         authors
         category
         jurnal
+        pdf
       }
     }
-    download: file(name: {glob: $pdfName } ) {
-      publicURL
-      name
+    pdfsData: allFile(filter: {extension: {eq: "pdf"}}) {
+      edges {
+        node {
+          id
+          name
+          publicURL
+        }
+      }
     }
   }
 
