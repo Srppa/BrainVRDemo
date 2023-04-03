@@ -50,8 +50,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     const previous = index === posts.length - 1 ? null : posts[index + 1].node
     const next = index === 0 ? null : posts[index - 1].node
 
-    const pdfLink = post.node.frontmatter.pdf
-    console.log(pdfLink)
+    const pdfName = post.node.frontmatter.pdf
+    console.log(pdfName)
 
     createPage({
       path: post.node.frontmatter.slug,
@@ -61,7 +61,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       // additional data can be passed via context
       context: {
         id,
-        pdfLink
+        pdfName
         //previous,
         //next,
       },
