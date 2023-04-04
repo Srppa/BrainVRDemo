@@ -1,6 +1,6 @@
 ---
 template: blog-post
-title: VR MRI
+title: Virtuální magnetická rezonance
 slug: /vr-mri
 date: 2019-05-13 12:46
 description: Cílem tohoto projektu je vytvoření VR aplikace, co nejvěrněji simulující celý proces, kterým musí pacient před vyšetřením v magnetické rezonanci projít
