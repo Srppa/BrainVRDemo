@@ -72,7 +72,7 @@ export const pageQuery = graphql`
     news: allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       filter: { frontmatter: { template: { eq: "news-post" } } }
-      limit: 6
+      limit: 4
     ) {
       edges {
         node {

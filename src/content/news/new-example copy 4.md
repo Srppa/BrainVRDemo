@@ -1,15 +1,19 @@
 ---
 template: news-post
-title: Stále testujeme experimentu b-453 a jedeme dál a testujeme víc a víc a ještě víc
+title: Jak mohou virtuální hry trénovat mozek a paměť
 slug: /news-example
 date: 2019-01-01 12:00
-description: Náš nový experiment zabívající se problematikou a a b se právě rozjízdí. Testování se odhrává tady a tady. Nevájte a přidejte se a podpořte nás
-featuredImage: /assets/emt-thumb.jpg
+description: Máte zájem o trénování paměti a daląích poznávacích schopností? Pokud ano, přijďte se podívat na seminář
+featuredImage: /assets/sefte.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam sapien sem, ornare ac, nonummy non, lobortis a enim. Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante. Vivamus porttitor turpis ac leo. Nulla non lectus sed nisl molestie malesuada. Nulla quis diam. Praesent id justo in neque elementum ultrices. Nulla est. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+Máte zájem o trénování paměti a dalších poznávacích schopností? Pokud ano, přijďte se podívat na seminář, který povede vedoucí skupiny Iveta Fajnerová a Adéla Plechatá ve spolupráci s organizací Elpida (http://elpida.cz/page.php?page=86&event_id=4983).
 
-`video: https://www.youtube.com/watch?v=vo4pMVb0R6M`
+KDY: ČT 10. 1. 2019, 14:15-15:45 KDE: Centrum Elpida - Na Strľi 40 (vedle hlavní poąty) 140 00 Praha 4
 
-Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante. Maecenas aliquet accumsan leo. Phasellus rhoncus. Nullam sapien sem, ornare ac, nonummy non, lobortis a enim. Praesent in mauris eu tortor porttitor accumsan. Mauris dolor felis, sagittis at, luctus sed, aliquam non, tellus. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Et harum quidem rerum facilis est et expedita distinctio. Etiam commodo dui eget wisi. Pellentesque arcu.
+V rámci skupiny virtuální realita v neurovědách aktuálně připravujeme sadu tréninkových her ve virtuální realitě pro aktivizaci a kognitivní trénink zejména u zdravých seniorů. Na semináři Vám celý koncept představíme a předvedeme ukázky konkrétních kognitivních her. Vyvíjené hry a úkoly využívají motivy z reálného života a jsou řeąené v prostředí virtuálního města. Během semináře budou mít účastníci možnost se přihlásit do tréninkového programu, který bude probíhat v prostorách Elpida a bude ZDARMA.
+
+Projekt je financován za podpory grantového programu TAČR číslo Tl01000309.
+
+![tacr](/assets/tacr.jpg "tacr")
 
