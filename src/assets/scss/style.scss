@@ -613,7 +613,30 @@ h1{
 }
 
 .head-member{
-  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: $breakpoint-sm){
+  .blog-page .head-member{
+    
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+
+  .head-member .member-card:first-child{
+    margin-bottom: 25px;
+  }
+
+  .blog-page .head-member .member-card .gatsby-image-wrapper{
+      max-width: 48px;
+    }
+
+  
 }
 
 .team-member .featured-banner .gatsby-image-wrapper{
@@ -1009,6 +1032,46 @@ article img {
     margin-left: 5px;
     color: white;
   }
+}
+
+figcaption {
+  display: none;
+}
+
+.participate-link-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.participate-card{
+  width: 33.3%;
+  min-width: 300px;
+  padding: 25px;
+}
+
+@media (max-width: 940px) {
+  .participate-card{
+    width: 50%;
+    min-width: 300px;
+    padding: 0 25px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .participate-card{
+    width: 80%;
+    min-width: 300px;
+    padding: 25px;
+  }
+}
+
+
+.media-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 

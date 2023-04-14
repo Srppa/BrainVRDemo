@@ -17,6 +17,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   const toolsList = path.resolve(`./src/templates/tools-list.js`)
 
+  const participateList = path.resolve(`./src/templates/participate-list.js`)
+
   const result = await graphql(`
     {
       allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
@@ -44,6 +46,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   // Create markdown pages
   const posts = result.data.allMarkdownRemark.edges
     	.filter(edge => edge.node.frontmatter.template != "media-link")
+      .filter(edge => edge.node.frontmatter.template != "participate-link")
 
   posts.forEach((post, index) => {
     const id = post.node.id
@@ -95,6 +98,13 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     path: `/tools`,
     component: toolsList,
   })
+
+  createPage({
+    path: `/participate`,
+    component: participateList,
+  })
+
+  
 }
 
 exports.onCreateNode = ({ node, getNode, actions }) => {

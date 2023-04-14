@@ -5,7 +5,7 @@ firstName: Jan
 lastName: Havlíček
 slug: /jan-havlivek
 order: 1
-category: core
+category: external
 description: výzkumný a vývojový pracovník
 featuredImage: /assets/team-member-default.jpg
 ---

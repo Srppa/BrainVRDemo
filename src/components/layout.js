@@ -49,7 +49,7 @@ const Layout = ({ children, className, props }) => {
       </div>
       <div className="participate-container">
         <div className="participate-container-inner">
-          <Link to="/blog">Zapojte se</Link>
+          <Link to="/participate">Zapojte se</Link>
         </div>
           
       </div>

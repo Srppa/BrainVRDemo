@@ -4,7 +4,7 @@ title: Aneta Voldřichová
 firstName: Aneta
 lastName: Voldřichová
 slug: /aneta-voldrichova
-order: 1
+order: 0
 category: core
 description: koordinátorka
 featuredImage: /assets/aneta-voldrichova-thumbnail.png

@@ -34,14 +34,6 @@ const PostCard = ({ data }) => (
           {data.frontmatter.title}
         </Link>
       </h2>
-      <p
-        className="meta"
-        sx={{
-          color: "muted",
-        }}
-      >
-        <time>{data.frontmatter.date}</time>
-      </p>
     </div>
   </article>
 )
