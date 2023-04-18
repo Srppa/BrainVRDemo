@@ -15,5 +15,5 @@ V rámci skupiny virtuální realita v neurovědách aktuálně připravujeme sa
 
 Projekt je financován za podpory grantového programu TAČR číslo Tl01000309.
 
-![tacr](/assets/tacr.jpg "tacr")
+![tacr](/logo-tacr.jpg "tacr")
 

@@ -11,11 +11,11 @@ Skupina Virtuální realita v neurovědách ve spolupráci s komerčními firmam
 
 1.Zachraň kočičku – Na stánku si návštěvníci mohli vyzkoušet aplikaci od firmy Xlab. Jedná se o úlohu prezentovanou ve virtuálních brýlích, kdy se hráč ocitne v nejvyšším patře mrakodrapu a jeho úkolem je nad městem projít po úzké lávce a zachránit kočku, která uvízla na jejím konci.
 
-![festival nahlavu](/assets/festivalnahlavu_02.jpg "festival nahlavu")
+![festival nahlavu](/festivalnahlavu-02.jpg "festival nahlavu")
 
 2.Trénink mindfulness – Trénink mindfulness ve virtuální realitě je novou aplikací, která je vyvíjena v rámci NUDZ ve spolupráci s firmou Xlab. Úkolem respondenta je soustředit se na svůj vlastní dech, který je senzorem monitorován. Aplikace ve virtuální realitě zrcadlí dýchání účastníka a pomáhá mu s jeho synchronizací pomocí zpětné vazby v podobě zvětšující se mandaly a pohybu křídel avatara.
 
-![festival nahlavu](/assets/festivalnahlavu_03.jpg "festival nahlavu")
+![festival nahlavu](/festivalnahlavu-03.jpg "festival nahlavu")
 
 3.Navigace ve městě – Na monitoru počítače byla návštěvníkům prezentována úloha, která byla vytvořena v NUDZ. V první části je hráč navigován k určitému orientačnímu bodu ve městě a následně musí z paměti nalézt cestu zpět.
 
@@ -25,7 +25,7 @@ Skupina Virtuální realita v neurovědách ve spolupráci s komerčními firmam
 
 Propagace výzkumné činnosti skupiny na filmovém festivalu Na Hlavu byla finančně podpořena projektem Evropského fondu pro regionální rozvoj „Pharmabrain“ č. CZ.CZ.02.1.01/0.0/0.0/16_025/0007444.
 
-![logo_eu](/assets/logo_eu.png "logo_eu")
+![logo_eu](/logo-eu.png "logo_eu")
 
-![logo_msmt.png](/assets/logo_msmt.png "logo_msmt")
+![logo_msmt.png](/logo-msmt.png "logo_msmt")
 

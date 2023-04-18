@@ -15,17 +15,17 @@ Bára Šouláková (NUDZ) a Nestor Caro (Xlab-Virtuix) představili zbrusu novou
 
 Práci skupiny Virtuální reality v neurovědách shrnula 3.den festivalu doktorka Iveta Fajnerová ve své přednášce, která byla zaměřena na aplikaci virtuální reality k tréninku kognitivních funkcí u neuropsychiatrických pacientů či zdravých seniorů.
 
-![czechvrfest](/assets/czechvrfest_02.jpg "czechvrfest")
+![czechvrfest](/czechvrfest-02.jpg "czechvrfest")
 
 Aplikaci Nákupu ve virtuálním supermarketu, která má být určena k tréninku paměti a exekutivních funkcí, si mohli návštěvníci vyzkoušet v prostorách výstavy Czech VRfestu. Mimo to byla na NUDZ stánku rovněž prezentována metoda tréninku mindfulness (NUDZ/Xlab-Virtuix).
 
 Hladký chod stánku zabezpečili, mimo doktorku Fajnerovou, rovněž Ivana Oravcová, která se věnuje možnosti testování epizodické paměti ve VR, Adéla Plechatá za virtuální supermarket a Václav Sahula, který zodpovídá za programování aplikací v Unity.
 
-![czechvrfest](/assets/czechvrfest_04.jpg "czechvrfest")
+![czechvrfest](/czechvrfest-04.jpg "czechvrfest")
 
 Propagace v rámci Czech VRfestu 2018 byla finančně podpořena Centrem transferu technologií NUDZ (Centre for Technology and Knowledge Transfer NIMH) reg. číslo grantu: CZ.02.2.69 /0.0/0.0/16_014/0000656 (vedoucí projektu: RNDr. Karel Valeš, Ph.D.).
 
-![logo_eu](/assets/logo_eu.png "logo_eu")
+![logo eu](/logo-eu.png "logo eu")
 
-![logo_msmt.png](/assets/logo_msmt.png "logo_msmt")
+![logo msmt.png](/logo-msmt.png "logo msmt")
 
