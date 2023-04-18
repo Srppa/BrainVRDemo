@@ -10,7 +10,7 @@ contactName: somebody
 contactEmail: somebody@brainvr.cz
 ---
 
-![fobia exposition thumbnail thumbnail](/fobia-exposition-thumbnail.jpg "fobia -exposition thumbnail")
+![fobia exposition thumbnail thumbnail](/assets/fobia-exposition-thumbnail.jpg)
 
 Cílem projektu je vytvoření terapeutického nástroje určeného pro expoziční terapii specifických fobií (např. strach z výšek, klaustrofobie, agorafobie nebo sociální fobie) zasazeného do komplexního prostředí virtuálního velkoměsta. Prostředí města bylo vybráno proto, že symptomy pacientů se specifickými fobiemi jsou často vázány na situace typické pro prostředí města (např. již výše zmíněný strach z výšky, strach z lékařských zařízení nebo strach z cestování veřejnou hromadnou dopravou). Ve virtuálním prostředí se může uživatel pohybovat přirozeně z jednoho prostředí do druhého, program je tedy dobře využitelný i u osob s několika fobiemi. Na začátku terapie je spolu s pacientem připraven plán, jaké situace se bude postupně učit zvládat. Důraz je kladen na zmapování situací, kterým se pacient v běžném životě vyhýbá. V případě klaustrofobie to může být terapie zahájena například pobytem ve výtahu s otevřenými dveřmi, v dalších sezeních pak již pobyt v zavřeném výtahu a následně zvládání nepříjemných situací, jako je např. porucha výtahu. V rámci terapie sociální fobie může být pacient umístěn do prostředí metra s nastavitelným počtem osob nebo do prostředí kina, ve kterém může být náročnost terapie opět různým stylem zvyšována (prezentace před diváky, usazení doprostřed hlediště atd.).
 
@@ -20,4 +20,4 @@ Jednotlivá prostředí (expoziční scénáře) jsou průběžně testována, s
 
 Projekt vzniká ve spolupráci s Českým institutem informatiky, robotiky a kybernetiky a Fakultou biomedicínského inženýrství ČVUT s finanční podporou programu ÉTA Technologické agentury ČR (TL03000223).
 
-![tacr logo](/logo-tacr.png "tacr logo")
+![tacr logo](/assets/logo-tacr.png)
