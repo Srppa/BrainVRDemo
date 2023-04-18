@@ -59,6 +59,7 @@ module.exports = {
             },
           },
           `remark-image-attributes`,
+          `gatsby-remark-relative-images`,
           {
             resolve: `gatsby-remark-images`,
             options: {
