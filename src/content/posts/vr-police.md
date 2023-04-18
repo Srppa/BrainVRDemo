@@ -10,7 +10,7 @@ contactName: somebody
 contactEmail: somebody@brainvr.cz
 ---
 
-![Vr police thumbnail](/vr-police-thumbnail.png "Vr police thumbnail")
+![Vr police thumbnail](./vr-police-thumbnail.png)
 
 **Police VR (P-VR)** má za cíl posílit schopnost policistů efektivně zvládat oznámení závažné zprávy a chránit tím zdraví všech zúčastněných. Policisté se denně potýkají s mnoha psychicky a komunikačně náročnými situacemi, zahrnujícími například komunikaci se zraněnými osobami, či pozůstalými osobami po smrtelných nehodách. Tyto situace vyvolávají silné psychické reakce a vyžadují sociální dovednosti a zkušenosti. Z vědeckých studií zároveň vyplývá, že policisté při výkonu práce mnohdy vykazují nedostatek sociální empatie, která je spojená s nedostatečnou formální průpravou v oblasti společenských věd a psychologie.
 
@@ -32,9 +32,9 @@ Za pomoci odborníků z různých oborů jsme vytvořili aplikaci ve virtuální
 | Spoluřešitelé:           | Leiden University & 3dsense s.r.o.                                                                                                 |
 
 
-![tacr logo](/logo-tacr.png "tacr logo")
+![tacr logo](./logo-tacr.png)
 
-![tacr 3dsense](/logo-3dsense.png "tacr 3dsense")
+![tacr 3dsense](./logo-3dsense.png)
 
-![tacr leiden](/logo-leiden.png "tacr leiden")
+![tacr leiden](./logo-leiden.png)
 
