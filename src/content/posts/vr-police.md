@@ -34,7 +34,7 @@ Za pomoci odborníků z různých oborů jsme vytvořili aplikaci ve virtuální
 
 ![tacr logo](logo-tacr.png)
 
-![tacr 3dsense](logo-3dsense.png)
+![tacr 3dsense](galogo-3dsense.png)
 
-![tacr leiden](/assets/logo-leiden.png)
+![tacr leiden](logo-leiden.png)
 
