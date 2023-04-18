@@ -10,7 +10,7 @@ contactName: somebody
 contactEmail: somebody@brainvr.cz
 ---
 
-![ocd exposition thumbnail](/assets/vr-mri-thumbnail.png)
+![ocd exposition thumbnail](/vr-mri-thumbnail.png)
 
 Magnetická rezonance hraje důležitou roli při neurologických, onkologických i jiných klinických vyšetřeních. Úzkost, klaustrofobie nebo jiné obavy ale bývají častým důvodem neochoty dané vyšetření podstoupit, vedou k nepříjemným pocitům před či během vyšetření nebo dokonce snižují kvalitu výstupu (zejména pokud se pacient během snímání hýbe), či brání v jeho realizaci. Často je pro pacienta možné vyšetření absolvovat jen po podání medikace.
 
@@ -18,6 +18,6 @@ Cílem tohoto projektu je vytvoření VR aplikace, co nejvěrněji simulující 
 
 Projekt probíhá za podpory interního grantu NUDZ 318A_2020
 
-![nudz logo](/assets/nudz-logo-wide-blue.png)
+![nudz logo](/nudz-logo-wide-blue.png)
 
 
