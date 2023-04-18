@@ -20,3 +20,5 @@ Virtuální město je tvořeno několika komplexními úlohami určenými k tré
 
 Projekt je financován Technologickou agenturou ČR v rámci projektu č. TL01000309.
 
+![tacr logo](/assets/logo-tacr.png "tacr logo")
+

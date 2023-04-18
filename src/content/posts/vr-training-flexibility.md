@@ -19,3 +19,5 @@ Aplikace může být propojena s fyziologickým měřením srdeční činnosti a
 Jednotlivá prostředí (expoziční scénáře) jsou průběžně testována, sledován je jejich potenciál v bezprostředním vyvolání symptomů úzkosti, ale i jejich efektivita v dlouhodobější terapii daných fobií.
 
 Projekt vzniká ve spolupráci s Českým institutem informatiky, robotiky a kybernetiky a Fakultou biomedicínského inženýrství ČVUT s finanční podporou programu ÉTA Technologické agentury ČR (TL03000223).
+
+![tacr logo](/assets/logo-tacr.png "tacr logo")

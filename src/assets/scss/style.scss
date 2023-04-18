@@ -29,7 +29,7 @@ h1{
   position: relative;
   margin: 0 auto;
   max-width: 1240px;
-  padding: 12px 20px;
+  padding: 12px 20px 6px 20px;
 }
 .site-navigation {
   ul {
@@ -114,9 +114,10 @@ h1{
   padding: 0 20px;
 }
 .site-logo {
+  display: flex;
+  align-items: center;
   font-size: 35px;
   font-weight: bold;
-  margin-bottom: -10px;
   a {
     margin-left: 1px;
     color: #004ca3;
@@ -128,6 +129,10 @@ h1{
   @media (max-width: $breakpoint-lg) {
     font-size: 35px;
   }
+}
+
+.site-logo .site-logo-nudz{
+  margin-left: 20px;
 }
 
 .participate-container{
@@ -1071,9 +1076,15 @@ figcaption {
 .media-flex{
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
 }
 
+.participate-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 .pagination {
   text-align: center;

@@ -35,10 +35,10 @@ const Layout = ({ children, className, props }) => {
         
           <div className="site-logo">
             <Link to="/">
-              <img src="/assets/brain-logo-blue.png" style={{ height: "75px"}}/>
+              <img src="/assets/brain-logo-header.png" style={{ height: "75px"}}/>
             </Link>
-            <Link style={{display: "none"}} to="https://www.nudz.cz/vyzkum/centrum-virtualni-reality-v-dusevnim-zdravi-a-neurovedach">
-              <img src="/assets/nudz-logo-blue.png" style={{ height: "75px", width: "auto"}}/>
+            <Link className="site-logo-nudz" target="_blank" to="https://www.nudz.cz/vyzkum/centrum-virtualni-reality-v-dusevnim-zdravi-a-neurovedach">
+              <img src="/assets/nudz-logo-header.png" style={{ height: "65px", width: "auto"}}/>
             </Link>
           </div>
           <div sx={layoutStyle.nav}>

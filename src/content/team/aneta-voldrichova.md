@@ -7,7 +7,7 @@ slug: /aneta-voldrichova
 order: 0
 category: core
 description: koordinátorka
-featuredImage: /assets/aneta-voldrichova-thumbnail.png
+featuredImage: /assets/members/aneta-voldrichova-thumbnail.png
 ---
 
 

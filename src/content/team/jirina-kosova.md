@@ -7,7 +7,7 @@ slug: /jirina-kosova
 order: 1
 category: core
 description: výzkumný a vývojový pracovník
-featuredImage: /assets/team-member-default.jpg
+featuredImage: /assets/members/team-member-default.jpg
 ---
 
 

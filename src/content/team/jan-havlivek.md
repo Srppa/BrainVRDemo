@@ -7,5 +7,5 @@ slug: /jan-havlivek
 order: 1
 category: external
 description: výzkumný a vývojový pracovník
-featuredImage: /assets/team-member-default.jpg
+featuredImage: /assets/members/team-member-default.jpg
 ---

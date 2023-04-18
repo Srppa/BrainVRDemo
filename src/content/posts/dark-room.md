@@ -20,3 +20,5 @@ V rámci výzkumu se zaměřujeme na porovnávání standardních metod jako je 
 
 Projekt vzniká za finanční podpory Technologické Agentury ČR (G043-04). 
 
+![tacr logo](/assets/logo-tacr.png "tacr logo")
+

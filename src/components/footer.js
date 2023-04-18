@@ -12,7 +12,7 @@ const Footer = () => (
     <div className="container">
       <div className="footer-links">
         <Link className="nudz-link" target="_blank" to="https://www.nudz.cz/vyzkum/centrum-virtualni-reality-v-dusevnim-zdravi-a-neurovedach">
-          <img src="/assets/logo-nudz-high.png"/>
+          <img src="/assets/nudz-logo-white.png"/>
         </Link>
         <Link className="l3lf-link" target="_blank" to="https://www.lf3.cuni.cz/">
           <img src="/assets/logo-3lf.png"/>

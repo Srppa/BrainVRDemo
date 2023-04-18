@@ -7,6 +7,6 @@ slug: /eliska-noskova
 order: 1
 category: core
 description: doktorand
-featuredImage: /assets/team-member-default.jpg
+featuredImage: /assets/members/team-member-default.jpg
 ---
 

@@ -74,7 +74,7 @@ class ParticipateIndex extends React.Component {
           }
         />
         <h1>Zapojte se</h1>
-        <div className="media-flex">{posts}</div>
+        <div className="participate-flex">{posts}</div>
       </Layout>
     )
   }

@@ -34,5 +34,5 @@ Za pomoci odborníků z různých oborů jsme vytvořili aplikaci ve virtuální
 | Spoluřešitelé:           | Leiden University & 3dsense s.r.o.                                                                                                 |
 
 
-
+![tacr logo](/assets/logo-tacr.png "tacr logo")
 
