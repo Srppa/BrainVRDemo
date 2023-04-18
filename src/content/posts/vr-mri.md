@@ -18,6 +18,6 @@ Cílem tohoto projektu je vytvoření VR aplikace, co nejvěrněji simulující 
 
 Projekt probíhá za podpory interního grantu NUDZ 318A_2020
 
-![nudz logo](/assets/nudz-logo-wide-blue.png "nudz logo")
+![nudz logo](/nudz-logo-wide-blue.png "nudz logo")
 
 

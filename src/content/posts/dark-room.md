@@ -10,7 +10,7 @@ contactName: somebody
 contactEmail: somebody@brainvr.cz
 ---
 
-![Vr police thumbnail](/assets/dark-room-thumbnail.png "Vr police thumbnail")
+![Vr police thumbnail](/dark-room-thumbnail.png "Vr police thumbnail")
 
 Cílem projektu je vytvoření terapeutického nástroje určeného pro práci s automatickými negativními myšlenkami u úzkostných poruch, především u generalizované úzkostné poruchy (GAD), úzkostně-depresivní poruchy, nebo obsedantně kompulzivní poruchy (OCD) s převahou obsesí. 
 
@@ -20,5 +20,5 @@ V rámci výzkumu se zaměřujeme na porovnávání standardních metod jako je 
 
 Projekt vzniká za finanční podpory Technologické Agentury ČR (G043-04). 
 
-![tacr logo](/assets/logo-tacr.png "tacr logo")
+![tacr logo](/logo-tacr.png "tacr logo")
 
