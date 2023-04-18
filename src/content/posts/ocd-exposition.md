@@ -18,8 +18,10 @@ Naše aplikace by měla sloužit zejména jako doplněk klasické kognitivně-be
 
 VRET terapie slouží zejména jako terapeutická pomůcka v přípravě klienta na expozice později prováděné v reálném prostoru a reálných situacích.
 
-Projekt byl zahájen s finanční podporou grantu „PharmaBrain“ č. CZ.02.1.01/0.0/0.0/16_025/0007444 a probíhající validizační studie je financována programem GAMA Technologické agentury ČR v rámci projektu Braintech TP01010062. V tuto chvíli probíhá zahájení randomizované studie projektu, která je financovaná Agenturou pro zdravotnický výzkum ČR pod Ministerstvem zdravotníctví ČR projektem č. NU23-04-00402.
+Projekt byl zahájen s finanční podporou grantu „PharmaBrain“ č. CZ.02.1.01/0.0/0.0/16_025/0007444 a probíhající validizační studie je financována programem GAMA Technologické agentury ČR v rámci projektu Braintech TP01010062 (podprojekt 04 - OCD house). V tuto chvíli probíhá zahájení randomizované studie projektu, která je financovaná Agenturou pro zdravotnický výzkum ČR pod Ministerstvem zdravotnictví ČR projektem č. NU23-04-00402.
 
 ![tacr logo](/assets/logo-tacr.png "tacr logo")
+
+![tacr azv](/assets/logo-azv.png "tacr azv")
 
 
