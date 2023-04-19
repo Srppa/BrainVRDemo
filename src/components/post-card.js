@@ -7,11 +7,6 @@ const PostCard = ({ data }) => (
   <article className="post-card">
     {data.frontmatter.featuredImage ? (
       <div className="post-card-container">
-        {data.frontmatter.isActive ? (
-          <div className="blog-status-panel">
-          <span>Aktivní</span>
-        </div>
-        ): ""}
         <Link to={data.frontmatter.slug}>
           <GatsbyImage
             image={data.frontmatter.featuredImage.childImageSharp.gatsbyImageData}

@@ -1,13 +1,13 @@
 ---
 template: blog-post
 title: Výcvik zaměřený na zvyšování připravenosti policistů pro psychicky a komunikačně náročné situace pomocí virtuální reality
-slug: /vr-police
+slug: /police-readines-training
 date: 2019-05-13 12:46
 description: Police VR (P-VR) má za cíl posílit schopnost policistů efektivně zvládat oznámení závažné zprávy a chránit tím zdraví všech zúčastněných
 featuredImage: /assets/vr-police-thumbnail.png
 isActive: true
-contactName: somebody
-contactEmail: somebody@brainvr.cz
+contactName: Eliška Procházková
+contactEmail: eliska.prochazkova@nudz.cz
 ---
 
 ![Vr police thumbnail](/vr-police-thumbnail.png)
@@ -34,7 +34,7 @@ Za pomoci odborníků z různých oborů jsme vytvořili aplikaci ve virtuální
 
 ![tacr logo](/logo-tacr.png)
 
-![tacr 3dsense](/galogo-3dsense.png)
+![tacr 3dsense](/logo-3dsense.png)
 
 ![tacr leiden](/logo-leiden.png)
 

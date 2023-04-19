@@ -11,7 +11,7 @@ import Seo from "../components/seo"
 export const blogListQuery = graphql`
   query blogListQuery {
     allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { order: ASC, fields: [frontmatter___title] }
       filter: { frontmatter: { template: { eq: "blog-post" } } }
     ) {
       edges {
@@ -19,7 +19,6 @@ export const blogListQuery = graphql`
           id
           excerpt(pruneLength: 250)
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
             slug
             title
             isActive
@@ -38,25 +37,21 @@ export const blogListQuery = graphql`
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
-    const blogSlug = "/blog/"
 
     const posts = data.allMarkdownRemark.edges
       .filter(edge => edge.node.frontmatter.isActive == true)
-      .filter(edge => !!edge.node.frontmatter.date)
       .map(edge => <PostCard key={edge.node.id} data={edge.node} />)
 
-    
     const inactivePosts = data.allMarkdownRemark.edges
-    .filter(edge => edge.node.frontmatter.isActive == false)
-    .filter(edge => !!edge.node.frontmatter.date)
-    .map(edge => <PostCard key={edge.node.id} data={edge.node} />)
+      .filter(edge => edge.node.frontmatter.isActive == false)
+      .map(edge => <PostCard key={edge.node.id} data={edge.node} />)
 
     return (
       <Layout className="blog-page">
         <Seo
-          title={"Blog — Page "}
+          title={"Project — Page "}
           description={
-            "Stackrole base blog page "
+            "Brain VR project page "
           }
         />
         <h1>Aktuální projekty</h1>

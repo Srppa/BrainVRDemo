@@ -120,10 +120,8 @@ export const pageQuery = graphql`
       html
       excerpt(pruneLength: 148)
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
         slug
         title
-        description
         isActive
         contactName
         contactEmail

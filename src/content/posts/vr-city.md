@@ -6,8 +6,8 @@ date: 2019-05-13 12:46
 description: Vývoj uceleného tréninkového programu pro stárnoucí populaci za pomocí imerzivní virtuální reality
 featuredImage: /assets/vr-city-thumb.jpg
 isActive: false
-contactName: somebody
-contactEmail: somebody@brainvr.cz
+contactName: Marketa Jablonska
+contactEmail: marketa.jablonska@nudz.cz
 ---
 
 ![Vr city city thumb](/vr-city-thumb.jpg)

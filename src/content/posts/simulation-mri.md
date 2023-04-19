@@ -6,8 +6,8 @@ date: 2019-05-13 12:46
 description: Cílem tohoto projektu je vytvoření VR aplikace, co nejvěrněji simulující celý proces, kterým musí pacient před vyšetřením v magnetické rezonanci projít
 featuredImage: /assets/vr-mri-thumbnail.png
 isActive: true
-contactName: somebody
-contactEmail: somebody@brainvr.cz
+contactName:  Markéta Jablonská
+contactEmail: marketa.jablonska@nudz.cz
 ---
 
 ![ocd exposition thumbnail](/vr-mri-thumbnail.png)

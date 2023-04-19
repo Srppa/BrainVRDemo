@@ -6,8 +6,8 @@ date: 2019-05-13 12:46
 description: Cílem tohoto projektu je tvorba aplikace ve virtuální realitě (VR) pro osoby s obsedantně-kompulzivní poruchou (OCD)
 featuredImage: /assets/ocd-exposition-thumbnail.png
 isActive: true
-contactName: somebody
-contactEmail: somebody@brainvr.cz
+contactName:  Karolína Zuzánková
+contactEmail: karolina.zuzankova@nudz.cz
 ---
 
 ![ocd exposition thumbnail](/ocd-exposition-thumbnail.png)

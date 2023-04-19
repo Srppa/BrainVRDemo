@@ -6,8 +6,8 @@ date: 2019-05-13 12:46
 description: Cílem projektu je vytvoření terapeutického nástroje určeného pro expoziční terapii specifických fobií
 featuredImage: /assets/fobia-exposition-thumbnail.jpg
 isActive: true
-contactName: somebody
-contactEmail: somebody@brainvr.cz
+contactName: Karolína Zuzánková
+contactEmail: karolina.zuzankova@nudz.cz
 ---
 
 ![fobia exposition thumbnail thumbnail](/fobia-exposition-thumbnail.jpg)
