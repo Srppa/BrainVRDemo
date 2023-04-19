@@ -2,11 +2,12 @@
 template: publication
 title: Episodic-like memory tested in virtual environment
 slug: /oravcova-2017c
-date: 2017-05
+date: 2017-01
 authors: Oravcova I., Fajnerova I., Hejtmanek L., Plechata A., Vlcek K., Nekovarova T. 
 category: Conference proceedings 
 jurnal: IEEE
-pdf: "oravcova-2017c"
+pdfFile: "oravcova-2017c"
+pdfLink:
 ---
 
 ### Abstrakt

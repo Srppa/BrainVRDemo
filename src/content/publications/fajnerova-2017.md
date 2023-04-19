@@ -2,11 +2,12 @@
 template: publication
 title: The Virtual Episodic Memory Task - towards remediation in neuropsychiatric disorders.
 slug: /fajnerova-2017
-date: 2017-06
+date: 2017-01
 authors: Fajnerova I., Oravcova I., Plechata A., Hejtmanek L., Vlcek K., Sahula V., Nekovarova T. 
 category: Conference proceedings
 jurnal: International Conference on Virtual Rehabilitation (ICVR) - 19.-21. 6. 2017, Montreal, Canada
-pdf: "fajnerova-2017"
+pdfFile: "fajnerova-2017"
+pdfLink:
 ---
 
 ### Abstrakt

@@ -30,13 +30,14 @@ const Publication = ({ data, pageContext }) => {
   const { markdownRemark, pdfsData } = data // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark
 
-  console.log(pdfsData);
-  console.log("asdf");
+  let pdfLink = frontmatter.pdfLink;
 
-  const pdfData = pdfsData.edges
-      .filter(edge => edge.node.name == frontmatter.pdf)
+  if(pdfLink == null){
+    const pdfData = pdfsData.edges
+      .filter(edge => edge.node.name == frontmatter.pdfFile)
   
-  const pdfLink = pdfData[0].node.publicURL
+    pdfLink = pdfData[0].node.publicURL
+  }
 
   return (
     <Layout className="page">
@@ -88,13 +89,14 @@ export const pageQuery = graphql`
       html
       excerpt(pruneLength: 148)
       frontmatter {
-        date(formatString: "YYYY, MM")
+        date(formatString: "YYYY")
         slug
         title
         authors
         category
         jurnal
-        pdf
+        pdfLink
+        pdfFile
       }
     }
     pdfsData: allFile(filter: {extension: {eq: "pdf"}}) {

@@ -2,11 +2,12 @@
 template: publication
 title: A virtual reality task based on animal research–spatial learning and memory in patients after the first episode of schizophrenia
 slug: /fajnerova-2014
-date: 2014-05
+date: 2014-01
 authors: Fajnerova I., Rodriguez M., Levcik, D., Konradova L., Mikolas P., Brom C., Stuchlik A., Vlcek K., Horacek, J. 
 category: Journal
 jurnal: Frontiers in Behavioral Neuroscience, May 2014, Volume 8, Article 157
-pdf: "fajnerova-2014"
+pdfFile: "fajnerova-2014"
+pdfLink:
 ---
 
 ### Abstrakt

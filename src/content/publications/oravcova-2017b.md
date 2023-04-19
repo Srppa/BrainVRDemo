@@ -2,11 +2,12 @@
 template: publication
 title: WHAT, WHEN AND WHERE IT HAPPENED? A virtual reality study.
 slug: /oravcova-2017b
-date: 2017-04
+date: 2017-01
 authors: Oravcova I., Fajnerova I., Hejtmanek L., Sahula V., Plechata A., Vlcek K., Nekovarova T. 
 category: Uncategorized
 jurnal: Spring Brain Conference 2017 - Learning, Memory and Synaptic Plasticity - 23-26 April 2017 - Rungstedgaard – North Copenhagen, Denmark
-pdf: "oravcova-2017b"
+pdfFile: "oravcova-2017b"
+pdfLink:
 ---
 
 ### Abstrakt

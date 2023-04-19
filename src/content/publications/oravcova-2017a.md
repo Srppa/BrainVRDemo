@@ -6,7 +6,8 @@ date: 2017-01
 authors: Oravcova I., Fajnerova I., Hejtmanek L., Plechata A., Vlcek K., Nekovarova T.  
 category: Uncategorized
 jurnal: 1. česko-slovenská psychofarmakologická konference v Jeseníku 2017, 4. – 8. ledna 2017
-pdf: "oravcova-2017a"
+pdfFile: "oravcova-2017a"
+pdfLink:
 ---
 
 ### Abstrakt

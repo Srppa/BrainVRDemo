@@ -2,11 +2,12 @@
 template: publication
 title: Age-Related Differences With Immersive and Non-immersive Virtual Reality in Memory Assessment
 slug: /plechata-2019
-date: 2019-06
+date: 2019-01
 authors: Plechata A., Sahula V., Fayette Dan, Fajnerová I.
 category: Journal
 jurnal: Frontiers in Psychology
-pdf: "plechata-2019"
+pdfFile: "plechata-2019"
+pdfLink:
 ---
 
 ### Abstrakt

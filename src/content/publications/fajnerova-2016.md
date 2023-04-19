@@ -2,11 +2,12 @@
 template: publication
 title: Human cognitive enhancement tested in virtual city environment
 slug: /fajnerova-2016
-date: 2016-09
+date: 2016-01
 authors: Fajnerova I., Hejtmanek L., Rydlo H., Motyl J., Oravcova I., Zitka T., Hranicka J., Horacek J., Zackova E. 
 category: Conference proceedings
 jurnal: Proceedings of the 11th International Conference on Disability, Virtual Reality and Associated Technologies (ICDVRAT 2016)
-pdf: "fajnerova-2016"
+pdfFile: "fajnerova-2016"
+pdfLink:
 ---
 
 ### Abstrakt

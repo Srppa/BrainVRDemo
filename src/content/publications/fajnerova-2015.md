@@ -6,7 +6,8 @@ date: 2015-01
 authors: Fajnerova I., Rodriguez M., Spaniel F., Horacek J., Vlcek K., Levcik D., Stuchlik A., Brom C. 
 category: Conference proceedings 
 jurnal: 2015 INTERNATIONAL CONFERENCE ON VIRTUAL REHABILITATION PROCEEDINGS (ICVR)
-pdf: "fajnerova-2015"
+pdfFile: "fajnerova-2015"
+pdfLink:
 ---
 
 ### Abstrakt

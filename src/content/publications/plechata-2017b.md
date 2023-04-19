@@ -2,11 +2,12 @@
 template: publication
 title: Development of a virtual supermarket shopping taskfor cognitive remediation of memory and executivefunctions in schizophrenia
 slug: /plechata-2017b
-date: 2017-06
+date: 2017-01
 authors: Plechata A., Fajnerova I., Hejtmanek L., Sahula V.
 category: Conference proceedings
 jurnal: International Conference on Virtual Rehabilitation (ICVR) - 19.-21. 6. 2017, Montreal, Canada
-pdf: "plechata-2017b"
+pdfFile: "plechata-2017b"
+pdfLink:
 ---
 
 ### Abstrakt
