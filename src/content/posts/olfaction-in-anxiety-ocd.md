@@ -1,13 +1,13 @@
 ---
 template: blog-post
 title: Olfaktorická percepce a reaktivita u jedinců s úzkostnými a nutkavými rysy chování
-slug: /olfactory-perception
+slug: /olfaction-in-anxiety-ocd
 date: 2019-05-13 12:46
 description: Cílem této studie je objasnit, jak se liší jedinci s obsedantně-kompulzivními rysy chování a s obsedatně-kompulzivní poruchou od kontrolní skupiny v chování v odpovědi na čichovou stimulaci prezentovanou v rámci VR prostředí
 featuredImage: /assets/olfactory-thumbnail.jpg
 isActive: true
-contactName:  Karolína Zuzánková 
-contactEmail: karolina.zuzankova@nudz.cz
+contactName:  Dagmar Schwambergová 
+contactEmail: dagmar.schwambergova@nudz.cz
 ---
 
 ![Vr police thumbnail](/olfactory-thumbnail.jpg)

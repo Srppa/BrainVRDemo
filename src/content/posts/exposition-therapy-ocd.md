@@ -1,12 +1,12 @@
 ---
 template: blog-post
 title: Expoziční terapie pro pacienty s obsedantně-kompulzivní poruchou
-slug: /ocd-exposition
+slug: /exposition-therapy-ocd
 date: 2019-05-13 12:46
 description: Cílem tohoto projektu je tvorba aplikace ve virtuální realitě (VR) pro osoby s obsedantně-kompulzivní poruchou (OCD)
 featuredImage: /assets/ocd-exposition-thumbnail.png
 isActive: true
-contactName:  Karolína Zuzánková
+contactName: Karolína Zuzánková
 contactEmail: karolina.zuzankova@nudz.cz
 ---
 

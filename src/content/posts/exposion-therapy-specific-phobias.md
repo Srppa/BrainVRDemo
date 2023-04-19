@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: Expoziční terapie pro specifické fobie
-slug: /vr-training-flexibility
+slug: /exposion-therapy-specific-phobias
 date: 2019-05-13 12:46
 description: Cílem projektu je vytvoření terapeutického nástroje určeného pro expoziční terapii specifických fobií
 featuredImage: /assets/fobia-exposition-thumbnail.jpg
