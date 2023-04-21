@@ -45,7 +45,11 @@ const Contact = ({ data }) => {
         <p>Adresa: Národní ústav duševního zdraví, Topolová 748, 250 67, Klecany</p>
       </div>
       <div className="mail-container">
-      <p>Email:  <a className="contact-mail" href="mailto:info@brainvr.cz">info@brainvr.cz</a></p>
+      
+      <p>VR výzkum:  <a className="contact-mail" href="mailto:info@brainvr.cz">info@brainvr.cz</a></p>
+      <p>VR terapie:  <a className="contact-mail" href="mailto:vrterapie@nudz.cz">vrterapie@nudz.cz</a></p>
+       
+       
       <p className="to-form">nebo vyplňte kontaktní dotazník:</p>
       <form
           className="contact-form"

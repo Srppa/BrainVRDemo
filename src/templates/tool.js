@@ -10,66 +10,21 @@ const styles = {
   "article blockquote": {
     "background-color": "cardBg",
   },
-  pagination: {
-    a: {
-      color: "muted",
-      "&.is-active": {
-        color: "text",
-      },
-      "&:hover": {
-        color: "text",
-      },
-    },
-  },
 }
 
-const Pagination = props => (
-  <div className="pagination -post" sx={styles.pagination}>
-    <ul>
-      {props.previous && props.previous.frontmatter.template === "publication" && (
-        <li>
-          <Link to={props.previous.frontmatter.slug} rel="prev">
-            <p
-              sx={{
-                color: "muted",
-              }}
-            >
-              <span className="icon -left">
-                <RiArrowLeftLine />
-              </span>{" "}
-              Previous
-            </p>
-            <span className="page-title">
-              {props.previous.frontmatter.title}
-            </span>
-          </Link>
-        </li>
-      )}
-      {props.next && props.next.frontmatter.template === "publication" && (
-        <li>
-          <Link to={props.next.frontmatter.slug} rel="next">
-            <p
-              sx={{
-                color: "muted",
-              }}
-            >
-              Next{" "}
-              <span className="icon -right">
-                <RiArrowRightLine />
-              </span>
-            </p>
-            <span className="page-title">{props.next.frontmatter.title}</span>
-          </Link>
-        </li>
-      )}
-    </ul>
-  </div>
-)
-
 const Tool = ({ data, pageContext }) => {
-  const { markdownRemark } = data // data.markdownRemark holds your post data
+  const { markdownRemark, pdfsData  } = data // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark
 
+
+  let pdfLink = frontmatter.pdfLink;
+
+  if(pdfLink == null){
+    const pdfData = pdfsData.edges
+      .filter(edge => edge.node.name == frontmatter.pdfFile)
+  
+    pdfLink = pdfData[0].node.publicURL
+  }
   //pageContext
 
   return (
@@ -78,7 +33,7 @@ const Tool = ({ data, pageContext }) => {
         title={frontmatter.title}
         article={true}
       />
-      <article className="tool-post">
+      <article className="blog-post">
         <header className="featured-banner">
           <section className="article-header">
             <h1>{frontmatter.title}</h1>
@@ -87,9 +42,23 @@ const Tool = ({ data, pageContext }) => {
         </header>
 
         <div
-          className="tool-post-content"
+          className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
+        <div className="publication-additional-info">
+          <div>
+            <div className="publication-info-key"><span>Kategorie:</span></div>
+            <div className="publication-info-value"><span>{frontmatter.category}</span></div>
+          </div>
+          <div>
+            <div className="publication-info-key"><span>Datum:</span></div>
+            <div className="publication-info-value"><span>{frontmatter.date}</span></div>
+          </div>
+          <div>
+            <div className="publication-info-key"><span>Odkazy:</span></div>
+            <div className="publication-info-value publication-info-pdf"><a href={pdfLink} target="_blank">PDF</a></div>
+          </div>
+        </div>
       </article>
     </Layout>
   )
@@ -108,6 +77,19 @@ export const pageQuery = graphql`
         slug
         title
         authors
+        category
+        jurnal
+        pdfLink
+        pdfFile
+      }
+    }
+    pdfsData: allFile(filter: {extension: {eq: "pdf"}}) {
+      edges {
+        node {
+          id
+          name
+          publicURL
+        }
       }
     }
   }

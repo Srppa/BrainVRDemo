@@ -4,9 +4,9 @@ import { Link } from "gatsby"
 
 const ToolCard = ({ data }) => (
   <article
-    className="tool-card"
+    className="publication-card"
   >
-    <div className="tool-content">
+    <div className="publication-content">
       <h2 className="title">
         <Link
           to={data.frontmatter.slug}

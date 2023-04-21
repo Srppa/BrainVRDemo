@@ -8,14 +8,15 @@ const MediaCard = ({ data }) => (
   >
     <div className="media-content">
       <h3 className="title">
-        <Link
-          to={data.frontmatter.link}
+        <a
+          href={data.frontmatter.link}
+          target="_blank"
           sx={{
             variant: "links.mediaLink",
           }}
         >
           {data.frontmatter.title}
-        </Link>
+        </a>
       </h3>
       <p>{data.frontmatter.date}</p>
     </div>

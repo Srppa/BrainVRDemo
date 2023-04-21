@@ -1,7 +1,7 @@
 ---
 template: publication
 title: Dechový trénink ve virtuální realitě na podporu relaxace - pilotní studie. Česká a slovenská psychiatrie
-slug: /Francova-2019
+slug: /francova-2019
 date: 2019-01
 authors: Francova, A., Souláková, B., Procházkova, L., Fajnerova, I
 category: Jurnal
