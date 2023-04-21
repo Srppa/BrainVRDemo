@@ -15,7 +15,6 @@ const ParticipateCard = ({ data }) => (
           alt={data.frontmatter.title + " - Featured image"}
           className="featured-image"
           />
-          {data.frontmatter.title}
         </a>
       </h3>
     </div>
