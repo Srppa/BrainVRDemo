@@ -5,8 +5,8 @@ slug: /vr-city
 date: 2019-05-13 12:46
 description: Vývoj uceleného tréninkového programu pro stárnoucí populaci za pomocí imerzivní virtuální reality
 featuredImage: /assets/vr-city-thumb.jpg
-isActive: false
-contactName: somebody
+isActive: active
+contactName: Iveta Fajnarová
 contactEmail: somebody@brainvr.cz
 ---
 
