@@ -18,7 +18,7 @@ export const publicationsListQuery = graphql`
           id
           excerpt(pruneLength: 250)
           frontmatter {
-            date(formatString: "YYYY, MM")
+            date(formatString: "YYYY")
             slug
             title
             authors

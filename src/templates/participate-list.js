@@ -19,7 +19,6 @@ export const blogListQuery = graphql`
           id
           excerpt(pruneLength: 250)
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
             title 
             pdf
             featuredImage {

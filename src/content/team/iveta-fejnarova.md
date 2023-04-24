@@ -6,7 +6,7 @@ lastName: Fajnerová
 slug: /iveta-fejnarova
 order: 0
 category: core
-description: vedoucí výzkumného centra
+description: vedoucí centra
 featuredImage: /assets/members/iveta-fejnarova-thumbnail.jpg
 ---
 

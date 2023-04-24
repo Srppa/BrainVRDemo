@@ -20,7 +20,7 @@ const PublicationCard = ({ data }) => (
       <p
         className="meta"
       >
-        {data.frontmatter.authors}
+        {data.frontmatter.authors} ({data.frontmatter.date})
       </p>
     </div>
   </article>

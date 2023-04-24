@@ -19,7 +19,7 @@ export const newsListQuery = graphql`
           id
           excerpt(pruneLength: 250)
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "DD. MM. YYYY")
             slug
             title
             description

@@ -37,7 +37,7 @@ const Tool = ({ data, pageContext }) => {
         <header className="featured-banner">
           <section className="article-header">
             <h1>{frontmatter.title}</h1>
-            <p>{frontmatter.authors}</p>
+            <p>{frontmatter.authors} ({frontmatter.date})</p>
           </section>
         </header>
 
@@ -73,7 +73,7 @@ export const pageQuery = graphql`
       html
       excerpt(pruneLength: 148)
       frontmatter {
-        date(formatString: "YYYY, MM")
+        date(formatString: "YYYY")
         slug
         title
         authors

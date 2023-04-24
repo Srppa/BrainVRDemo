@@ -14,22 +14,6 @@ export const pageQuery = graphql`
         title
       }
     }
-    media: allMarkdownRemark(
-      filter: { frontmatter: { template: { eq: "media-link" } } }
-      limit: 4
-    ) {
-      edges {
-        node {
-          id
-          excerpt(pruneLength: 250)
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            link
-          }
-        }
-      }
-    }
   }
 `
 const AboutPage = ({ data }) => {

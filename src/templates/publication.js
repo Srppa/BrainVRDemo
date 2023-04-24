@@ -49,7 +49,7 @@ const Publication = ({ data, pageContext }) => {
         <header className="featured-banner">
           <section className="article-header">
             <h1>{frontmatter.title}</h1>
-            <p>{frontmatter.authors}</p>
+            <p>{frontmatter.authors} ({frontmatter.date})</p>
           </section>
         </header>
 

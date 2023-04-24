@@ -46,29 +46,6 @@ export const pageQuery = graphql`
         }
       }
     }
-    posts: allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
-      filter: { frontmatter: { template: { eq: "blog-post" } } }
-      limit: 6
-    ) {
-      edges {
-        node {
-          id
-          excerpt(pruneLength: 250)
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            slug
-            title
-            isActive
-            featuredImage {
-              childImageSharp {
-                gatsbyImageData(layout: CONSTRAINED, width: 128, height: 128)
-              }
-            }
-          }
-        }
-      }
-    }
     news: allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       filter: { frontmatter: { template: { eq: "news-post" } } }
@@ -79,7 +56,7 @@ export const pageQuery = graphql`
           id
           excerpt(pruneLength: 250)
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "DD. MM. YYYY")
             slug
             title
             description
