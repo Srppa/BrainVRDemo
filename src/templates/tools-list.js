@@ -11,6 +11,7 @@ export const toolsListQuery = graphql`
   query toolsListQuery {
     allMarkdownRemark(
       filter: { frontmatter: { template: { eq: "tool" } } }
+      sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {
         node {

@@ -19,3 +19,23 @@ VR centrum tvoří sekce odpovídající jednotlivým druhům činností, tj. kl
 **VR laboratoř** – výzkumná sekce odpovídá za výzkum v oblasti neurověd a neuropsychologie s využitím VR technologie zejména v oblasti testování kognitivních funkcí a souvisejících činností mozku
 
 **VR učebna** – výuková sekce odpovídá za vývoj a testování VR metod určených pro výuku psychiatrie pod výukovým pracovištěm 3LF UK
+
+**Naši partneři**
+
+[&#8594; Leiden University, Netherlands](https://www.universiteitleiden.nl/en/social-behavioural-sciences/psychology/cognitive-psychology)
+
+[&#8594; Max Planck Institute for Human Cognitive and Brain Sciences, Germany](https://www.cbs.mpg.de/en)
+
+[&#8594; Charité - Universitätsmedizin Berlin, Germany](https://www.charite.de/en/)
+
+[&#8594; České vysoké učení technické](https://www.cvut.cz/)
+
+[&#8594; Centrum MEMORY n.o., Bratislava, Slovakia](https://www.centrummemory.sk/)
+
+[&#8594; Elpida, o. p. s., Praha](https://www.elpida.cz/)
+
+[&#8594; Centrum duševního zdraví Karviná](https://www.cdzkarvina.cz/)
+
+[&#8594; Mezigenerační centrum Mezi námi,o.p.s.](http://mezigeneracne.cz/)
+
+[&#8594; Domov pro seniory Nová slunečnice](https://www.novaslunecnice.cz/)

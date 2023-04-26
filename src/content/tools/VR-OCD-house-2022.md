@@ -1,7 +1,7 @@
 ---
 template: tool
-title: Virtuální dům pro expoziční terapii obsedantně-kompulzivní poruchy
-slug: /virtual-house-exposition-ocd
+title: VR OCD House Virtuální dům pro expoziční terapii obsedantně-kompulzivní poruchy
+slug: /VR-OCD-house-2022
 date: 2022-01
 authors: Fajnerová, I., Francová, A. a Programátor Darmová, B.
 category: Nástroje

@@ -1,7 +1,7 @@
 ---
 template: tool
 title: Interaktivní herní aplikace jako screeningový nástroj kognitivních funkcí u dětí
-slug: /fajnerova-2014
+slug: /interactive-game-tool-2022
 date: 2022-01
 authors: Nekovářová T., Fajnerová I.
 category: Nástroje
