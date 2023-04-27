@@ -18,5 +18,5 @@ Cílem této studie je objasnit, jak se liší jedinci s obsedantně-kompulzivn�
 
 Projekt byl zahájen s finanční podporou Grantové agentury České republiky (GAČR), č. 22-31662S.
 
-![tacr logo](/logo-tacr.png)
+![gacr logo](/logo-gacr.png)
 
