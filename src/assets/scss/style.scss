@@ -46,11 +46,11 @@ h1{
     color: #2c3161;
     text-decoration: none;
     &:hover {
-      color: #001d3d
+      color: #3c3539
     }
   }
   a[aria-current="page"] {
-    color: #001d3d
+    color: #3c3539
   }
   .menu-trigger {
     display: none;
@@ -123,7 +123,7 @@ h1{
     color: #2c3161;
     text-decoration: none;
     &:hover {
-      color: #001d3d;
+      color: #3c3539;
     }
   }
   @media (max-width: $breakpoint-lg) {
@@ -194,7 +194,7 @@ h1{
 }
 
 .home-banner .description a:hover {
-  color:#001d3d;
+  color:#3c3539;
 }
 
 .home-banner.grids{
@@ -203,7 +203,7 @@ h1{
 
 .home-banner .button:hover{
   color: #fff;
-  background-color: #001d3d;
+  background-color: #3c3539;
 }
 
 .social-icons {
@@ -269,7 +269,7 @@ h1{
 }
 
 .news-home-list > .button:hover{
-  background-color: #001d3d;
+  background-color: #3c3539;
   color: #fff;
 }
 
@@ -500,7 +500,8 @@ h1{
 }
 
 .media-content p {
-  margin-top: 0;
+  margin-top: -2px;
+  font-size: medium;
 }
 
 .media-content .title > a{
@@ -549,7 +550,7 @@ h1{
 }
 
 .publications-home-posts .publication-card .meta {
-  color: #001d3d;
+  color: #3c3539;
 }
 
 .team-home-posts{
@@ -675,7 +676,7 @@ h1{
 }
 
 article{
-  color: #001d3d;
+  color: #3c3539;
 }
 article figure {
   margin: 40px 0;
@@ -811,7 +812,7 @@ article img {
 }
 
 .aboutLinks-container a:hover{
-  color: #001d3d;
+  color: #3c3539;
 }
 
 .about-page .aboutLinks{
@@ -820,7 +821,7 @@ article img {
 }
 
 .about-page .wrapper a{
-  color: #001d3d;
+  color: #3c3539;
 }
 
 // Buttons
@@ -841,10 +842,10 @@ article img {
   color: #fff;
   &.-outline {
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
-    background-color: #001d3d;
+    background-color: #3c3539;
     &:hover {
       box-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
-      background-color: #001d3d;
+      background-color: #3c3539;
     }
   }
   & + .button {
@@ -921,7 +922,7 @@ article img {
 }
 
 .contact-page .description a {
-  color: #001d3d;
+  color: #3c3539;
 }
 
 .contact-page .contact-info{
@@ -945,7 +946,7 @@ article img {
   }
 
   label {
-    color:#001d3d
+    color:#3c3539
   }
   input,
   textarea {

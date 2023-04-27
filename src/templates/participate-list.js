@@ -11,7 +11,6 @@ import Seo from "../components/seo"
 export const blogListQuery = graphql`
   query mediaListQuery {
     allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
       filter: { frontmatter: { template: { eq: "participate-link" } } }
     ) {
       edges {
@@ -58,7 +57,6 @@ class ParticipateIndex extends React.Component {
     //const pdfLink = pdfData[0].node.publicURL
 
     const posts = data.allMarkdownRemark.edges
-      .filter(edge => !!edge.node.frontmatter.date)
       .map(edge => <ParticipateCard key={edge.node.id} data={edge.node} />)
 
 
