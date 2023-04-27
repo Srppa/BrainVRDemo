@@ -22,7 +22,7 @@ Více informací můžete najít na stránkách ![vrmesto.cz](/https://vrmesto.c
 
 Projekt probíhá ve spolupráci se společností 3Dsense a byl financován Technologickou agenturou ČR v rámci projektu programu Éta č. TL01000309.
 
-![tacr logo](/logo-tacr.png)
+[tacr logo](/logo-tacr.png)
 
 ![tacr 3dsense](/logo-3dsense.png)
 

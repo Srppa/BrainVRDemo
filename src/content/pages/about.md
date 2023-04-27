@@ -20,7 +20,7 @@ VR centrum tvoří sekce odpovídající jednotlivým druhům činností, tj. kl
 
 **VR učebna** – výuková sekce odpovídá za vývoj a testování VR metod určených pro výuku psychiatrie pod výukovým pracovištěm 3LF UK
 
-**Naši partneři**
+**Naši partneři:**
 
 [&#8594; Leiden University, Netherlands](https://www.universiteitleiden.nl/en/social-behavioural-sciences/psychology/cognitive-psychology)
 
