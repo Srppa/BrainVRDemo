@@ -127,7 +127,7 @@ export const pageQuery = graphql`
         contactEmail
         featuredImage {
           childImageSharp {
-            gatsbyImageData(layout: FULL_WIDTH)
+            gatsbyImageData(layout: FULL_WIDTH,, transformOptions:{fit: COVER, cropFocus: CENTER})
           }
         }
       }
