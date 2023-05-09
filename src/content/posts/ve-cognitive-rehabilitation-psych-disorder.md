@@ -4,8 +4,8 @@ title: Využití virtuálního prostředí v kognitivní rehabilitaci u pacient�
 slug: /ve-cognitive-rehabilitation-psych-disorder
 featuredImage: /assets/emt-thumbnail.jpg
 isActive: true
-contactName: somebody
-contactEmail: somebody@brainvr.cz
+contactName: Iveta Fajnerová
+contactEmail: iveta.fajnerova@nudz.cz
 ---
 
 ![vr vs monitor thumb](/emt-thumbnail.jpg)

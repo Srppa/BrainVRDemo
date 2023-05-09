@@ -4,7 +4,7 @@ title: Virtual city for cognitive training in ecologically valid environment
 slug: /fajnerova-2022
 date: 2022-01
 authors: Fajnerová I., Hejtmánek L., Hurych J., Nekovářová N., Plechatá A.
-category: Jurnal
+category: Journal
 jurnal: Cognitive sciences
 pdfFile:
 pdfLink: https://www.tigis.cz/images/stories/psychiatrie/Psychiatrie_2022/Psychiatrie_3_2022/fajnerova_Psychiatrie_3_2022.pdf

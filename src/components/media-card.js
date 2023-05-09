@@ -7,8 +7,6 @@ const MediaCard = ({ data }) => (
     className="media-card"
   >
     <div className="media-content">
-      <p className="medium-info">{data.frontmatter.medium} {data.frontmatter.paid ? ("(placené)") : ("")}
-    </p>
       <h3 className="title">
         <a
           href={data.frontmatter.link}

@@ -1,15 +1,13 @@
 ---
 template: tool
 title: Virtuální město – série her pro kognitivní trénink seniorů.
-slug: /virtual-house-exposition-ocd
+slug: /VR-city-training-seniors-2021
 date: 2021-01
 authors: Fajnerová, I., Plechatá, A., Hejtmánek, L., Hrdlička, H., Wild, J.
 category: Nástroje
 pdfFile: 
 pdfLink: http://vrmesto.cz/
 ---
-
-### info
 
 Cílem projektu “Virtuální město” je vytvoření ucelené tréninkové aplikace v takzvaně “ekologicky validním” prostředí města, která umožní komplexní trénink vybraných kognitivních schopností u cílové skupiny seniorů. Realističnost virtuálního prostředí a modelových situací může usnadnit přenos osvojených strategií do reálného života. 
 

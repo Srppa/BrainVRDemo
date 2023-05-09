@@ -100,7 +100,7 @@ const Post = ({ data, pageContext }) => {
         {frontmatter.isActive ? (
           <div className="contactActive">
             <h3>Kontakt</h3>
-            <p>Kontaktní osobou pro tento projekt je {frontmatter.contactName}. Pokud máte zájem se účastnit na experimentu stačí kliknout na níže uvedenou emailovou adresu a poslat email.</p>
+            <p>Kontaktní osobou pro tento projekt je {frontmatter.contactName}. Pokud máte zájem účastnit se na experimentu, stačí kliknout na níže uvedenou emailovou adresu a poslat email</p>
             <a href={"mailto:" + frontmatter.contactEmail + "?subject=Účast na " + frontmatter.title}>{frontmatter.contactEmail}</a>
           </div>
         ) : (

@@ -115,7 +115,6 @@ export const pageQuery = graphql`
         date(formatString: "DD. MM. YYYY")
         slug
         title
-        description
         featuredImage {
           childImageSharp {
             gatsbyImageData(layout: FULL_WIDTH)

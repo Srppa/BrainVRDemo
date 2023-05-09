@@ -9,8 +9,6 @@ pdfFile:
 pdfLink: https://www.nudz.cz/fileadmin/user_upload/Ke_stazeni/Vyzkum/Vysledky/Sada_interaktivnich_hernich_aplikaci__ktere_slouzi_ke_screeningu_vybranych_kognitivnich_domen_u_deti_predskolniho_a_mladsiho_skolniho_veku..pdf
 ---
 
-### info
-
  - Tvůrci: Tereza Nekovářová, Iveta Fajnerová, Jiří Wild
    
  - Programátoři: Jiří Wild, Filip Vorel, Jan Hrdlička

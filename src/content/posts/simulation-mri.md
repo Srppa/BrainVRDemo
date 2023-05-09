@@ -2,8 +2,6 @@
 template: blog-post
 title: Virtuální magnetická rezonance
 slug: /simulation-mri
-date: 2019-05-13 12:46
-description: Cílem tohoto projektu je vytvoření VR aplikace, co nejvěrněji simulující celý proces, kterým musí pacient před vyšetřením v magnetické rezonanci projít
 featuredImage: /assets/vr-mri-thumbnail.png
 isActive: true
 contactName: Iveta Fajnerová

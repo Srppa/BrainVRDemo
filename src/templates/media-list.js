@@ -22,8 +22,6 @@ export const blogListQuery = graphql`
             date(formatString: "DD. MM. YYYY")
             title
             link
-            medium
-            paid
           }
         }
       }

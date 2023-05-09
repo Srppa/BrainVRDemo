@@ -2,8 +2,7 @@
 template: news-post
 title: Czech VRfest 2018
 slug: /czech-vrfest-2018
-date: 2018-06-22 12:00
-description: Skupina virtuální reality v neurovědách se 10.-12.5 zúčastnila 2. ročníku Czech VRfestu, který byl organizován Asociací virtuální a augmentované reality 
+date: 2018-06-22
 featuredImage: /assets/czechvrfest-thumbnail.jpg
 ---
 

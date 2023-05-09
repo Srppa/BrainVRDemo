@@ -2,8 +2,6 @@
 template: blog-post
 title: Výcvik připravenosti policistů pro psychicky a komunikačně náročné situace
 slug: /police-readines-training
-date: 2019-05-13 12:46
-description: Police VR (P-VR) má za cíl posílit schopnost policistů efektivně zvládat oznámení závažné zprávy a chránit tím zdraví všech zúčastněných
 featuredImage: /assets/vr-police-thumbnail.png
 isActive: true
 contactName: Eliška Procházková

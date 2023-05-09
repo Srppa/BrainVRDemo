@@ -2,8 +2,7 @@
 template: news-post
 title: Festival Na Hlavu 2018
 slug: /festivalnahlavu-2018
-date: 2018-05-22 12:00
-description: Skupina Virtuální realita v neurovědách ve spolupráci s komerčními firmami 3dsense a Xlab-Virtuix organizovala v rámci filmového festivalu Na hlavu
+date: 2018-05-22
 featuredImage: /assets/festivalnahlavu-2018-thumbnail.jpg
 ---
 

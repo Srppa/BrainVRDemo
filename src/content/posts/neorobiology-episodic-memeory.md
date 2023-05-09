@@ -4,8 +4,8 @@ title: Neurobiologie epizodické paměti
 slug: /neorobiology-episodic-memeory
 featuredImage: /assets/nem-thumbnail.jpg
 isActive: true
-contactName: somebody
-contactEmail: somebody@brainvr.cz
+contactName: Tereza Nekovářová
+contactEmail: tereza.nekovarova@nudz.cz
 ---
 
 ![vr vs monitor thumb](/nem-thumbnail.jpg)

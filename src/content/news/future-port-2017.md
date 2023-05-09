@@ -2,8 +2,7 @@
 template: news-post
 title: Future Port Prague 2017
 slug: /future-port-2017
-date: 2017-11-02 12:00
-description: Skupina Virtuální realita v neurovědách prezentovala své výzkumné projekty v průběhu festivalu a konference Future Port Prague 2017
+date: 2017-11-02
 featuredImage: /assets/futureport2017-thumbnail.jpg
 ---
 

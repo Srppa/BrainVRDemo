@@ -2,11 +2,9 @@
 template: blog-post
 title: Temná místnost
 slug: /dark-room
-date: 2019-05-13 12:46
-description: Cílem projektu je vytvoření terapeutického nástroje určeného pro práci s automatickými negativními myšlenkami u úzkostných poruch
 featuredImage: /assets/dark-room-thumbnail.png
 isActive: true
-contactName: Marketa Jablonska
+contactName: Markéta Jablonská
 contactEmail: marketa.jablonska@nudz.cz
 ---
 

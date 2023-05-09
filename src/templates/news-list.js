@@ -22,7 +22,6 @@ export const newsListQuery = graphql`
             date(formatString: "DD. MM. YYYY")
             slug
             title
-            description
             featuredImage {
               childImageSharp {
                 gatsbyImageData(layout: FIXED, width: 100, height: 100)
