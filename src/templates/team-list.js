@@ -76,12 +76,6 @@ class TeamIndex extends React.Component {
         <h1>Náš tým</h1>
         <div className="head-member">{headPosts}</div>
         <div className="grids col-1 sm-2 lg-3">{normalPosts}</div>
-        <h1>Stážisté</h1>
-        <div className="grids col-1 sm-2 lg-3">{internPosts}</div>
-        <h1>Alumni</h1>
-        <div className="grids col-1 sm-2 lg-3">{alumniPosts}</div>
-        <h1>Spolupracovníci</h1>
-        <div className="grids col-1 sm-2 lg-3">{externalPosts}</div>
       </Layout>
     )
   }
