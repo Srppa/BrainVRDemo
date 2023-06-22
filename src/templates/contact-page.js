@@ -46,7 +46,7 @@ const Contact = ({ data }) => {
       </div>
       <div className="mail-container">
       
-      <p>VR výzkum:  <a className="contact-mail" href="mailto:info@brainvr.cz">info@brainvr.cz</a></p>
+      <p>VR výzkum:  <a className="contact-mail" href="mailto:brainvrgroup@gmail.com">brainvrgroup@gmail.com</a></p>
       <p>VR terapie:  <a className="contact-mail" href="mailto:vrterapie@nudz.cz">vrterapie@nudz.cz</a></p>
        
        
