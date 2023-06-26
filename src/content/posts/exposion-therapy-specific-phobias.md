@@ -5,7 +5,7 @@ slug: /exposion-therapy-specific-phobias
 featuredImage: /assets/fobia-exposition-thumbnail.jpg
 isActive: true
 contactName: Markéta Jablonská a Anna Francová
-contactEmail: anna.francova@nudz.cz
+contactEmail: marketa.jablonska@nudz.cz
 ---
 
 ![fobia exposition thumbnail thumbnail](/fobia-exposition-thumbnail.jpg)
