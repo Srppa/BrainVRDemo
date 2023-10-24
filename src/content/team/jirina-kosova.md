@@ -6,7 +6,7 @@ lastName: Kosová
 slug: /jirina-kosova
 order: 1
 category: core
-description: výzkumný a vývojový pracovník
+description: výzkumná a vývojová pracovnice
 featuredImage: /assets/members/team-member-default.jpg
 ---
 

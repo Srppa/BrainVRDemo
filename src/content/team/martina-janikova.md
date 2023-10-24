@@ -6,7 +6,7 @@ lastName: Janíková
 slug: /martina-janikova
 order: 1
 category: core
-description: výzkumný a vývojový pracovník
+description: výzkumná a vývojová pracovnice
 featuredImage: /assets/members/martina-janikova-thumbnail.png
 ---
 
