@@ -29,5 +29,5 @@ Dovolujeme si Vás pozvat na workshop „Tradiční KBT metody obohacené pomoc�
 
 Workshop se koná za podpory grantových projektů TAČR Éta TL03000223 a TL03000637 projektu TAČR Gama TP01010062.
 
-![tacr](/logo-tacr.jpg "tacr")
+![tacr](/logo-tacr.png "tacr")
 

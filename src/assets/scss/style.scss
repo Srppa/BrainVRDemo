@@ -283,7 +283,8 @@ p{
 }
 
 .news-post-content a{
-  color: #3c3539
+  color: #2c3161;
+  text-decoration: underline;
 }
 
 .news-flex{
@@ -629,6 +630,9 @@ p{
     max-width: 768px;
     line-height: 1.3;
     font-weight: 600;
+  }
+  p{
+    text-align: center;
   }
   time {
     font-size: 14px;
