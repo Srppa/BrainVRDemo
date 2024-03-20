@@ -7,5 +7,5 @@ slug: /pavel-srp
 order: 1
 category: core
 description: programátor
-featuredImage: /assets/members/pavel-srp.jpg
+featuredImage: /assets/members/pavel-srp-thumbnail.jpg
 ---
