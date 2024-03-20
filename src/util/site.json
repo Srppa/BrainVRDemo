@@ -5,7 +5,8 @@
     "description": "Webové stránky centra pro výzkumu virtuální reality v duševním zdraví a neurovědách",
     "siteUrl": "https://brainvr.cz/",
     "image": "/assets/stackrole.png",
-    "iconimage": "/assets/icon.png"
+    "iconimage": "/assets/icon.png",
+    "twitterUsername": "@"
   },
   "ga": "UA-XXXXXXXXX-X"
 }
