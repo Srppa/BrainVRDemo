@@ -3,7 +3,7 @@
     "title": "BrainVR",
     "titleTemplate": "%s",
     "description": "Webové stránky centra pro výzkumu virtuální reality v duševním zdraví a neurovědách",
-    "siteUrl": "brainvr.cz",
+    "siteUrl": "https://brainvr.cz/",
     "image": "/assets/stackrole.png",
     "iconimage": "/assets/icon.png"
   },
