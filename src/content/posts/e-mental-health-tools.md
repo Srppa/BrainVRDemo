@@ -12,7 +12,7 @@ Projekt se věnuje využití e-mental health nástrojů (e-mental health: využ�
 
 ![e-mental-health-tools 1](/e-mental-health-tools-01.png)
 
-![e-mental-health-tools 2](/e-mental-health-tools-02.jpg)
+![e-mental-health-tools 2](/e-mental-health-tools-02.png)
 
 DigiWell: Excelentní výzkum v oblasti digitálních technologií a wellbeingu.
 
