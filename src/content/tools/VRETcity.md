@@ -5,7 +5,7 @@ slug: /VRETcity-tool
 date: 2023-01
 authors: Fajnerová I., Francová A., Jablonská M. K., Husák J., Stejskal J., Kotek M.
 category: Nástroje
-pdfFile: VRETcity-SW2023.pdf
+pdfFile: VRETcity-SW2023
 pdfLink:
 ---
 
