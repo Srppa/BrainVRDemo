@@ -20,12 +20,7 @@ const PostCard = ({ data }) => (
     )}
     <div className="post-content">
       <h2 className="title">
-        <Link
-          to={data.frontmatter.slug}
-          sx={{
-            variant: "links.postLink",
-          }}
-        >
+        <Link to={data.frontmatter.slug}>
           {data.frontmatter.title}
         </Link>
       </h2>

@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import { Link } from "gatsby"
-import { RiArrowDownLine, RiArrowRightSLine } from "react-icons/ri"
+import { RiArrowRightSLine } from "react-icons/ri"
 
 import NewsCard from "./news-card"
 
@@ -15,9 +15,7 @@ export default function NewsListHome(props) {
 
 const NewsMaker = ({ data }) => (
   <section className="home-news news-home-list">
-    <h2>
-      Aktuality{" "}
-    </h2>
+    <h2>Aktuality</h2>
     <div className="news-flex">{data}</div>
     <Link
       className="button"

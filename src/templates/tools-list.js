@@ -1,8 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import React from "react"
-import { Link, graphql } from "gatsby"
-import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import ToolCard from "../components/tool-card"
 import Seo from "../components/seo"
@@ -32,9 +31,7 @@ export const toolsListQuery = graphql`
 class ToolsIndex extends React.Component {
   render() {
     const { data } = this.props
-    //this.props.pageContext
-    const blogSlug = "/tools/"
-
+    
     const posts = data.allMarkdownRemark.edges
       .map(edge => <ToolCard key={edge.node.id} data={edge.node} />)
 
@@ -43,7 +40,7 @@ class ToolsIndex extends React.Component {
         <Seo
           title={"Tool — Page"}
           description={
-            "base tool page"
+            "List tools BrainVR has developed to improve psychical well-being using VR technology"
           }
         />
         <h1>Nástroje</h1>

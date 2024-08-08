@@ -87,16 +87,3 @@ class Navigation extends React.Component {
 }
 
 export default Navigation
-
-const navStyle = {
-  menu: {
-  },
-  theme: {
-    display: ["block", "block", "block", "none"],
-    p: " 25px 20px 20px",
-  },
-  border: {
-    borderTop: "1px solid transparent",
-    display: ["block", "block", "block", "none"],
-  },
-}

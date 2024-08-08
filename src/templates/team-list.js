@@ -1,8 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import React from "react"
-import { Link, graphql } from "gatsby"
-import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import MemberCard from "../components/member-card"
 import Seo from "../components/seo"
@@ -42,28 +41,29 @@ class TeamIndex extends React.Component {
     //this.props.pageContext
 
     const headPosts = data.allMarkdownRemark.edges
-      .filter(edge => edge.node.frontmatter.category == "core")
-      .filter(edge => edge.node.frontmatter.order == 0)
+      .filter(edge => edge.node.frontmatter.category === "core")
+      .filter(edge => edge.node.frontmatter.order === 0)
       .map(edge => <MemberCard key={edge.node.id} data={edge.node} />)
 
     const normalPosts = data.allMarkdownRemark.edges
-      .filter(edge => edge.node.frontmatter.category == "core")
-      .filter(edge => edge.node.frontmatter.order != 0)
+      .filter(edge => edge.node.frontmatter.category === "core")
+      .filter(edge => edge.node.frontmatter.order !== 0)
       .map(edge => <MemberCard key={edge.node.id} data={edge.node} />)
 
+    /*
     const internPosts = data.allMarkdownRemark.edges
-      .filter(edge => edge.node.frontmatter.category == "intern")
+      .filter(edge => edge.node.frontmatter.category === "intern")
       .map(edge => <MemberCard key={edge.node.id} data={edge.node} />)
 
 
     const alumniPosts = data.allMarkdownRemark.edges
-      .filter(edge => edge.node.frontmatter.category == "alumni")
+      .filter(edge => edge.node.frontmatter.category === "alumni")
       .map(edge => <MemberCard key={edge.node.id} data={edge.node} />)
 
     const externalPosts = data.allMarkdownRemark.edges
-      .filter(edge => edge.node.frontmatter.category == "external")
+      .filter(edge => edge.node.frontmatter.category === "external")
       .map(edge => <MemberCard key={edge.node.id} data={edge.node} />)
-
+    */
 
     return (
       <Layout className="blog-page">

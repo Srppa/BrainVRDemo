@@ -3,25 +3,12 @@ import { jsx } from "theme-ui"
 import { Link } from "gatsby"
 
 const ToolCard = ({ data }) => (
-  <article
-    className="publication-card"
-  >
+  <article className="publication-card">
     <div className="publication-content">
       <h2 className="title">
-        <Link
-          to={data.frontmatter.slug}
-          sx={{
-            variant: "links.postLink",
-          }}
-        >
-          {data.frontmatter.title}
-        </Link>
+        <Link to={data.frontmatter.slug}>{data.frontmatter.title}</Link>
       </h2>
-      <p
-        className="meta"
-      >
-        {data.frontmatter.authors} ({data.frontmatter.date})
-      </p>
+      <p className="meta">{data.frontmatter.authors} ({data.frontmatter.date})</p>
     </div>
   </article>
 )

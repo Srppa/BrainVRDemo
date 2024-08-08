@@ -1,8 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import React from "react"
-import { Link, graphql } from "gatsby"
-import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import NewsCard from "../components/news-card"
 import Seo from "../components/seo"
@@ -37,7 +36,6 @@ export const newsListQuery = graphql`
 class NewsIndex extends React.Component {
   render() {
     const { data } = this.props
-    const newsSlug = "/news/"
 
     const news = data.allMarkdownRemark.edges
       .filter(edge => !!edge.node.frontmatter.date)
@@ -46,9 +44,9 @@ class NewsIndex extends React.Component {
     return (
       <Layout className="news-page">
         <Seo
-          title={"News — Page "}
+          title={"News - Page"}
           description={
-            "Stackrole base news page "
+            "Info about new events that BrainVR group will be part of"
           }
         />
         <h1>Aktuality</h1>

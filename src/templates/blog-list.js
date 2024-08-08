@@ -1,8 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import React from "react"
-import { Link, graphql } from "gatsby"
-import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import PostCard from "../components/post-card"
 import Seo from "../components/seo"
@@ -39,11 +38,11 @@ class BlogIndex extends React.Component {
     const { data } = this.props
 
     const posts = data.allMarkdownRemark.edges
-      .filter(edge => edge.node.frontmatter.isActive == true)
+      .filter(edge => edge.node.frontmatter.isActive === true)
       .map(edge => <PostCard key={edge.node.id} data={edge.node} />)
 
     const inactivePosts = data.allMarkdownRemark.edges
-      .filter(edge => edge.node.frontmatter.isActive == false)
+      .filter(edge => edge.node.frontmatter.isActive === false)
       .map(edge => <PostCard key={edge.node.id} data={edge.node} />)
 
     return (

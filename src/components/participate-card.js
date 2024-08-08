@@ -9,13 +9,13 @@ const ParticipateCard = ({ data }) => (
   >
     <div className="media-content">
       <h3 className="title">
-        <a href={data.frontmatter.pdfURL} target="_blank" className="participate-link-container">
+        <Link to={data.frontmatter.pdfURL} target="_blank" className="participate-link-container">
           <GatsbyImage
           image={data.frontmatter.featuredImage.childImageSharp.gatsbyImageData}
           alt={data.frontmatter.title + " - Featured image"}
           className="featured-image"
           />
-        </a>
+        </Link>
       </h3>
     </div>
   </article>

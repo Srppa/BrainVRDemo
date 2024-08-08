@@ -1,8 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import React from "react"
-import { Link, graphql } from "gatsby"
-import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import ParticipateCard from "../components/participate-card"
 import Seo from "../components/seo"
@@ -43,30 +42,24 @@ export const blogListQuery = graphql`
 class ParticipateIndex extends React.Component {
   render() {
     const {data} = this.props
-    const ParticipateSlug = "/participate/"
 
     console.log(data.pdfsData);
 
     data.allMarkdownRemark.edges.forEach(element => {
       const selected = data.pdfsData.edges
-        .filter(edge => edge.node.name == element.node.frontmatter.pdf)
+        .filter(edge => edge.node.name === element.node.frontmatter.pdf)
       element.node.frontmatter.pdfURL = selected[0].node.publicURL
     });
-
-  
-    //const pdfLink = pdfData[0].node.publicURL
 
     const posts = data.allMarkdownRemark.edges
       .map(edge => <ParticipateCard key={edge.node.id} data={edge.node} />)
 
-
-
     return (
       <Layout className="participate-page">
         <Seo
-          title={"Participate — Page "}
+          title={"Participate - Page"}
           description={
-            "brain vr participate page "
+            "Do you want to participate in VR experimnts - you are at right place!"
           }
         />
         <h1>Zapojte se</h1>

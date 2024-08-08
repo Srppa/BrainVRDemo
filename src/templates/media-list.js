@@ -1,8 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import React from "react"
-import { Link, graphql } from "gatsby"
-import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import PostCard from "../components/media-card"
 import Seo from "../components/seo"
@@ -32,7 +31,6 @@ export const blogListQuery = graphql`
 class MediaIndex extends React.Component {
   render() {
     const { data } = this.props
-    const mediaSlug = "/media/"
 
     const posts = data.allMarkdownRemark.edges
       .filter(edge => !!edge.node.frontmatter.date)

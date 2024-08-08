@@ -1,40 +1,19 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import { Link, useStaticQuery, graphql } from "gatsby"
-import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-
-
-
-const styles = {
-  "article blockquote": {
-    "background-color": "cardBg",
-  },
-  pagination: {
-    a: {
-      color: "muted",
-      "&.is-active": {
-        color: "text",
-      },
-      "&:hover": {
-        color: "text",
-      },
-    },
-  },
-}
-
-const Publication = ({ data, pageContext }) => {
+const Publication = ({ data }) => {
   const { markdownRemark, pdfsData } = data // data.markdownRemark holds your post data
-  const { frontmatter, html, excerpt } = markdownRemark
+  const { frontmatter, html } = markdownRemark
 
   let pdfLink = frontmatter.pdfLink;
 
   if(pdfLink == null){
     const pdfData = pdfsData.edges
-      .filter(edge => edge.node.name == frontmatter.pdfFile)
+      .filter(edge => edge.node.name === frontmatter.pdfFile)
   
     pdfLink = pdfData[0].node.publicURL
   }
@@ -72,7 +51,7 @@ const Publication = ({ data, pageContext }) => {
           </div>
           <div>
             <div className="publication-info-key"><span>Odkazy:</span></div>
-            <div className="publication-info-value publication-info-pdf"><a href={pdfLink} target="_blank">PDF</a></div>
+            <div className="publication-info-value publication-info-pdf"><a href={pdfLink} target="_blank" rel="noreferrer">PDF</a></div>
           </div>
         </div>
       </article>

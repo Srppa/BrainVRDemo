@@ -56,11 +56,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       component: path.resolve(
         `src/templates/${String(post.node.frontmatter.template)}.js`
       ),
-      // additional data can be passed via context
       context: {
         id,
-        //previous,
-        //next,
       },
     })
   })

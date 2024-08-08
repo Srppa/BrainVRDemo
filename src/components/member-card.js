@@ -4,9 +4,7 @@ import { Link } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 
 const MemberCard = ({ data }) => (
-  <article
-    className="member-card"
-  >
+  <article className="member-card">
     {data.frontmatter.featuredImage ? (
       <Link to={data.frontmatter.slug}>
         <GatsbyImage
@@ -20,15 +18,11 @@ const MemberCard = ({ data }) => (
     )}
     <div className="member-card-content">
       <h2 className="title">
-        <Link
-          to={data.frontmatter.slug}
-        >
+        <Link to={data.frontmatter.slug}>
           {data.frontmatter.title}
         </Link>
       </h2>
-      <p
-        className="meta"
-      >
+      <p className="meta" >
         {data.frontmatter.description}
       </p>
     </div>

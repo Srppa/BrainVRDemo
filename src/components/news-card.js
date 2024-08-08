@@ -21,12 +21,7 @@ const NewsCard = ({ data }) => (
     )}
     <div className="news-content">
       <h2 className="title">
-        <Link
-          to={data.frontmatter.slug}
-          sx={{
-            variant: "links.newsLink",
-          }}
-        >
+        <Link to={data.frontmatter.slug}>
           {data.frontmatter.title}
         </Link>
       </h2>

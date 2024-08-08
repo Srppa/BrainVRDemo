@@ -1,71 +1,10 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import { Link, graphql } from "gatsby"
-import { GatsbyImage } from "gatsby-plugin-image"
-import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const styles = {
-  "article blockquote": {
-    "background-color": "cardBg",
-  },
-  pagination: {
-    a: {
-      color: "muted",
-      "&.is-active": {
-        color: "text",
-      },
-      "&:hover": {
-        color: "text",
-      },
-    },
-  },
-}
-
-const Pagination = props => (
-  <div className="pagination -post" sx={styles.pagination}>
-    <ul>
-      {props.previous && props.previous.frontmatter.template === "news-post" && (
-        <li>
-          <Link to={props.previous.frontmatter.slug} rel="prev">
-            <p
-              sx={{
-                color: "muted",
-              }}
-            >
-              <span className="icon -left">
-                <RiArrowLeftLine />
-              </span>{" "}
-              Previous
-            </p>
-            <span className="page-title">
-              {props.previous.frontmatter.title}
-            </span>
-          </Link>
-        </li>
-      )}
-      {props.next && props.next.frontmatter.template === "news-post" && (
-        <li>
-          <Link to={props.next.frontmatter.slug} rel="next">
-            <p
-              sx={{
-                color: "muted",
-              }}
-            >
-              Next{" "}
-              <span className="icon -right">
-                <RiArrowRightLine />
-              </span>
-            </p>
-            <span className="page-title">{props.next.frontmatter.title}</span>
-          </Link>
-        </li>
-      )}
-    </ul>
-  </div>
-)
 
 const NewsPost = ({ data, pageContext }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
@@ -90,7 +29,7 @@ const NewsPost = ({ data, pageContext }) => {
         <header className="featured-banner">
           <section className="article-header">
             <h1>{frontmatter.title}</h1>
-            <time sx={{color: "muted"}}>{frontmatter.date}</time>
+            <time>{frontmatter.date}</time>
           </section>
         </header>
 

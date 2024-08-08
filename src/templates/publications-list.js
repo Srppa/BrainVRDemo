@@ -1,8 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import React from "react"
-import { Link, graphql } from "gatsby"
-import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import PublicationCard from "../components/publication-card"
 import Seo from "../components/seo"
@@ -32,8 +31,6 @@ export const publicationsListQuery = graphql`
 class PublicationsIndex extends React.Component {
   render() {
     const { data } = this.props
-    //this.props.pageContext
-    const blogSlug = "/publications/"
 
     const posts = data.allMarkdownRemark.edges
       .map(edge => <PublicationCard key={edge.node.id} data={edge.node} />)
@@ -41,9 +38,9 @@ class PublicationsIndex extends React.Component {
     return (
       <Layout className="blog-page">
         <Seo
-          title={"Blog — Page"}
+          title={"Projets — Page"}
           description={
-            "Stackrole base blog page"
+            "List of all projects BrainVR in woking on as well as past endeavors"
           }
         />
         <h1>Publikace</h1>

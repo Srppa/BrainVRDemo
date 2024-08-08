@@ -26,7 +26,7 @@ export const pageQuery = graphql`
 
 const Contact = ({ data }) => {
   const { markdownRemark, site } = data // data.markdownRemark holds your post data
-  const { frontmatter, html } = markdownRemark
+  const { frontmatter } = markdownRemark
 
   return (
     <Layout className="contact-page">
