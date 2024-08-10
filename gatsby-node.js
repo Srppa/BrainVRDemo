@@ -1,6 +1,8 @@
 const path = require("path")
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const { Console } = require("console")
+const messages = require("./i18n-translations.json")
+const {languages, defaultLanguage} = require("./src/i18n");
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
@@ -115,3 +117,31 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     })
   }
 }
+
+/*exports.onCreatePage = async ({page, actions}) => {
+  const {createPage, deletePage} = actions;
+  return new Promise((resolve) => {
+    let path = page.path;
+    deletePage(page);
+
+    for (let language of languages) {
+      const isDefaultLanguage = language === defaultLanguage;
+      if (!isDefaultLanguage) {
+        path = '/' + language + page.path;
+      }
+
+      const pageForLanguage = Object.assign({}, page, {
+        originalPath: page.path,
+        path: path,
+        context: {
+          language,
+          messages: messages[language]
+        }
+      });
+      createPage(pageForLanguage)
+    }
+    resolve()
+  })
+};
+https://simplelocalize.io/blog/posts/gatsby-i18n/
+*/

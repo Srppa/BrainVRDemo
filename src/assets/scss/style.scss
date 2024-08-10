@@ -1202,6 +1202,24 @@ figcaption {
   }
 }
 
+/*not-found and thank*/
+
+.not-found-page .wrapper {
+  text-align: center;
+}
+
+.not-found-page .wrapper p {
+  text-align: center;
+}
+
+.thanks-page .wrapper{
+  text-align: center;
+}
+
+.thanks-page .wrapper p {
+  text-align: center;
+}
+
 @import "utility";
 
 // Libraries

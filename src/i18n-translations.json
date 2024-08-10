@@ -1,0 +1,16 @@
+{
+  "en" : {
+    "welcome-on-our-website" : "Welcome on our multi-language website",
+    "hello-world" : "Hello World!",
+    "about-us" : "About us",
+    "learn-more-about-us" : "Learn more about us",
+    "homepage" : "Homepage"
+  },
+  "cz": {
+    "welcome-on-our-website" : "bus",
+    "hello-world" : "čusHello World!",
+    "about-us" : "About ussss",
+    "learn-more-about-us" : "Ldddearn more about us",
+    "homepage" : "Homepageeeeeeeeeeeeeeeeee"
+  }
+}

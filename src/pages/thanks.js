@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { RiArrowLeftSLine, RiCheckboxCircleLine } from "react-icons/ri"
+import { RiArrowLeftSLine } from "react-icons/ri"
 
 import Seo from "../components/seo"
 import Layout from "../components/layout"
@@ -8,23 +8,12 @@ import Layout from "../components/layout"
 const Thanks = () => (
   <Layout className="thanks-page">
     <Seo title="Thank you" />
-    <div
-      className="wrapper"
-      style={{
-        textAlign: "center",
-      }}
-    >
-      <RiCheckboxCircleLine
-        style={{
-          fontSize: "128px",
-          color: "var(--primary-color)",
-        }}
-      />
-      <h1>Got your message</h1>
-      <p>Thank you for getting in touch us. We will get back to you shortly.</p>
+    <div className="wrapper">
+      <h1>Vaši zprávu jsme přijali</h1>
+      <p>Děkujeme za zájem, brzy se vám ozveme</p>
       <Link to="/" className="button">
         <RiArrowLeftSLine className="icon -left" />
-        Lets go back to Homepage
+        Domovská stránka
       </Link>
     </div>
   </Layout>
