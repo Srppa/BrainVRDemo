@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: project-post
 title: Expoziční terapie pro fobie
 slug: /exposion-therapy-specific-phobias
 featuredImage: /assets/fobia-exposition-thumbnail.jpg

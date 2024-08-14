@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: project-post
 title: Neurobiologie epizodické paměti
 slug: /neorobiology-episodic-memeory
 featuredImage: /assets/nem-thumbnail.jpg

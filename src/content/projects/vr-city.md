@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: project-post
 title: Virtuální město pro trénink kognice u seniorů
 slug: /vr-city
 featuredImage: /assets/vr-city-thumb.jpg

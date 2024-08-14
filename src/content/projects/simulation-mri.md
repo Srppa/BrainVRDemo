@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: project-post
 title: Virtuální magnetická rezonance
 slug: /simulation-mri
 featuredImage: /assets/vr-mri-thumbnail.png

@@ -1,13 +1,14 @@
 const path = require("path")
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const { Console } = require("console")
-const messages = require("./i18n-translations.json")
+
+const messages = require("./src/i18n-translations.json")
 const {languages, defaultLanguage} = require("./src/i18n");
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
 
-  const blogList = path.resolve(`./src/templates/blog-list.js`)
+  const projectList = path.resolve(`./src/templates/project-list.js`)
 
   const teamList = path.resolve(`./src/templates/team-list.js`)
 
@@ -30,8 +31,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
             frontmatter {
               slug
               template
-              title
-              pdf
+              language
             }
           }
         }
@@ -50,7 +50,11 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     	.filter(edge => edge.node.frontmatter.template != "media-link")
       .filter(edge => edge.node.frontmatter.template != "participate-link")
 
-  posts.forEach((post, index) => {
+  //TODO: change to == "cz"
+  const czPosts = posts.filter(edge => edge.node.frontmatter.language != "en") 
+  const enPosts = posts.filter(edge => edge.node.frontmatter.language == "en")       
+
+  czPosts.forEach((post, index) => {
     const id = post.node.id
 
     createPage({
@@ -64,19 +68,29 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     })
   })
 
-  //blog
-  createPage({
-    path: `/projects`,
-    component: blogList,
+  enPosts.forEach((post, index) => {
+    const id = post.node.id
+
+    createPage({
+      path: "/en" + post.node.frontmatter.slug,
+      component: path.resolve(
+        `src/templates/${String(post.node.frontmatter.template)}.js`
+      ),
+      context: {
+        id,
+      },
+    })
   })
 
-  // team-members
+  createPage({
+    path: `/projects`,
+    component: projectList,
+  })
+
   createPage({
     path: `/team`,
     component: teamList
   })
-
-  //publications
 
   createPage({
     path: `/publications`,
@@ -142,6 +156,4 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     }
     resolve()
   })
-};
-https://simplelocalize.io/blog/posts/gatsby-i18n/
-*/
+};*/

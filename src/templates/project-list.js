@@ -3,7 +3,7 @@ import { jsx } from "theme-ui"
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import PostCard from "../components/post-card"
+import ProjectCard from "../components/project-card"
 import Seo from "../components/seo"
 
 
@@ -11,7 +11,7 @@ export const blogListQuery = graphql`
   query blogListQuery {
     allMarkdownRemark(
       sort: { order: ASC, fields: [frontmatter___title] }
-      filter: { frontmatter: { template: { eq: "blog-post" } } }
+      filter: { frontmatter: { template: { eq: "project-post" } } }
     ) {
       edges {
         node {
@@ -33,17 +33,17 @@ export const blogListQuery = graphql`
   }
 `
 
-class BlogIndex extends React.Component {
+class ProjectIndex extends React.Component {
   render() {
     const { data } = this.props
 
     const posts = data.allMarkdownRemark.edges
       .filter(edge => edge.node.frontmatter.isActive === true)
-      .map(edge => <PostCard key={edge.node.id} data={edge.node} />)
+      .map(edge => <ProjectCard key={edge.node.id} data={edge.node} />)
 
     const inactivePosts = data.allMarkdownRemark.edges
       .filter(edge => edge.node.frontmatter.isActive === false)
-      .map(edge => <PostCard key={edge.node.id} data={edge.node} />)
+      .map(edge => <ProjectCard key={edge.node.id} data={edge.node} />)
 
     return (
       <Layout className="blog-page">
@@ -62,4 +62,4 @@ class BlogIndex extends React.Component {
   }
 }
 
-export default BlogIndex
+export default ProjectIndex

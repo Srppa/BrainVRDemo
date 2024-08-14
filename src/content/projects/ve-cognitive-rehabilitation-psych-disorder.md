@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: project-post
 title: Využití virtuálního prostředí v kognitivní rehabilitaci u pacientů s psychiatrickým onemocněním
 slug: /ve-cognitive-rehabilitation-psych-disorder
 featuredImage: /assets/emt-thumbnail.jpg

@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: project-post
 title: E-mental health nástroje pro podporu duševního zdraví a wellbeingu
 slug: /e-mental-health-tools
 featuredImage: /assets/e-mental-health-tools-thumbnail.png

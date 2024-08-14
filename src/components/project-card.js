@@ -3,7 +3,7 @@ import { jsx } from "theme-ui"
 import { Link } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 
-const PostCard = ({ data }) => (
+const ProjectCard = ({ data }) => (
   <article className="post-card">
     {data.frontmatter.featuredImage ? (
       <div className="post-card-container">
@@ -28,4 +28,4 @@ const PostCard = ({ data }) => (
   </article>
 )
 
-export default PostCard
+export default ProjectCard

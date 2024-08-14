@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: project-post
 title: Výcvik připravenosti policistů pro psychicky a komunikačně náročné situace
 slug: /police-readines-training
 featuredImage: /assets/vr-police-thumbnail.png

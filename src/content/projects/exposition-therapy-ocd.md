@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: project-post
 title: Expoziční terapie pro pacienty s obsedantně-kompulzivní poruchou
 slug: /exposition-therapy-ocd
 featuredImage: /assets/ocd-exposition-thumbnail.png

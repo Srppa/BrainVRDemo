@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: project-post
 title: Temná místnost
 slug: /dark-room
 featuredImage: /assets/dark-room-thumbnail.png

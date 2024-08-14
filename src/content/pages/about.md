@@ -2,6 +2,7 @@
 template: about-page
 slug: /about
 title: O nás
+language: cz
 ---
 
 Hlavním cílem centra je uplatnění technologie virtuální reality (VR) v komplexní péči o duševní zdraví, ve vzdělávání a výzkumu v oblasti psychiatrie a neurověd. Hlavním posláním centra je péče o duševní zdraví a s tím související vývoj a testování inovativních VR metod, které by bylo možné uplatnit v oblasti diagnostiky a terapie neuropsychiatrických onemocnění (zejména úzkostných poruch, obsedantně-kompulzivní poruchy atd.) a rehabilitaci kognitivního deficitu (zejména u neurodegenerativních onemocnění a schizofrenie).
@@ -36,6 +37,6 @@ VR centrum tvoří sekce odpovídající jednotlivým druhům činností, tj. kl
 
 [&#8594; Centrum duševního zdraví Karviná](https://www.cdzkarvina.cz/)
 
-[&#8594; Mezigenerační centrum Mezi námi,o.p.s.](http://mezigeneracne.cz/)
+[&#8594; Mezigenerační centrum Mezi námi, o.p.s.](http://mezigeneracne.cz/)
 
 [&#8594; Domov pro seniory Nová slunečnice](https://www.novaslunecnice.cz/)

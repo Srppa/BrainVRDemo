@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: project-post
 title: Virtuální trénink kognitivní flexibility u pacientů s obsedantně-kompulzivní poruchou
 slug: /training-flexibility-ocd
 featuredImage: /assets/vr-training-flexibility-thumbnail.png

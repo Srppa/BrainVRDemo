@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: project-post
 title: Studie inhibiční kontroly lidí s obsedantně kompulzivní poruchou
 slug: /pathophysiology-ocd-study
 featuredImage: /assets/pathophysiology-thumbnail.jpg

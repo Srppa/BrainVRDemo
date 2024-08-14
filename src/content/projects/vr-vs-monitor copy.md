@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: project-post
 title: HCENAT
 slug: /hcenat
 featuredImage: /assets/hcenat-thumbnail.jpg

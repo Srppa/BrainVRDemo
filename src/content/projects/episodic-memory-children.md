@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: project-post
 title: Epizodická pamět u dětí
 slug: /episodic-memory-children
 featuredImage: /assets/emch-thumbnail.jpg

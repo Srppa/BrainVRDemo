@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: project-post
 title: Porovnání imerzivní a neimerzivní virtuální reality v hodnocení paměťových schopností u seniorů
 slug: /vr-vs-monitor
 featuredImage: /assets/vr-vs-monitor-thumb.jpg

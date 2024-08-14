@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: project-post
 title: Olfaktorická percepce a reaktivita u jedinců s úzkostnými a nutkavými rysy chování
 slug: /olfaction-in-anxiety-ocd
 featuredImage: /assets/olfactory-thumbnail.jpg

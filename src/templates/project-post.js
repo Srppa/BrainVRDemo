@@ -53,7 +53,7 @@ const Post = ({ data, pageContext }) => {
 export default Post
 
 export const pageQuery = graphql`
-  query BlogPostQuery($id: String!) {
+  query ProjectPostQuery($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
