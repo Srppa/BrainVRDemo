@@ -41,7 +41,7 @@ export const blogListQuery = graphql`
 
 class ParticipateIndex extends React.Component {
   render() {
-    const {data} = this.props
+    const {data, pageContext} = this.props
 
     console.log(data.pdfsData);
 
@@ -55,7 +55,7 @@ class ParticipateIndex extends React.Component {
       .map(edge => <ParticipateCard key={edge.node.id} data={edge.node} />)
 
     return (
-      <Layout className="participate-page">
+      <Layout pageContext={pageContext} className="participate-page">
         <Seo
           title={"Participate - Page"}
           description={

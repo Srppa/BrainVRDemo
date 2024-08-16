@@ -7,9 +7,13 @@ import Navigation from "./navigation"
 import "../assets/scss/style.scss"
 import Footer from "./footer"
 
-const Layout = ({ children, className, props }) => {
+const Layout = ({ children, className, pageContext}) => {
+
+  console.log("layout");
+  console.log(pageContext);
+
   return (
-    <div className="primary-container">
+      <div className="primary-container">
       <div className="header-outside">
         <header className="site-header">
           <div className="site-logo">
@@ -21,14 +25,15 @@ const Layout = ({ children, className, props }) => {
             </Link>
           </div>
           <div>
-            <Navigation />
+            <Navigation pageContext={pageContext}/>
           </div>
-        
         </header>
       </div>
       <div className="participate-container">
         <div className="participate-container-inner">
-          <Link to="/participate">Zapojte se</Link>
+          <Link to="/participate">
+            {pageContext?pageContext.messages["participate"]:"plz"}
+          </Link>
         </div>    
       </div>
       <main className={"container " + className}>{children}</main>

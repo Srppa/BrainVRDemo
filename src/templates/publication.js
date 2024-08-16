@@ -5,7 +5,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const Publication = ({ data }) => {
+const Publication = ({ data, pageContext }) => {
   const { markdownRemark, pdfsData } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
 
@@ -19,7 +19,7 @@ const Publication = ({ data }) => {
   }
 
   return (
-    <Layout className="page">
+    <Layout pageContext={pageContext} className="page">
       <Seo
         title={frontmatter.title}
         article={true}

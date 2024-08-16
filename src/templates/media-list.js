@@ -30,14 +30,14 @@ export const blogListQuery = graphql`
 
 class MediaIndex extends React.Component {
   render() {
-    const { data } = this.props
+    const { data, pageContext } = this.props
 
     const posts = data.allMarkdownRemark.edges
       .filter(edge => !!edge.node.frontmatter.date)
       .map(edge => <PostCard key={edge.node.id} data={edge.node} />)
 
     return (
-      <Layout className="media-page">
+      <Layout pageContext={pageContext} className="media-page">
         <Seo
           title={"Media — Page "}
           description={

@@ -64,6 +64,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       ),
       context: {
         id,
+        language: "cz",
+        messages: messages["cz"]
       },
     })
   })
@@ -78,6 +80,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       ),
       context: {
         id,
+        language: "en",
+        messages: messages["en"]
       },
     })
   })
@@ -85,36 +89,128 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   createPage({
     path: `/projects`,
     component: projectList,
+    context: {
+      language: "cz",
+      messages: messages["cz"]
+    },
+  })
+
+  createPage({
+    path: `/en/projects`,
+    component: projectList,
+    context: {
+      language: "en",
+      messages: messages["en"]
+    },
   })
 
   createPage({
     path: `/team`,
-    component: teamList
+    component: teamList,
+    context: {
+      language: "cz",
+      messages: messages["cz"]
+    },
+  })
+
+  createPage({
+    path: `/en/team`,
+    component: teamList,
+    context: {
+      language: "en",
+      messages: messages["en"]
+    },
   })
 
   createPage({
     path: `/publications`,
     component: publicationsList,
+    context: {
+      language: "cz",
+      messages: messages["cz"]
+    },
   })
+
+  createPage({
+    path: `/en/publications`,
+    component: publicationsList,
+    context: {
+      language: "en",
+      messages: messages["en"]
+    },
+  })
+
   
   createPage({
     path: `/media`,
     component: mediaList,
+    context: {
+      language: "cz",
+      messages: messages["cz"]
+    },
+  })
+
+  createPage({
+    path: `/en/media`,
+    component: mediaList,
+    context: {
+      language: "en",
+      messages: messages["en"]
+    },
   })
 
   createPage({
     path: `/news`,
     component: newsList,
+    context: {
+      language: "cz",
+      messages: messages["cz"]
+    },
+  })
+
+  createPage({
+    path: `/en/news`,
+    component: newsList,
+    context: {
+      language: "en",
+      messages: messages["en"]
+    },
   })
 
   createPage({
     path: `/tools`,
     component: toolsList,
+    context: {
+      language: "cz",
+      messages: messages["cz"]
+    },
+  })
+
+  createPage({
+    path: `/en/tools`,
+    component: toolsList,
+    context: {
+      language: "en",
+      messages: messages["en"]
+    },
   })
 
   createPage({
     path: `/participate`,
     component: participateList,
+    context: {
+      language: "cz",
+      messages: messages["cz"]
+    },
+  })
+
+  createPage({
+    path: `/en/participate`,
+    component: participateList,
+    context: {
+      language: "en",
+      messages: messages["en"],
+    },
   })
 
   

@@ -30,13 +30,13 @@ export const toolsListQuery = graphql`
 
 class ToolsIndex extends React.Component {
   render() {
-    const { data } = this.props
+    const { data, pageContext } = this.props
     
     const posts = data.allMarkdownRemark.edges
       .map(edge => <ToolCard key={edge.node.id} data={edge.node} />)
 
     return (
-      <Layout className="blog-page">
+      <Layout pageContext={pageContext} className="blog-page">
         <Seo
           title={"Tool — Page"}
           description={

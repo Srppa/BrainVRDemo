@@ -2,8 +2,10 @@ import React from "react";
 import {IntlProvider} from "react-intl";
 
 function SimpleLocalize(props) {
-  const language = props.pageContext.language;
-  const messages = props.pageContext.messages;
+  
+  const language = props.language;
+  const messages = props.messages;
+
   return (
     <IntlProvider
       locale={language}

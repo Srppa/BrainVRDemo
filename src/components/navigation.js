@@ -1,55 +1,17 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import React from "react"
-import { Link } from "gatsby"
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri"
 
-const MenuItems = [
-  {
-    path: "/about",
-    title: "O nás",
-  },
-  {
-    path: "/projects",
-    title: "Projekty",
-  },
-  {
-    path: "/team",
-    title: "Tým",
-  },
-  {
-    path: "/news",
-    title: "Aktuality",
-  },
-  {
-    path: "/media",
-    title: "Média",
-  },
-  {
-    path: "/publications",
-    title: "Publikace",
-  },
-  {
-    path: "/tools",
-    title: "Nástroje",
-  },
-  {
-    path: "/contact",
-    title: "Kontakt",
-  },
-]
-
-const ListLink = props => (
-  <li>
-    <Link to={props.to}>{props.children}</Link>
-  </li>
-)
+import LinkTranslated from "../LinkTranslated";
 
 class Navigation extends React.Component {
   constructor(props) {
     super(props)
     this.state = { showMenu: false }
     this.handleToggleClick = this.handleToggleClick.bind(this)
+    this.messages = props.pageContext.messages
+    
   }
 
   handleToggleClick() {
@@ -59,11 +21,6 @@ class Navigation extends React.Component {
   }
 
   render() {
-    const listMenuItems = MenuItems.map((menuItem, index) => (
-      <ListLink key={index} to={menuItem.path}>
-        {menuItem.title}
-      </ListLink>
-    ))
     return (
       <nav className="site-navigation" >
         <button
@@ -79,7 +36,27 @@ class Navigation extends React.Component {
           </div>
         </button>
         <ul>
-          {listMenuItems}
+          <li>
+            <LinkTranslated href={"/about"}>{this.messages["about"]}</LinkTranslated>
+          </li>
+          <li>
+            <LinkTranslated href={"/projects"}>{this.messages["projects"]}</LinkTranslated>
+          </li>
+          <li>
+            <LinkTranslated href={"/team"}>{this.messages["team"]}</LinkTranslated>
+          </li>
+          <li>
+            <LinkTranslated href={"/news"}>{this.messages["news"]}</LinkTranslated>
+          </li>
+          <li>
+            <LinkTranslated href={"/media"}>{this.messages["media"]}</LinkTranslated>
+          </li>
+          <li>
+            <LinkTranslated href={"/tools"}>{this.messages["tools"]}</LinkTranslated>
+          </li>
+          <li>
+            <LinkTranslated href={"/contact"}>{this.messages["contact"]}</LinkTranslated>
+          </li>
         </ul>
       </nav>
     )

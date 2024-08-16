@@ -6,6 +6,7 @@ const LinkTranslated = ({children = [], className = "", href = "/"}) => {
   return (
     <Location>
       {locationProps => {
+
         const {pathname = ""} = locationProps.location;
         return <a className={className}
                   href={getTranslatedPath(pathname, href)}

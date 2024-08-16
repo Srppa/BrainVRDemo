@@ -30,13 +30,13 @@ export const publicationsListQuery = graphql`
 
 class PublicationsIndex extends React.Component {
   render() {
-    const { data } = this.props
+    const { data, pageContext } = this.props
 
     const posts = data.allMarkdownRemark.edges
       .map(edge => <PublicationCard key={edge.node.id} data={edge.node} />)
 
     return (
-      <Layout className="blog-page">
+      <Layout pageContext={pageContext} className="blog-page">
         <Seo
           title={"Projets — Page"}
           description={

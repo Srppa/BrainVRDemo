@@ -35,7 +35,10 @@ export const blogListQuery = graphql`
 
 class ProjectIndex extends React.Component {
   render() {
-    const { data } = this.props
+    const { data, pageContext } = this.props
+
+    console.log("pop");
+    console.log(pageContext);
 
     const posts = data.allMarkdownRemark.edges
       .filter(edge => edge.node.frontmatter.isActive === true)
@@ -46,7 +49,7 @@ class ProjectIndex extends React.Component {
       .map(edge => <ProjectCard key={edge.node.id} data={edge.node} />)
 
     return (
-      <Layout className="blog-page">
+      <Layout pageContext={pageContext} className="blog-page">
         <Seo
           title={"Project — Page "}
           description={

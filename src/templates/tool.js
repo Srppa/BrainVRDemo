@@ -21,7 +21,7 @@ const Tool = ({ data, pageContext }) => {
   //pageContext
 
   return (
-    <Layout className="page tool-page">
+    <Layout pageContext={pageContext} className="page tool-page">
       <Seo
         title={frontmatter.title}
         article={true}

@@ -16,7 +16,7 @@ const Member = ({ data, pageContext }) => {
     : ""
 
   return (
-    <Layout className="page member-page">
+    <Layout pageContext={pageContext} className="page member-page">
       <Seo
         title={frontmatter.title}
         description={

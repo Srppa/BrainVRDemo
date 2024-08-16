@@ -16,7 +16,7 @@ const NewsPost = ({ data, pageContext }) => {
   //pageContext
 
   return (
-    <Layout className="page">
+    <Layout pageContext={pageContext} className="page">
       <Seo
         title={frontmatter.title}
         description={

@@ -37,7 +37,7 @@ export const teamListQuery = graphql`
 
 class TeamIndex extends React.Component {
   render() {
-    const { data } = this.props
+    const { data, pageContext } = this.props
     //this.props.pageContext
 
     const headPosts = data.allMarkdownRemark.edges
@@ -66,7 +66,7 @@ class TeamIndex extends React.Component {
     */
 
     return (
-      <Layout className="blog-page">
+      <Layout pageContext={pageContext} className="blog-page">
         <Seo
           title={"Blog"}
           description={

@@ -1,16 +1,24 @@
 {
   "en" : {
-    "welcome-on-our-website" : "Welcome on our multi-language website",
-    "hello-world" : "Hello World!",
-    "about-us" : "About us",
-    "learn-more-about-us" : "Learn more about us",
-    "homepage" : "Homepage"
+    "about": "About",
+    "projects": "Projects",
+    "team": "Team",
+    "news": "News",
+    "media": "Media",
+    "publications": "Publications",
+    "tools": "Tools",
+    "contact": "Contact",
+    "participate": "Participate"
   },
   "cz": {
-    "welcome-on-our-website" : "bus",
-    "hello-world" : "čusHello World!",
-    "about-us" : "About ussss",
-    "learn-more-about-us" : "Ldddearn more about us",
-    "homepage" : "Homepageeeeeeeeeeeeeeeeee"
+    "about": "O nás",
+    "projects": "Projekty",
+    "team": "Tým",
+    "news": "Aktuality",
+    "media": "Média",
+    "publications": "Publikace",
+    "tools": "Nástroje",
+    "contact": "Kontakt",
+    "participate": "zapojte se"
   }
 }

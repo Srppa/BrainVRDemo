@@ -52,12 +52,12 @@ export const pageQuery = graphql`
   }
 `
 
-const HomePage = ({ data }) => {
+const HomePage = ({ data, pageContext }) => {
   const { markdownRemark, news } = data // data.markdownRemark holds your post data
   const { frontmatter } = markdownRemark
   const Image = frontmatter.featuredImage ? frontmatter.featuredImage.childImageSharp.gatsbyImageData : ""
   return (
-    <Layout>
+    <Layout pageContext={pageContext}>
       <Seo />
       <div className="home-banner grids">
         <div className="title-box">

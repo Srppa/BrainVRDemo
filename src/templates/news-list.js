@@ -35,14 +35,14 @@ export const newsListQuery = graphql`
 
 class NewsIndex extends React.Component {
   render() {
-    const { data } = this.props
+    const { data, pageContext } = this.props
 
     const news = data.allMarkdownRemark.edges
       .filter(edge => !!edge.node.frontmatter.date)
       .map(edge => <NewsCard key={edge.node.id} data={edge.node} />)
 
     return (
-      <Layout className="news-page">
+      <Layout pageContext={pageContext} className="news-page">
         <Seo
           title={"News - Page"}
           description={
