@@ -4,6 +4,9 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
+import { Link } from "gatsby"
+import { RiArrowLeftSLine } from "react-icons/ri"
+
 //import {FormattedMessage} from "react-intl";
 //import LinkTranslated from "../linkTranslated";
 //import SimpleLocalize from "../simpleLocalize";
@@ -20,20 +23,23 @@ export const pageQuery = graphql`
     }
   }
 `
-const AboutPage = ({ data, pageContext }) => {
+const ThanksPage = ({ data, pageContext }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
-  const { frontmatter, html, excerpt } = markdownRemark
-
+  const { frontmatter, html } = markdownRemark
 
   return (
     <Layout pageContext={pageContext} className="page about-page">
-      <Seo title={frontmatter.title} description={excerpt} />
+      <Seo title="Thank you" />
         <div className="wrapper">
           <h1>{frontmatter.title}</h1>
-          <article dangerouslySetInnerHTML={{ __html: html }} />
+          <p dangerouslySetInnerHTML={{ __html: html }}></p>
+          <Link to="/" className="button">
+            <RiArrowLeftSLine className="icon -left" />
+            Domovská stránka
+          </Link>
         </div>
     </Layout>
   )
 }
 
-export default AboutPage
+export default ThanksPage 
