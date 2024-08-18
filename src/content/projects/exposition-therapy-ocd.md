@@ -6,6 +6,7 @@ featuredImage: /assets/ocd-exposition-thumbnail.png
 isActive: true
 contactName: Karolína Zuzánková 
 contactEmail: karolina.zuzankova@nudz.cz
+language: cz
 ---
 
 ![ocd exposition thumbnail](/ocd-exposition-thumbnail.png)

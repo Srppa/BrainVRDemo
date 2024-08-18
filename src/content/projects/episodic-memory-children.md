@@ -6,6 +6,7 @@ featuredImage: /assets/emch-thumbnail.jpg
 isActive: false
 contactName: somebody
 contactEmail: somebody@brainvr.cz
+language: cz
 ---
 
 ![emch thumbnail](/emch-thumbnail.jpg)

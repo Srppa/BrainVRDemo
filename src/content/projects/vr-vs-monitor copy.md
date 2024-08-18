@@ -6,6 +6,7 @@ featuredImage: /assets/hcenat-thumbnail.jpg
 isActive: false
 contactName: somebody
 contactEmail: somebody@brainvr.cz
+language: cz
 ---
 
 ![vr vs monitor thumb](/hcenat-thumbnail.jpg)

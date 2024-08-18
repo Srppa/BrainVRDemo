@@ -8,7 +8,11 @@
     "publications": "Publications",
     "tools": "Tools",
     "contact": "Contact",
-    "participate": "Participate"
+    "participate": "Participate",
+    "current-projects": "Current Projects",
+    "finished-projects": "Finished projects",
+    "contact-person-1": "The contact person for this project is",
+    "contact-person-2": "If you are interested in participating in the experiment, click on the email address below and send an email"
   },
   "cz": {
     "about": "O nás",
@@ -19,6 +23,11 @@
     "publications": "Publikace",
     "tools": "Nástroje",
     "contact": "Kontakt",
-    "participate": "zapojte se"
+    "participate": "zapojte se",
+    "current-projects": "Aktuální projekty",
+    "finished-projects": "Ukončené projekty",
+    "contact-person-1": "Kontaktní osobou pro tento projekt je",
+    "contact-person-2": "Pokud máte zájem účastnit se experimentu, stačí kliknout na níže uvedenou emailovou adresu a poslat email"
+    
   }
 }

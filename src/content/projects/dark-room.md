@@ -6,6 +6,7 @@ featuredImage: /assets/dark-room-thumbnail.png
 isActive: true
 contactName: Markéta Jablonská
 contactEmail: marketa.jablonska@nudz.cz
+language: cz
 ---
 
 ![Vr police thumbnail](/dark-room-thumbnail.png)

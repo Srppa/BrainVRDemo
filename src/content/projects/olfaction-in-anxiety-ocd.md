@@ -6,6 +6,7 @@ featuredImage: /assets/olfactory-thumbnail.jpg
 isActive: true
 contactName:  Dagmar Schwambergová 
 contactEmail: dagmar.schwambergova@nudz.cz
+language: cz
 ---
 
 ![Vr police thumbnail](/olfactory-thumbnail.jpg)

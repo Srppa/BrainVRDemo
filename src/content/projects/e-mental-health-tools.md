@@ -6,6 +6,7 @@ featuredImage: /assets/e-mental-health-tools-thumbnail.png
 isActive: true
 contactName: Iveta Fajnerová
 contactEmail: iveta.fajnerova@nudz.cz
+language: cz
 ---
 
 Projekt se věnuje využití e-mental health nástrojů (e-mental health: využívání internetu a digitálních technologií k poskytování informací a služeb v rámci péče o duševní zdraví) v prevenci poruch duševního zdraví a léčbě duševních onemocnění. Cílem projektu je vytvoření nových e-mental health nástrojů, které by byly vhodné a dostupné pro českou populaci. V rámci těchto cílů se zaměřujeme na vývoj a využití virtuální reality (VR) např. formou self-guided VR relaxační aplikace, virtuálních prostředí pro expoziční terapii úzkostných poruch (podprojekt VZ4.2 VR metody pro psychoterapii a prevenci úzkostných poruch) nebo online platformy pro kognitivní trénink s využitím VR (podprojekt VZ4.3 Online podpora zdravého stárnutí prostřednictvím kognitivního tréninku s prvky VR). Jednotlivé aplikace umožní uživateli učit se a trénovat relaxační dýchání s využitím biofeedbacku (zpětné vazby), vystavovat se obávaným podnětům, nebo procvičovat paměť a pozornost prostřednictvím virtuální reality. Více informací o projektu naleznete na webových stránkách: [https://www.digiwell-opjak.cz/](https://www.digiwell-opjak.cz/).

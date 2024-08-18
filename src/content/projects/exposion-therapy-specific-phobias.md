@@ -6,6 +6,7 @@ featuredImage: /assets/fobia-exposition-thumbnail.jpg
 isActive: true
 contactName: Markéta Jablonská a Anna Francová
 contactEmail: marketa.jablonska@nudz.cz
+language: cz
 ---
 
 ![fobia exposition thumbnail thumbnail](/fobia-exposition-thumbnail.jpg)

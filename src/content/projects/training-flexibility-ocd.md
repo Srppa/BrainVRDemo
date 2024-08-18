@@ -6,6 +6,7 @@ featuredImage: /assets/vr-training-flexibility-thumbnail.png
 isActive: true
 contactName:  Karolína Zuzánková
 contactEmail: karolina.zuzankova@nudz.cz
+language: cz
 ---
 
 ![ocd exposition thumbnail](/vr-training-flexibility-thumbnail.png)

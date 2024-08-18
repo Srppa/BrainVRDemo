@@ -6,6 +6,7 @@ featuredImage: /assets/vr-vs-monitor-thumb.jpg
 isActive: false
 contactName: somebody
 contactEmail: somebody@brainvr.cz
+language: cz
 ---
 
 ![vr vs monitor thumb](/vr-vs-monitor-thumb.jpg)

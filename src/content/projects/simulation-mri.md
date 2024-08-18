@@ -6,6 +6,7 @@ featuredImage: /assets/vr-mri-thumbnail.png
 isActive: true
 contactName: Iveta Fajnerová
 contactEmail: iveta.fajnerova@nudz.cz
+language: cz
 ---
 
 ![ocd exposition thumbnail](/vr-mri-thumbnail.png)

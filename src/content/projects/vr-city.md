@@ -6,6 +6,7 @@ featuredImage: /assets/vr-city-thumb.jpg
 isActive: true
 contactName: Iveta Fajnarová a Markéta Slezáková
 contactEmail: iveta.fajnerova@nudz.cz
+language: cz
 ---
 
 ![Vr city city thumb](/vr-city-thumb.jpg)

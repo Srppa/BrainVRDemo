@@ -6,6 +6,7 @@ featuredImage: /assets/nem-thumbnail.jpg
 isActive: true
 contactName: Iveta Fajnerová
 contactEmail: iveta.fajnerova@nudz.cz
+language: cz
 ---
 
 ![vr vs monitor thumb](/nem-thumbnail.jpg)

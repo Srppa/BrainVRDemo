@@ -21,6 +21,7 @@ export const blogListQuery = graphql`
             slug
             title
             isActive
+            language
             featuredImage {
               childImageSharp {
                 gatsbyImageData(layout: CONSTRAINED, width: 350, height: 250, transformOptions:{fit: COVER, cropFocus: CENTER})
@@ -40,13 +41,26 @@ class ProjectIndex extends React.Component {
     console.log("pop");
     console.log(pageContext);
 
-    const posts = data.allMarkdownRemark.edges
+    let LanguagePosts;
+    
+    if(pageContext.language == "cz"){
+      LanguagePosts = data.allMarkdownRemark.edges
+        .filter(edge => edge.node.frontmatter.language === "cz")
+    } else {
+      LanguagePosts = data.allMarkdownRemark.edges
+        .filter(edge => edge.node.frontmatter.language === "en")
+    }
+    
+
+    const posts = LanguagePosts
       .filter(edge => edge.node.frontmatter.isActive === true)
       .map(edge => <ProjectCard key={edge.node.id} data={edge.node} />)
 
-    const inactivePosts = data.allMarkdownRemark.edges
+    const inactivePosts = LanguagePosts
       .filter(edge => edge.node.frontmatter.isActive === false)
       .map(edge => <ProjectCard key={edge.node.id} data={edge.node} />)
+
+    this.messages = pageContext.messages;
 
     return (
       <Layout pageContext={pageContext} className="blog-page">
@@ -56,9 +70,9 @@ class ProjectIndex extends React.Component {
             "Brain VR project page "
           }
         />
-        <h1>Aktuální projekty</h1>
+        <h1>{this.messages["current-projects"]}</h1>
         <div className="grids col-1 sm-2 lg-3">{posts}</div>
-        <h1 className="inActive-title">Ukončené projekty</h1>
+        <h1 className="inActive-title">{this.messages["finished-projects"]}</h1>
         <div className="grids col-1 sm-2 lg-3">{inactivePosts}</div>
       </Layout>
     )

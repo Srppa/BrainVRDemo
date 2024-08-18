@@ -6,6 +6,7 @@ featuredImage: /assets/pathophysiology-thumbnail.jpg
 isActive: false
 contactName: somebody
 contactEmail: somebody@brainvr.cz
+language: cz
 ---
 
 ![pathophysiology thumbnail](/pathophysiology-thumbnail.jpg)

@@ -13,7 +13,6 @@ const Post = ({ data, pageContext }) => {
   const Image = frontmatter.featuredImage
     ? frontmatter.featuredImage.childImageSharp.gatsbyImageData
     : ""
-  //pageContext
 
   return (
     <Layout pageContext={pageContext} className="page">
@@ -38,8 +37,8 @@ const Post = ({ data, pageContext }) => {
         />
         {frontmatter.isActive ? (
           <div className="contactActive">
-            <h3>Kontakt</h3>
-            <p>Kontaktní osobou pro tento projekt je {frontmatter.contactName}. Pokud máte zájem účastnit se experimentu, stačí kliknout na níže uvedenou emailovou adresu a poslat email</p>
+            <h3>{pageContext.messages["contact"]}</h3>
+            <p>{pageContext.messages["contact-person-1"] + " " + frontmatter.contactName + ". " +  pageContext.messages["contact-person-2"]}</p>
             <a href={"mailto:" + frontmatter.contactEmail + "?subject=Účast na " + frontmatter.title}>{frontmatter.contactEmail}</a>
           </div>
         ) : (

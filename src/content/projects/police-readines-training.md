@@ -6,6 +6,7 @@ featuredImage: /assets/vr-police-thumbnail.png
 isActive: true
 contactName: Eliška Procházková
 contactEmail: eliska.prochazkova@nudz.cz
+language: cz
 ---
 
 ![Vr police thumbnail](/vr-police-thumbnail.png)

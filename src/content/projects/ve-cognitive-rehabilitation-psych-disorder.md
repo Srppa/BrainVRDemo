@@ -6,6 +6,7 @@ featuredImage: /assets/emt-thumbnail.jpg
 isActive: true
 contactName: Iveta Fajnerová a Karolína Zuzánková
 contactEmail: iveta.fajnerova@nudz.cz
+language: cz
 ---
 
 ![vr vs monitor thumb](/emt-thumbnail.jpg)
