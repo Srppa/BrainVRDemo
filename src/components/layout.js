@@ -3,9 +3,11 @@ import { jsx } from "theme-ui"
 import { Link } from "gatsby"
 
 import Navigation from "./navigation"
+import LinkTranslated from "../LinkTranslated";
 
 import "../assets/scss/style.scss"
 import Footer from "./footer"
+
 
 const Layout = ({ children, className, pageContext}) => {
 
@@ -17,9 +19,9 @@ const Layout = ({ children, className, pageContext}) => {
       <div className="header-outside">
         <header className="site-header">
           <div className="site-logo">
-            <Link to="/">
+            <LinkTranslated href="/">
               <img src="/assets/brain-logo-header.png" alt="BrainVR logo" style={{ height: "75px"}}/>
-            </Link>
+            </LinkTranslated>
             <Link className="site-logo-nudz" target="_blank" to="https://www.nudz.cz/vyzkum/centrum-virtualni-reality-v-dusevnim-zdravi-a-neurovedach">
               <img src="/assets/nudz-logo-header.png" alt="nudz logo" style={{ height: "65px", width: "auto"}}/>
             </Link>
@@ -32,7 +34,7 @@ const Layout = ({ children, className, pageContext}) => {
       <div className="participate-container">
         <div className="participate-container-inner">
           <Link to="/participate">
-            {pageContext?pageContext.messages["participate"]:"plz"}
+            {pageContext.messages["participate"]}
           </Link>
         </div>    
       </div>
