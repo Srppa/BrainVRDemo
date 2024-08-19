@@ -52,6 +52,9 @@ class Navigation extends React.Component {
             <LinkTranslated href={"/media"}>{this.messages["media"]}</LinkTranslated>
           </li>
           <li>
+            <LinkTranslated href={"/publications"}>{this.messages["publications"]}</LinkTranslated>
+          </li>
+          <li>
             <LinkTranslated href={"/tools"}>{this.messages["tools"]}</LinkTranslated>
           </li>
           <li>

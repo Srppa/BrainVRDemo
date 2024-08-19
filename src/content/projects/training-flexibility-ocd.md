@@ -10,8 +10,6 @@ language: cz
 ---
 
 ![ocd exposition thumbnail](/vr-training-flexibility-thumbnail.png)
-
-Virtuální trénink kognitivní flexibility u pacientů s obsedantně-kompulzivní poruchou.
  
 Cílem projektu “trénink kognitivní flexibility pacientů s obsedantně-kompulzivní poruchou” je vytvoření uceleného tréninkového SW a plánu v ekologicky validním prostředí virtuálního města a dalších her ve virtuální realitě. Trénink by měl u cílové skupiny pacientů s OCD vést ke zlepšení kognitivní flexibility. Kognitivní flexibilta v sobě zahrnuje schopnost měnít své chování na základě vnějších podmínek, přizpůsobovat se, přeučovat se novému relevantnímu úkolu a měnit strategii a řešení daných úloh. 
 

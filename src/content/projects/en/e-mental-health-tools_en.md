@@ -1,6 +1,6 @@
 ---
 template: project-post
-title: E-mental health tools for supporting mental health and well-being
+title: E-mental Health Tools for Supporting Mental Health and Well-being
 slug: /e-mental-health-tools
 featuredImage: /assets/e-mental-health-tools-thumbnail.png
 isActive: true

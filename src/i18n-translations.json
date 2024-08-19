@@ -12,7 +12,8 @@
     "current-projects": "Current Projects",
     "finished-projects": "Finished projects",
     "contact-person-1": "The contact person for this project is",
-    "contact-person-2": "If you are interested in participating in the experiment, click on the email address below and send an email"
+    "contact-person-2": "If you are interested in participating in the experiment, click on the email address below and send an email",
+    "our-team": "Our Team"
   },
   "cz": {
     "about": "O nás",
@@ -27,7 +28,8 @@
     "current-projects": "Aktuální projekty",
     "finished-projects": "Ukončené projekty",
     "contact-person-1": "Kontaktní osobou pro tento projekt je",
-    "contact-person-2": "Pokud máte zájem účastnit se experimentu, stačí kliknout na níže uvedenou emailovou adresu a poslat email"
+    "contact-person-2": "Pokud máte zájem účastnit se experimentu, stačí kliknout na níže uvedenou emailovou adresu a poslat email",
+    "our-team": "Náš tým"
     
   }
 }

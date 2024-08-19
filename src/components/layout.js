@@ -22,9 +22,16 @@ const Layout = ({ children, className, pageContext}) => {
             <LinkTranslated href="/">
               <img src="/assets/brain-logo-header.png" alt="BrainVR logo" style={{ height: "75px"}}/>
             </LinkTranslated>
-            <Link className="site-logo-nudz" target="_blank" to="https://www.nudz.cz/vyzkum/centrum-virtualni-reality-v-dusevnim-zdravi-a-neurovedach">
-              <img src="/assets/nudz-logo-header.png" alt="nudz logo" style={{ height: "65px", width: "auto"}}/>
-            </Link>
+            {
+              pageContext.language == "cz"?
+              (<Link className="site-logo-nudz" target="_blank" to="https://www.nudz.cz/vyzkum/centrum-virtualni-reality-v-dusevnim-zdravi-a-neurovedach">
+                <img src="/assets/nudz-logo-header.png" alt="nudz logo" style={{ height: "65px", width: "auto"}}/>
+              </Link>) :
+              (<Link className="site-logo-nudz" target="_blank" to="https://www.nudz.cz/en/research/center-for-virtual-reality-research-in-mental-health-and-neuroscience">
+                <img src="/assets/nudz-logo-header_en.png" alt="nudz logo" style={{ height: "65px", width: "auto"}}/>
+              </Link> )
+            }
+            
           </div>
           <div>
             <Navigation pageContext={pageContext}/>
