@@ -23,6 +23,7 @@ export const teamListQuery = graphql`
             description
             order
             category
+            language
             featuredImage {
               childImageSharp {
                 gatsbyImageData(layout: CONSTRAINED, width: 256, height: 256)
@@ -40,12 +41,22 @@ class TeamIndex extends React.Component {
     const { data, pageContext } = this.props
     //this.props.pageContext
 
-    const headPosts = data.allMarkdownRemark.edges
+    let LanguagePosts;
+    
+    if(pageContext.language == "cz"){
+      LanguagePosts = data.allMarkdownRemark.edges
+        .filter(edge => edge.node.frontmatter.language === "cz")
+    } else {
+      LanguagePosts = data.allMarkdownRemark.edges
+        .filter(edge => edge.node.frontmatter.language === "en")
+    }
+
+    const headPosts = LanguagePosts
       .filter(edge => edge.node.frontmatter.category === "core")
       .filter(edge => edge.node.frontmatter.order === 0)
       .map(edge => <MemberCard key={edge.node.id} data={edge.node} />)
 
-    const normalPosts = data.allMarkdownRemark.edges
+    const normalPosts = LanguagePosts
       .filter(edge => edge.node.frontmatter.category === "core")
       .filter(edge => edge.node.frontmatter.order !== 0)
       .map(edge => <MemberCard key={edge.node.id} data={edge.node} />)

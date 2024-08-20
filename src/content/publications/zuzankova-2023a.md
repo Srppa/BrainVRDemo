@@ -8,6 +8,7 @@ category: Journal
 jurnal: Psychiatrie 
 pdfFile: 
 pdfLink: https://www.isvavai.cz/riv?s=jednoduche-vyhledavani&ss=detail&n=0&h=RIV%2F00023752%3A_____%2F23%3A43921184%21RIV24-MZ0-00023752
+language: uni
 ---
 
 ### Abstrakt

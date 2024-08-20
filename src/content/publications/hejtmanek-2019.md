@@ -8,6 +8,7 @@ category: /
 jurnal: /
 pdfFile:
 pdfLink: http://www.tigis.cz/images/stories/psychiatrie/2019/Psychiatrie_4_2019/Psychiatrie_4_2019_vzdelavani.pdf
+language: uni
 ---
 
 ### Abstrakt

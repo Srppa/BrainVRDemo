@@ -7,4 +7,5 @@ featuredImage: /assets/brain-logo-original.png
 cta:
   ctaText: Více o nás
   ctaLink: /about
+language: cz
 ---

@@ -8,6 +8,7 @@ category: Conference proceedings
 jurnal: PhD existence 2017, Česko-Slovenská psychologická konference (nejen) pro doktorandy a o doktorandech, 30.-31. 1. 2017, Olomouc
 pdfFile: "plechata-2017a"
 pdfLink:
+language: uni
 ---
 
 ### Abstrakt

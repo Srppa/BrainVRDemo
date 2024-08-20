@@ -2,6 +2,7 @@
 template: contact-page
 slug: /contact
 title: Ozvěte se nám
+language: en
 ---
 Národní ústav duševního zdraví
 

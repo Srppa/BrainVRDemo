@@ -8,6 +8,7 @@ order: 1
 category: core
 description: výzkumná a vývojová pracovnice
 featuredImage: /assets/members/jirina-kosova-thumbnail.png
+language: cz
 ---
 
 

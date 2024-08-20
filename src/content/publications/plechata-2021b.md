@@ -8,6 +8,7 @@ category: Journal
 jurnal: IOS
 pdfFile:  
 pdfLink: https://content.iospress.com/articles/neurorehabilitation/nre201534
+language: uni
 ---
 
 ### Abstrakt

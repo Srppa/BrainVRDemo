@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import { Link } from "gatsby"
+
+import LinkTranslated from "../LinkTranslated";
 
 const PublicationCard = ({ data }) => (
   <article
@@ -8,14 +9,14 @@ const PublicationCard = ({ data }) => (
   >
     <div className="publication-content">
       <h2 className="title">
-        <Link
-          to={data.frontmatter.slug}
+        <LinkTranslated
+          href={data.frontmatter.slug}
           sx={{
             variant: "links.postLink",
           }}
         >
           {data.frontmatter.title}
-        </Link>
+        </LinkTranslated>
       </h2>
       <p
         className="meta"

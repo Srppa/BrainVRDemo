@@ -8,4 +8,5 @@ order: 1
 category: core
 description: programátor
 featuredImage: /assets/members/pavel-srp-thumbnail.jpg
+language: cz
 ---

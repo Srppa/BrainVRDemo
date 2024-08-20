@@ -7,6 +7,7 @@ authors: Fajnerová, I., Plechatá, A., Hejtmánek, L., Hrdlička, H., Wild, J.
 category: Nástroje
 pdfFile: 
 pdfLink: http://vrmesto.cz/
+language: cz
 ---
 
 Cílem projektu “Virtuální město” je vytvoření ucelené tréninkové aplikace v takzvaně “ekologicky validním” prostředí města, která umožní komplexní trénink vybraných kognitivních schopností u cílové skupiny seniorů. Realističnost virtuálního prostředí a modelových situací může usnadnit přenos osvojených strategií do reálného života. 

@@ -8,5 +8,6 @@ order: 1
 category: core
 description: doktorandka
 featuredImage: /assets/members/luisa-prochazkova-thumbnail.jpg
+language: cz
 ---
 

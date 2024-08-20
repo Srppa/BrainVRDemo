@@ -4,6 +4,7 @@ title: Zveme Vás na setkání v rámci série Laboratoř mysli "Virtuální rea
 slug: /lab-mind-vr-2022
 date: 2022-12-13
 featuredImage: /assets/lab-mind-vr-2022-thumbnail.png
+language: cz
 ---
 
 Zveme Vás na další pokračování série populárně naučných setkání Laboratoř mysli. Tentokrát se budeme zabývat využitím virtuální reality v péči o duševní zdraví.

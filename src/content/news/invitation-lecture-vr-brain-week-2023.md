@@ -4,6 +4,7 @@ title: Pozvánka na přednášku "Možnosti využití virtuální reality v pé�
 slug: /invitation-lecture-vr-brain-week-2023
 date: 2023-03-17
 featuredImage: /assets/invitation-lecture-vr-brain-week-2023-thumbnail.jpg
+language: cz
 ---
 
 dovolujeme si vás pozvat na přednášku která bude součástí akce Týden mozku. 

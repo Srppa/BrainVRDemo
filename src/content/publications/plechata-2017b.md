@@ -8,6 +8,7 @@ category: Conference proceedings
 jurnal: International Conference on Virtual Rehabilitation (ICVR) - 19.-21. 6. 2017, Montreal, Canada
 pdfFile: "plechata-2017b"
 pdfLink:
+language: uni
 ---
 
 ### Abstrakt

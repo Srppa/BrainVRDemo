@@ -4,6 +4,7 @@ title: Czech VRfest 2018
 slug: /czech-vrfest-2018
 date: 2018-06-22
 featuredImage: /assets/czechvrfest-thumbnail.jpg
+language: cz
 ---
 
 Skupina virtuální reality v neurovědách se 10.-12.5 zúčastnila 2. ročníku Czech VRfestu, který byl organizován Asociací virtuální a augmentované reality (AVRAR). Vedoucí skupiny Iveta Fajnerová byla garantem sekcí MEDICÍNA a SPOLEČNOST, ve kterých zazněla témata týkající se propojení virtuální reality a duševního zdraví. Návštěvníci měli možnost si od Terezy Zikanové (NUDZ) a Honzy Hrdličky (3dsense) poslechnout přednášku o aplikaci virtuální reality ve výzkumu lidské sexuality v rámci diskuzního panelu, který organizovala Laboratoř evoluční sexuologie a psychopatologie (NUDZ).

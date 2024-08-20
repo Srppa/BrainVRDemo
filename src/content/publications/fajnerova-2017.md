@@ -8,6 +8,7 @@ category: Conference proceedings
 jurnal: International Conference on Virtual Rehabilitation (ICVR) - 19.-21. 6. 2017, Montreal, Canada
 pdfFile: "fajnerova-2017"
 pdfLink:
+language: uni
 ---
 
 ### Abstrakt

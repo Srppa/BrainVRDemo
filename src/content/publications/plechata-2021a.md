@@ -8,6 +8,7 @@ category: Journal
 jurnal: Československá Psychologie
 pdfFile:  
 pdfLink: https://doi.org/10.51561/cspsych.65.1.14
+language: uni
 ---
 
 ### Abstrakt

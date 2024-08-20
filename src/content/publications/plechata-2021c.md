@@ -8,6 +8,7 @@ category: Journal
 jurnal: IOS
 pdfFile:  
 pdfLink: https://www.mdpi.com/1660-4601/18/17/9081
+language: uni
 ---
 
 ### Abstrakt

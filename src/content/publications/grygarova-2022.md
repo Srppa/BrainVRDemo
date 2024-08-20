@@ -8,6 +8,7 @@ category: Original research
 jurnal: JMIR Mental Health
 pdfFile:  
 pdfLink: https://mental.jmir.org/2022/6/e36050
+language: uni
 ---
 
 ### Abstrakt

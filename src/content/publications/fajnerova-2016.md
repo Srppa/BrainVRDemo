@@ -8,6 +8,7 @@ category: Conference proceedings
 jurnal: Proceedings of the 11th International Conference on Disability, Virtual Reality and Associated Technologies (ICDVRAT 2016)
 pdfFile: "fajnerova-2016"
 pdfLink:
+language: uni
 ---
 
 ### Abstrakt

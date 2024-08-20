@@ -4,6 +4,7 @@ title: Pozvánka na odborný workshop „Tradiční KBT metody obohacené pomoc�
 slug: /workshop-kbt-methods-2022
 date: 2022-12-02
 featuredImage: /assets/workshop-kbt-methods-2022-thumbnail.jpg
+language: cz
 ---
 
 Dovolujeme si Vás pozvat na workshop „Tradiční KBT metody obohacené pomocí nových technologií". Akce je určena výhradně pro terapeuty, psychiatry, psychology a další pracovníky v oblasti duševního zdraví.

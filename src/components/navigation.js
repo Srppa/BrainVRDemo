@@ -11,7 +11,7 @@ class Navigation extends React.Component {
     this.state = { showMenu: false }
     this.handleToggleClick = this.handleToggleClick.bind(this)
     this.messages = props.pageContext.messages
-    
+    this.language = props.pageContext.language
   }
 
   handleToggleClick() {
@@ -45,12 +45,22 @@ class Navigation extends React.Component {
           <li>
             <LinkTranslated href={"/team"}>{this.messages["team"]}</LinkTranslated>
           </li>
-          <li>
-            <LinkTranslated href={"/news"}>{this.messages["news"]}</LinkTranslated>
-          </li>
-          <li>
-            <LinkTranslated href={"/media"}>{this.messages["media"]}</LinkTranslated>
-          </li>
+          {this.language == 'cz'?
+            (<li>
+              <LinkTranslated href={"/news"}>{this.messages["news"]}</LinkTranslated>
+            </li>):
+            (
+              ""
+            )
+          }
+          {this.language == 'cz'?
+            (<li>
+              <LinkTranslated href={"/media"}>{this.messages["media"]}</LinkTranslated>
+            </li>):
+            (
+              ""
+            )
+          }
           <li>
             <LinkTranslated href={"/publications"}>{this.messages["publications"]}</LinkTranslated>
           </li>

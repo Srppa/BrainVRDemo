@@ -8,6 +8,7 @@ order: 1
 category: core
 description: výzkumná a vývojová pracovnice
 featuredImage: /assets/members/eliska-prochazkova-thumbnail.jpg
+language: cz
 ---
 
 Dr. Eliška Procházková pracuje jako postdoktorandka na oddělení kognitivní psychologie Leidenské univerzity a v Národním ústavu duševního zdraví (NUDZ). Ve své práci Procházková využívá neurovědecké metody k pochopení biologických systémů, které jsou základem lidského (pro)sociálního chování. Například zkoumá psychologické faktory, které podporují lásku, důvěru a spolupráci s cílem přenést tyto poznatky do společnosti.

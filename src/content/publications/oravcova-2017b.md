@@ -8,6 +8,7 @@ category: Uncategorized
 jurnal: Spring Brain Conference 2017 - Learning, Memory and Synaptic Plasticity - 23-26 April 2017 - Rungstedgaard – North Copenhagen, Denmark
 pdfFile: "oravcova-2017b"
 pdfLink:
+language: uni
 ---
 
 ### Abstrakt

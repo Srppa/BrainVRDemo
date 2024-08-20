@@ -51,8 +51,9 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       .filter(edge => edge.node.frontmatter.template != "participate-link")
 
   //TODO: change to == "cz"
-  const czPosts = posts.filter(edge => edge.node.frontmatter.language != "en") 
-  const enPosts = posts.filter(edge => edge.node.frontmatter.language == "en")       
+  const czPosts = posts.filter(edge => edge.node.frontmatter.language == "cz") 
+  const enPosts = posts.filter(edge => edge.node.frontmatter.language == "en")
+  const uniPosts = posts.filter(edge => edge.node.frontmatter.language == "uni") 
 
   czPosts.forEach((post, index) => {
     const id = post.node.id
@@ -72,6 +73,34 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   enPosts.forEach((post, index) => {
     const id = post.node.id
+
+    createPage({
+      path: "/en" + post.node.frontmatter.slug,
+      component: path.resolve(
+        `src/templates/${String(post.node.frontmatter.template)}.js`
+      ),
+      context: {
+        id,
+        language: "en",
+        messages: messages["en"]
+      },
+    })
+  })
+
+  uniPosts.forEach((post, index) => {
+    const id = post.node.id
+
+    createPage({
+      path: post.node.frontmatter.slug,
+      component: path.resolve(
+        `src/templates/${String(post.node.frontmatter.template)}.js`
+      ),
+      context: {
+        id,
+        language: "cz",
+        messages: messages["cz"]
+      },
+    })
 
     createPage({
       path: "/en" + post.node.frontmatter.slug,

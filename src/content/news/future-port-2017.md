@@ -4,6 +4,7 @@ title: Future Port Prague 2017
 slug: /future-port-2017
 date: 2017-11-02
 featuredImage: /assets/futureport2017-thumbnail.jpg
+language: cz
 ---
 
 Skupina Virtuální realita v neurovědách prezentovala své výzkumné projekty v průběhu festivalu a konference Future Port Prague 2017, který je označován za největší přehlídku technologií budoucnosti ve střední Evropě (https://www.futureportprague.com/). Díky spolupráce s Centrem transferu technologií a Asociací virtuální a rozšířené reality (AVRAR) měla naše výzkumná skupina jedinečnou možnost představit svou výzkumnou činnost v rámci stánku, který sdílela s AVRAR.

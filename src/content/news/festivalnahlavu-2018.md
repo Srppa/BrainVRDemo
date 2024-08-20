@@ -4,6 +4,7 @@ title: Festival Na Hlavu 2018
 slug: /festivalnahlavu-2018
 date: 2018-05-22
 featuredImage: /assets/festivalnahlavu-2018-thumbnail.jpg
+language: cz
 ---
 
 Skupina Virtuální realita v neurovědách ve spolupráci s komerčními firmami 3dsense a Xlab-Virtuix organizovala v rámci filmového festivalu Na hlavu (28.4.-29.4.2018), doprovodný program pod názvem Duševní zdraví ve virtuálním světe. Návštěvníci festivalu si tak měli možnost vyzkoušet virtuální realitu na celkem 6 stanovištích:

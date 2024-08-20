@@ -21,6 +21,7 @@ export const toolsListQuery = graphql`
             slug
             title
             authors
+            language
           }
         }
       }
@@ -31,8 +32,18 @@ export const toolsListQuery = graphql`
 class ToolsIndex extends React.Component {
   render() {
     const { data, pageContext } = this.props
+
+    let LanguagePosts;
     
-    const posts = data.allMarkdownRemark.edges
+    if(pageContext.language == "cz"){
+      LanguagePosts = data.allMarkdownRemark.edges
+        .filter(edge => edge.node.frontmatter.language === "cz")
+    } else {
+      LanguagePosts = data.allMarkdownRemark.edges
+        .filter(edge => edge.node.frontmatter.language === "en")
+    }
+    
+    const posts = LanguagePosts
       .map(edge => <ToolCard key={edge.node.id} data={edge.node} />)
 
     return (

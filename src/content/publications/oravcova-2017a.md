@@ -8,6 +8,7 @@ category: Uncategorized
 jurnal: 1. česko-slovenská psychofarmakologická konference v Jeseníku 2017, 4. – 8. ledna 2017
 pdfFile: "oravcova-2017a"
 pdfLink:
+language: uni
 ---
 
 ### Abstrakt

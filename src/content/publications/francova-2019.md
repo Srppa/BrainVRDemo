@@ -8,6 +8,7 @@ category: Journal
 jurnal: Časopis Česká a slovenská psychiatrie
 pdfFile:
 pdfLink: http://www.cspsychiatr.cz/detail.php?stat=1246
+language: uni
 ---
 
 ### Abstrakt

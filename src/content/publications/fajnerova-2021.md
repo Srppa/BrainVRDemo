@@ -8,6 +8,7 @@ category: Conference
 jurnal: Conference on Disability, Virtual Reality and Assoc. Technologies
 pdfFile:
 pdfLink: http://studio.hei-lab.ulusofona.pt/archive/2021/ICDVRAT2021_Full_Proceedings_13thConf_FinalVersion.pdf
+language: uni
 ---
 
 ### Abstrakt

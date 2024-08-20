@@ -8,6 +8,7 @@ category: Conference proceedings
 jurnal: 2015 INTERNATIONAL CONFERENCE ON VIRTUAL REHABILITATION PROCEEDINGS (ICVR)
 pdfFile: "fajnerova-2015"
 pdfLink:
+language: uni
 ---
 
 ### Abstrakt

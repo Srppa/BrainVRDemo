@@ -7,6 +7,7 @@ authors: Šouláková, B., Francová, A., Procházková, L., Fajnerová, I.
 category: Metodika
 pdfFile: 
 pdfLink: https://www.nudz.cz/fileadmin/user_upload/Ke_stazeni/Vyzkum/Vysledky/2021-05-svv-09-metodika.pdf
+language: cz
 ---
 
 ![tacr logo](/logo-tacr.png)

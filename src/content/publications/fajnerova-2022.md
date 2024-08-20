@@ -8,6 +8,7 @@ category: Journal
 jurnal: Cognitive sciences
 pdfFile:
 pdfLink: https://www.tigis.cz/images/stories/psychiatrie/Psychiatrie_2022/Psychiatrie_3_2022/fajnerova_Psychiatrie_3_2022.pdf
+language: uni
 ---
 
 ### Abstrakt

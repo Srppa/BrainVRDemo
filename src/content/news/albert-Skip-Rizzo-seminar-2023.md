@@ -4,6 +4,7 @@ title: SEMINÁŘ Albert “Skip” Rizzo, Ph.D. - Clinical Virtual Reality - Sev
 slug: /albert-Skip-Rizzo-seminar-2023
 date: 2023-06-06
 featuredImage: /assets/albert-Skip-Rizzo-seminar-2023-thumbnail.png
+language: cz
 ---
 
 Dovolujeme si Vás pozvat na seminář Alberta “Skip” Rizza, Ph.D. z USC Institute for Creative Technologies (USA). Těšíme se na Vás v úterý 6. 6. 2023 od 14.30 do 16.00 v Národním ústavu duševního zdraví v Klecanech. 
