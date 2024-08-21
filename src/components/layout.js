@@ -10,10 +10,6 @@ import Footer from "./footer"
 
 
 const Layout = ({ children, className, pageContext}) => {
-
-  console.log("layout");
-  console.log(pageContext);
-
   return (
       <div className="primary-container">
       <div className="header-outside">
@@ -46,7 +42,7 @@ const Layout = ({ children, className, pageContext}) => {
         </div>    
       </div>
       <main className={"container " + className}>{children}</main>
-      <Footer />
+      <Footer pageContext={pageContext} />
     </div>
   )
 }

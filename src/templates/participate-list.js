@@ -43,8 +43,6 @@ class ParticipateIndex extends React.Component {
   render() {
     const {data, pageContext} = this.props
 
-    console.log(data.pdfsData);
-
     data.allMarkdownRemark.edges.forEach(element => {
       const selected = data.pdfsData.edges
         .filter(edge => edge.node.name === element.node.frontmatter.pdf)
@@ -54,6 +52,9 @@ class ParticipateIndex extends React.Component {
     const posts = data.allMarkdownRemark.edges
       .map(edge => <ParticipateCard key={edge.node.id} data={edge.node} />)
 
+    this.messages = pageContext.messages;
+
+
     return (
       <Layout pageContext={pageContext} className="participate-page">
         <Seo
@@ -62,7 +63,7 @@ class ParticipateIndex extends React.Component {
             "Do you want to participate in VR experimnts - you are at right place!"
           }
         />
-        <h1>Zapojte se</h1>
+        <h1>{this.messages["participate"]}</h1>
         <div className="participate-flex">{posts}</div>
       </Layout>
     )

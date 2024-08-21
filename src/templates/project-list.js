@@ -38,9 +38,6 @@ class ProjectIndex extends React.Component {
   render() {
     const { data, pageContext } = this.props
 
-    console.log("pop");
-    console.log(pageContext);
-
     let LanguagePosts;
     
     if(pageContext.language == "cz"){

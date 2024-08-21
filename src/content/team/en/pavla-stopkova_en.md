@@ -6,7 +6,7 @@ lastName: Stopková
 slug: /pavla-stopkova
 order: 1
 category: core
-description: vedoucí lékařka
+description: Head Doctor
 featuredImage: /assets/members/pavla-stopkova-thumbnail.jpg
 language: en
 ---

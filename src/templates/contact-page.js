@@ -28,6 +28,9 @@ const Contact = ({ data, pageContext }) => {
   const { markdownRemark, site } = data // data.markdownRemark holds your post data
   const { frontmatter } = markdownRemark
 
+  console.log("massage")
+  console.log(pageContext)
+
   return (
     <Layout pageContext={pageContext} className="contact-page">
       <Seo
@@ -37,20 +40,20 @@ const Contact = ({ data, pageContext }) => {
       <div>
         <h1>{frontmatter.title}</h1>
         <div className="description contact-info">
-          <p>Národní ústav duševního zdraví</p>
-          <p>Centrum výzkumu virtuální reality v duševním zdraví a neurovědách</p>
+          <p>{pageContext.messages["nudz-name"]}</p>
+          <p>{pageContext.messages["group-name"]}</p>
         </div>
       </div>
       <div className="adress-container">
-        <p>Adresa: Národní ústav duševního zdraví, Topolová 748, 250 67, Klecany</p>
+        <p>{pageContext.messages["full-adress"]}</p>
       </div>
       <div className="mail-container">
       
-      <p>VR výzkum:  <a className="contact-mail" href="mailto:brainvrgroup@gmail.com">brainvrgroup@gmail.com</a></p>
-      <p>VR terapie:  <a className="contact-mail" href="mailto:vrterapie@nudz.cz">vrterapie@nudz.cz</a></p>
+      <p>{pageContext.messages["vr-research"]}:  <a className="contact-mail" href="mailto:brainvrgroup@gmail.com">brainvrgroup@gmail.com</a></p>
+      <p>{pageContext.messages["vr-therapy"]}:  <a className="contact-mail" href="mailto:vrterapie@nudz.cz">vrterapie@nudz.cz</a></p>
        
        
-      <p className="to-form">nebo vyplňte kontaktní dotazník:</p>
+      <p className="to-form">{pageContext.messages["fill-form"]}:</p>
       <form
           className="contact-form"
           action="/thanks"
@@ -62,25 +65,26 @@ const Contact = ({ data, pageContext }) => {
           <input type="hidden" name="form-name" value="contact" />
           <p>
             <label>
-              Jméno
+              {pageContext.messages["name"]}
               <input type="text" name="name" required />
             </label>
           </p>
           <p>
             <label>
-              Email
+              {pageContext.messages["email"]}
               <input type="email" name="email" required />
             </label>
           </p>
           <p>
             <label>
-              Předmět
+              {pageContext.messages["subject"]}
               <input type="text" name="subject" required />
             </label>
           </p>
           <p>
             <label>
-              Zpráva<textarea name="message" required></textarea>
+              {pageContext.messages["message"]}
+              <textarea name="message" required></textarea>
             </label>
           </p>
           <p className="text-align-right">
@@ -91,7 +95,7 @@ const Contact = ({ data, pageContext }) => {
               }}
               type="submit"
             >
-              Odeslat{" "}
+              {pageContext.messages["send"]}{" "}
               <span className="icon -right">
                 <RiSendPlane2Line />
               </span>

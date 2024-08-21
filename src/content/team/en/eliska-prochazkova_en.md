@@ -6,7 +6,7 @@ lastName: Procházková
 slug: /eliska-prochazkova
 order: 1
 category: core
-description: výzkumná a vývojová pracovnice
+description: Research and Development
 featuredImage: /assets/members/eliska-prochazkova-thumbnail.jpg
 language: en
 ---

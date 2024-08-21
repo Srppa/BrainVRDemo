@@ -6,7 +6,7 @@ lastName: Sahula
 slug: /vaclav-sahula
 order: 1
 category: core
-description: programátor
+description: Programmer
 featuredImage: /assets/members/vaclav-sahula-thumbnail.jpg
 language: en
 ---

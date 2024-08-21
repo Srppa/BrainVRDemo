@@ -6,7 +6,7 @@ lastName: Procházková
 slug: /luisa-prochazkova
 order: 1
 category: core
-description: doktorandka
+description: PhD student
 featuredImage: /assets/members/luisa-prochazkova-thumbnail.jpg
 language: en
 ---

@@ -35,7 +35,7 @@ const ThanksPage = ({ data, pageContext }) => {
           <p dangerouslySetInnerHTML={{ __html: html }}></p>
           <Link to="/" className="button">
             <RiArrowLeftSLine className="icon -left" />
-            Domovská stránka
+            {pageContext.messages["home-page"]}
           </Link>
         </div>
     </Layout>

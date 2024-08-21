@@ -6,7 +6,7 @@ lastName: Havlíček
 slug: /jan-havlivek
 order: 1
 category: external
-description: výzkumný a vývojový pracovník
+description: Research and Development 
 featuredImage: /assets/members/team-member-default.jpg
 language: en
 ---

@@ -6,7 +6,7 @@ lastName: Langová
 slug: /tereza-langova
 order: 1
 category: core
-description: VR animátorka
+description: VR animator
 featuredImage: /assets/members/tereza-langova-thumbnail.jpg
 language: en
 ---

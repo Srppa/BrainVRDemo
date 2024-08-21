@@ -6,7 +6,7 @@ lastName: Kosová
 slug: /eliska-kosova
 order: 1
 category: core
-description: lékařka, výzkumná pracovnice
+description: Doctor, Reasearch
 featuredImage: /assets/members/eliska-noskova-thumbnail.jpg
 language: en
 ---

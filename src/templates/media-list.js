@@ -34,7 +34,10 @@ class MediaIndex extends React.Component {
 
     const posts = data.allMarkdownRemark.edges
       .filter(edge => !!edge.node.frontmatter.date)
-      .map(edge => <PostCard key={edge.node.id} data={edge.node} />)
+      .map(edge => <PostCard key={edge.node.id} data={edge.node} />
+      )
+
+      this.messages = pageContext.messages;
 
     return (
       <Layout pageContext={pageContext} className="media-page">
@@ -44,7 +47,7 @@ class MediaIndex extends React.Component {
             "brain vr media page "
           }
         />
-        <h1>Média</h1>
+        <h1>{this.messages["media"]}</h1>
         <div className="media-flex">{posts}</div>
       </Layout>
     )

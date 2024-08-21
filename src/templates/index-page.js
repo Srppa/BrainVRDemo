@@ -56,6 +56,9 @@ const HomePage = ({ data, pageContext }) => {
   const { markdownRemark, news } = data // data.markdownRemark holds your post data
   const { frontmatter } = markdownRemark
   const Image = frontmatter.featuredImage ? frontmatter.featuredImage.childImageSharp.gatsbyImageData : ""
+
+  console.log(pageContext.language);
+
   return (
     <Layout pageContext={pageContext}>
       <Seo />
@@ -88,7 +91,15 @@ const HomePage = ({ data, pageContext }) => {
           )}
         </div>
       </div>
-      <NewsListHome data={news} />
+      {
+        pageContext.language == "cz" ? 
+        (
+          <NewsListHome data={news} />
+        ) :
+        (
+          ""
+        )
+      }
     </Layout>
   )
 }

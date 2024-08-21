@@ -6,7 +6,7 @@ lastName: Zuzánková
 slug: /karolina-zuzankova
 order: 1
 category: core
-description: výzkumná pracovnice
+description: Research
 featuredImage: /assets/members/karolina-zuzankova-thumbnail.jpg
 language: en
 ---

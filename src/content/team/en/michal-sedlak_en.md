@@ -6,7 +6,7 @@ lastName: Sedlák
 slug: /michal-sedlak
 order: 1
 category: core
-description: výzkumný a vývojový pracovník
+description: Research and Development
 featuredImage: /assets/members/michal-sedlak-thumbnail.jpg
 language: en
 ---

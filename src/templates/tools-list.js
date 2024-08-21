@@ -46,6 +46,8 @@ class ToolsIndex extends React.Component {
     const posts = LanguagePosts
       .map(edge => <ToolCard key={edge.node.id} data={edge.node} />)
 
+    this.messages = pageContext.messages;
+
     return (
       <Layout pageContext={pageContext} className="blog-page">
         <Seo
@@ -54,7 +56,7 @@ class ToolsIndex extends React.Component {
             "List tools BrainVR has developed to improve psychical well-being using VR technology"
           }
         />
-        <h1>Nástroje</h1>
+        <h1>{this.messages["tools"]}</h1>
         <div className="grids col-1 sm-1 lg-1 tool-grid">{posts}</div>
       </Layout>
     )

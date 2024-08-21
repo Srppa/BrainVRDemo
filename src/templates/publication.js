@@ -38,19 +38,19 @@ const Publication = ({ data, pageContext }) => {
         />
         <div className="publication-additional-info">
           <div>
-            <div className="publication-info-key"><span>Kategorie:</span></div>
+            <div className="publication-info-key"><span>{pageContext.messages["category"]}:</span></div>
             <div className="publication-info-value"><span>{frontmatter.category}</span></div>
           </div>
           <div>
-            <div className="publication-info-key"><span>Publikace:</span></div>
+            <div className="publication-info-key"><span>{pageContext.messages["publication"]}:</span></div>
             <div className="publication-info-value"><span>{frontmatter.jurnal}</span></div>
           </div>
           <div>
-            <div className="publication-info-key"><span>Datum:</span></div>
+            <div className="publication-info-key"><span>{pageContext.messages["date"]}:</span></div>
             <div className="publication-info-value"><span>{frontmatter.date}</span></div>
           </div>
           <div>
-            <div className="publication-info-key"><span>Odkazy:</span></div>
+            <div className="publication-info-key"><span>{pageContext.messages["links"]}:</span></div>
             <div className="publication-info-value publication-info-pdf"><a href={pdfLink} target="_blank" rel="noreferrer">PDF</a></div>
           </div>
         </div>

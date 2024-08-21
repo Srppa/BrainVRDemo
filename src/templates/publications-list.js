@@ -35,6 +35,8 @@ class PublicationsIndex extends React.Component {
     const posts = data.allMarkdownRemark.edges
       .map(edge => <PublicationCard key={edge.node.id} data={edge.node} />)
 
+    this.messages = pageContext.messages;
+
     return (
       <Layout pageContext={pageContext} className="blog-page">
         <Seo
@@ -43,7 +45,7 @@ class PublicationsIndex extends React.Component {
             "List of all projects BrainVR in woking on as well as past endeavors"
           }
         />
-        <h1>Publikace</h1>
+        <h1>{this.messages["publications"]}</h1>
         <div className="grids col-1 sm-1 lg-1 publication-grid">{posts}</div>
       </Layout>
     )

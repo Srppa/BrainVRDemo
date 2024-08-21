@@ -6,7 +6,7 @@ lastName: Adamcová
 slug: /katarina-adamcova
 order: 1
 category: core
-description: výzkumný pracovník, psychiatr
+description: Research, Psychiatrist
 featuredImage: /assets/members/katarina-adamcova-thumbnail.jpg
 language: en
 ---

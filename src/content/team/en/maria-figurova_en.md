@@ -6,7 +6,7 @@ lastName: Figurová
 slug: /maria-figurova
 order: 1
 category: core
-description: výzkumná pracovnice
+description: Research
 featuredImage: /assets/members/maria-figurova-thumbnail.jpg
 language: en
 ---

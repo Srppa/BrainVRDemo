@@ -39,10 +39,10 @@ const ErrorPage = ({ data, pageContext }) => {
       <div className="not-found-bottons">
         <Link to="/" className="button">
           <RiArrowLeftSLine className="icon -left" />
-          Domovská stranka
+          {pageContext.messages["home-page"]}
         </Link>
         <Link to="/contact" className="button -outline">
-          Kontakt<RiBugLine className="icon -right" />
+          {pageContext.messages["contact"]}<RiBugLine className="icon -right" />
         </Link>
       </div>
       

@@ -6,13 +6,24 @@ import {
   RiGithubFill
 } from "react-icons/ri"
 
-const Footer = () => (
+const Footer = (data) => (
   <footer className="site-footer">
     <div className="container">
       <div className="footer-links">
-        <Link className="nudz-link" target="_blank" to="https://www.nudz.cz/vyzkum/centrum-virtualni-reality-v-dusevnim-zdravi-a-neurovedach">
-          <img src="/assets/nudz-logo-white.png" alt="Nudz logo"/>
-        </Link>
+        {
+          data.pageContext.language == "cz" ?
+          (
+            <Link className="nudz-link" target="_blank" to="https://www.nudz.cz/vyzkum/centrum-virtualni-reality-v-dusevnim-zdravi-a-neurovedach">
+              <img src="/assets/nudz-logo-white.png" alt="Nudz logo"/>
+            </Link>
+          ) : 
+          (
+            <Link className="nudz-link" target="_blank" to="https://www.nudz.cz/en/research/center-for-virtual-reality-research-in-mental-health-and-neuroscience">
+              <img src="/assets/nudz-logo-white_en.png" alt="Nudz logo"/>
+            </Link>
+          )
+        }
+        
         <Link className="l3lf-link" target="_blank" to="https://www.lf3.cuni.cz/">
           <img src="/assets/logo-3lf.png" alt="3. lékařkařksá fakulta UK logo"/>
         </Link>

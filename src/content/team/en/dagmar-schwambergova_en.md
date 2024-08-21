@@ -6,7 +6,7 @@ lastName: Schwambergová
 slug: /dagmar-schwambergova
 order: 1
 category: core
-description: výzkumná pracovnice
+description: Research
 featuredImage: /assets/members/dagmar-schwambergova-thumbnail.jpg
 language: en
 ---

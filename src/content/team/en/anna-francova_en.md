@@ -6,7 +6,7 @@ lastName: Francová
 slug: /anna-francova
 order: 1
 category: core
-description: výzkumná a vývojová pracovnice
+description: Research and Development 
 featuredImage: /assets/members/anna-francova-thumbnail.jpg
 language: en
 ---

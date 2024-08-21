@@ -6,7 +6,7 @@ lastName: Jablonská
 slug: /marketa-jablonska
 order: 1
 category: core
-description: výzkumná a vývojová pracovnice
+description: Research and Development
 featuredImage: /assets/members/marketa-jablonska-thumbnail.jpg
 language: en
 ---

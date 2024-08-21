@@ -61,6 +61,8 @@ class TeamIndex extends React.Component {
       .filter(edge => edge.node.frontmatter.order !== 0)
       .map(edge => <MemberCard key={edge.node.id} data={edge.node} />)
 
+    this.messages = pageContext.messages;
+
     /*
     const internPosts = data.allMarkdownRemark.edges
       .filter(edge => edge.node.frontmatter.category === "intern")
@@ -84,7 +86,7 @@ class TeamIndex extends React.Component {
             "BrainVR blog page"
           }
         />
-        <h1>Náš tým</h1>
+        <h1>{this.messages["our-team"]}</h1>
         <div className="head-member">{headPosts}</div>
         <div className="grids col-1 sm-2 lg-3">{normalPosts}</div>
       </Layout>

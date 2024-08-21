@@ -6,7 +6,7 @@ lastName: Hejtmánek
 slug: /lukas-hejtmanek
 order: 1
 category: core
-description: Neurovědec, Data analytik
+description: Neuroscientist, Data analyst
 featuredImage: /assets/members/lukas-hejtmanek-thumbnail.jpg
 language: en
 ---

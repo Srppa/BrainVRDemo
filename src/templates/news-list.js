@@ -41,6 +41,8 @@ class NewsIndex extends React.Component {
       .filter(edge => !!edge.node.frontmatter.date)
       .map(edge => <NewsCard key={edge.node.id} data={edge.node} />)
 
+    this.messages = pageContext.messages;
+
     return (
       <Layout pageContext={pageContext} className="news-page">
         <Seo
@@ -49,7 +51,7 @@ class NewsIndex extends React.Component {
             "Info about new events that BrainVR group will be part of"
           }
         />
-        <h1>Aktuality</h1>
+        <h1>{this.messages["news"]}</h1>
         <div className="news-flex">{news}</div>
       </Layout>
     )
