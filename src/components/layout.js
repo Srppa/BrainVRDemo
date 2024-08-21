@@ -36,9 +36,9 @@ const Layout = ({ children, className, pageContext}) => {
       </div>
       <div className="participate-container">
         <div className="participate-container-inner">
-          <Link to="/participate">
+          <LinkTranslated href="/participate">
             {pageContext.messages["participate"]}
-          </Link>
+          </LinkTranslated>
         </div>    
       </div>
       <main className={"container " + className}>{children}</main>
