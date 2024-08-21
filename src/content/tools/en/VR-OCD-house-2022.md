@@ -1,15 +1,15 @@
 ---
 template: tool
-title: VR OCD House Virtuální dům pro expoziční terapii obsedantně-kompulzivní poruchy
+title: OCD House - The virtual house is aimed for exposure therapy of obsessive-compulsive disorder
 slug: /VR-OCD-house-2022
 date: 2022-01
 authors: Fajnerová, I., Francová, A. a Programátor Darmová, B.
-category: Nástroje
+category: Tools
 pdfFile: 
 pdfLink: https://www.nudz.cz/fileadmin/user_upload/Ke_stazeni/Vyzkum/Vysledky/ocdhouse-sw2022.pdf
 language: en
 ---
 
-OCD Dům - Virtuální dům je určen pro expoziční terapii obsedantně-kompulzivní poruchy (OCD) v imerzivní virtuální realitě. Terapeutická aplikace umožňuje díky imerzivní VR přímou interakci s podněty aktivovanými v prostředí virtuálního domu a zahrady. Cílové podněty (VR prvky) jsou rozděleny do několika sad odpovídajících subtypům OCD, včetně hromadění. Během expoziční terapie lze libovolně kombinovat podněty zahrnující běžné objekty a situace v domácnosti, které mohou představovat časté spouštěče OCD symptomů. Prostřednictvím 4 standardizovaných levelů lze nastavovat náročnost jednotlivých sezení dle individuální potřeby klientů.
+OCD House - The virtual house is aimed for exposure therapy of obsessive-compulsive disorder (OCD) in immersive virtual reality. Thanks to immersive VR, the therapeutic application enables direct interaction with stimuli activated in the environment of the virtual house and garden. During exposure therapy, stimuli can be freely combined involving common objects and situations in the home that may trigger OCD symptoms, including hoarding. Target stimuli (VR elements) are divided into several sets corresponding to OCD subtypes. During the session, the therapist can modify the level of difficulty via four standardized levels according to the individual needs of clients.
 
 ![tacr logo](/logo-tacr.png)

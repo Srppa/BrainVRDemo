@@ -97,7 +97,13 @@ const HomePage = ({ data, pageContext }) => {
           <NewsListHome data={news} />
         ) :
         (
-          ""
+          <div className="home-page-icdvrat">
+            <div className="inner">
+              <img src="/assets/icdvrat2024-wide.jpg" alt="icdvrat2024 banner"/>
+              <p>Our research group is pleased to announce the organization of an international conference that will take place on September 3-6, 2024 in Prague. This conference will welcome leading experts from around the world to share their latest insights and innovations in virtual reality, clinical practice, rehabilitation and much more.</p>
+              <p>For more information visit <a href="https://icdvrat2024.lf3.cuni.cz/" target="_blank">https://icdvrat2024.lf3.cuni.cz/</a></p>
+            </div>
+          </div>
         )
       }
     </Layout>

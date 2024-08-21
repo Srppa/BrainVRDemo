@@ -1,33 +1,29 @@
 ---
 template: tool
-title: Interaktivní herní aplikace jako screeningový nástroj kognitivních funkcí u dětí
+title: Interactive game applications as a screening tool for cognitive function in children
 slug: /interactive-game-tool-2022
 date: 2022-01
 authors: Nekovářová T., Fajnerová I.
-category: Nástroje
+category: Tools
 pdfFile: 
-pdfLink: https://www.nudz.cz/fileadmin/user_upload/Ke_stazeni/Vyzkum/Vysledky/Sada_interaktivnich_hernich_aplikaci__ktere_slouzi_ke_screeningu_vybranych_kognitivnich_domen_u_deti_predskolniho_a_mladsiho_skolniho_veku.pdf
+pdfLink: https://www.nudz.cz/fileadmin/user_upload/Ke_stazeni/Vyzkum/Vysledky/Sada_interaktivnich_hernich_aplikaci__ktere_slouzi_ke_screeningu_vybranych_kognitivnich_domen_u_deti_predskolniho_a_mladsiho_skolniho_veku..pdf
 language: cz
 ---
 
- - Tvůrci: Tereza Nekovářová, Iveta Fajnerová, Jiří Wild
-   
- - Programátoři: Jiří Wild, Filip Vorel, Jan Hrdlička
-   
- - Zapojené organizace: Národní ústav duševního zdraví, 3dsense s.r.o.
-   
- - Anotace: Sada interaktivních herních aplikací, které jsou přístupné
-   online, a které slouží ke screening vybraných kognitivních domén u dětí
-   předškolního a mladšího školního věku (paměť, pozornost, sociální kognice, exekutivní funkce).
-   
- - Klíčová slova: děti; kognitivní funkce, interaktivní hry,
-   kognitivní hry online aplikace
-   
- -  Dedikace: Tento SW je výsledkem činnosti podporované projektem Technologické Agentury České republiky TAČR číslo TL02000561.
-   
- - Technické parametry: Hra je programovaná pro ovládání na počítači
-   či tabletu, je přístupná online.
+- Authors: Tereza Nekovářová, Iveta Fajnerová, Jiří Wild
 
-  ![tacr logo](/logo-tacr.png)
+- Developers: Jiří Wild, Filip Vorel, Jan Hrdlička
 
-  ![tacr 3dsense](/logo-3dsense.png)
+- Involved organisations: National institute of mental health, 3dsense s.r.o.
+
+- Abstract: A set of interactive game applications, accessible online, for screening selected cognitive domains in preschool and younger school-age children (memory, attention, social cognition, executive functions).
+
+- Key words: children; cognitive functions; interactive games, serious games; online applications
+
+- Funding: This SW is a result of the research funded by the Technology Agency of the Czech Republic TACR, project number TL02000561.
+
+- Technical parameters: The game is programmed to be played on a computer or tablet. It is accessible online.
+
+![tacr logo](/logo-tacr.png)
+
+![tacr 3dsense](/logo-3dsense.png)

@@ -258,6 +258,33 @@ p{
   }
 }
 
+.home-page-icdvrat{
+  border-top: 3px solid #2c3161;
+  max-width: 900px;
+  margin: 50px auto;
+}
+
+.home-page-icdvrat .inner{
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.home-page-icdvrat img{
+  max-width: 800px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.home-page-icdvrat p{
+  text-align: center;
+  font-size: 20px;
+}
+
+.home-page-icdvrat p:first-of-type{
+  margin-top: 5px;
+}
+
+
 .news-home-list{
   margin-bottom: 135px;
 }

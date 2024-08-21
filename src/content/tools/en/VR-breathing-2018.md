@@ -1,15 +1,22 @@
 ---
 template: tool
-title: VR BREATHing.
+title: VR BREATHing
 slug: /vr-breathing-2018
 date: 2018-01
 authors: Šouláková, B., Francová, A., Fajnerová, I., Procházková, L. 
-category: Nástroje
+category: Tools
 pdfFile: 
 pdfLink: https://www.nudz.cz/fileadmin/user_upload/Ke_stazeni/Vyzkum/Vysledky/sw-mindfullnes-info.pdf
 language: en
 ---
 
-VR BREATHing napomáhá při tréninku hlubokého,rytmického dechu, který je nedílnou součástí rela-xačních a meditačních technik.Aplikace využívá rytmu pět sekund výdech, pětsekund nádech. Právě tato frekvence se ukázalajako účinná pro duševní a tělesné zdraví.Rytmický dech není jediná lidská schopnost, kteroudíky naší aplikaci můžete trénovat.Pokud se soustředíte na dodržování dané dechovéfrekvence, věnujete ji naprostou pozornost – tímtoudržováním pozornosti pracujete na své schopnostivšímavosti neboli mindfulness.Mindfulness je lidská schopnost soustředit se naokamžik tady a teď, pomáhá tak člověku odpočinoutsi od myšlenek a starostí.VR BREATHing je designovaná, aby zprostředkova-la trénink i lidem, pro které je běžný trénink složitý.Virtuální realita umožní uživateli cvičit v prostoruoproštění od okolních podnětů a ruchů. Relaxačníhudba pak ještě umocní prožitek klidu a odpočinku.Pokud máte HTC VIVE nebo Lenovo Mirage Solo,aplikace je pro Vás připravena ke stáhnutí a volnémuvyužívání.Při případném zájmu o přístroj nebo další informaceo projektu kontaktujte:Barbora.Soulakova@nudz.cz
+Application VR BREATHing helps to practice rhythmic deep breathing crucial for relaxation and meditation techniques. The five to five seconds rhythm is applied as this rhythm demonstrated beneficial effects on human physical and mental health.
+Moreover, breathing is not the only feature you can practice thanks to this application, it can be also used to increase so called mindfulness.
+Mindfulness is a human ability to be aware of the present moment.
+While following the rhythmical pattern of breathing, we have to focus our attention to maintain it correctly. Thanks to this focused activity, our mindfulness ability is spontaneously increasing. This virtual application should help mainly individuals, who are struggling with standard breathing and mindfulness practices, as they can be often hard to follow. Virtual reality and relaxation sound of our app brings you to a controlled environment, where you can focus just on your breathing, without interruptions from the stressful world around you.
+This application is free and ready to use for anyone who has HTC VIVE or Lenovo Mirage Solo.
+Enjoy...
+Future development: The app will be soon available also for mobile HMD devices.
+If you require the apllication or any further information, feel free to contact: [Barbora.Soulakova@nudz.cz]Barbora.Soulakova@nudz.cz
 
 ![tacr logo](/logo-tacr.png)
