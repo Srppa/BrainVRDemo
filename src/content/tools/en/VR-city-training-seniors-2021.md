@@ -1,7 +1,6 @@
 ---
 template: tool
-title: VRcity - set of games for cognitive training in
-elderly
+title: VRcity - set of games for cognitive training in elderly
 slug: /VR-city-training-seniors-2021
 date: 2021-01
 authors: Fajnerová, I., Plechatá, A., Hejtmánek, L., Hrdlička, H., Wild, J.
