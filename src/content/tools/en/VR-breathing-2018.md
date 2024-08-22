@@ -17,6 +17,6 @@ While following the rhythmical pattern of breathing, we have to focus our attent
 This application is free and ready to use for anyone who has HTC VIVE or Lenovo Mirage Solo.
 Enjoy...
 Future development: The app will be soon available also for mobile HMD devices.
-If you require the apllication or any further information, feel free to contact: [Barbora.Soulakova@nudz.cz]Barbora.Soulakova@nudz.cz
+If you require the apllication or any further information, feel free to contact: [Barbora.Soulakova@nudz.cz](Barbora.Soulakova@nudz.cz)
 
 ![tacr logo](/logo-tacr.png)
