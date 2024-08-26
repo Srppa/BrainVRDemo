@@ -20,6 +20,18 @@ const getTranslatedPath = (pathname, to) => {
   return outputPath;
 }
 
+const getCurrentOpositePath = (pathname) => {
+  const currentPageLanguage = getCurrentPageLanguage(pathname);
+
+  if(currentPageLanguage == "cz"){
+    pathname = "/en" + pathname;
+  } else{
+    pathname = pathname.replace('/en', '')
+  }
+
+  return pathname
+}
+
 const getCurrentPageLanguage = (pathname) => {
   const pathElements = pathname.split("/");
   for (let element of pathElements) {
@@ -32,4 +44,4 @@ const getCurrentPageLanguage = (pathname) => {
   return defaultLanguage;
 };
 
-export {getTranslatedPath, getCurrentPageLanguage};
+export {getTranslatedPath, getCurrentOpositePath, getCurrentPageLanguage};

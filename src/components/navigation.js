@@ -4,6 +4,7 @@ import React from "react"
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri"
 
 import LinkTranslated from "../LinkTranslated";
+import LinkOposite from "../LinkOposite";
 
 class Navigation extends React.Component {
   constructor(props) {
@@ -36,6 +37,18 @@ class Navigation extends React.Component {
           </div>
         </button>
         <ul>
+        <li>
+            <LinkOposite className="switch-language-li">
+              {this.language == 'cz'?
+                (
+                  <img src="/assets/kingdom_united_flag.png" alt="uk flag" className="switch-language"/>
+                ):
+                (
+                  <img src="/assets/czech_flag.png" alt="czech flag" className="switch-language"/>
+                )
+              }
+            </LinkOposite>
+          </li>
           <li>
             <LinkTranslated href={"/about"}>{this.messages["about"]}</LinkTranslated>
           </li>
