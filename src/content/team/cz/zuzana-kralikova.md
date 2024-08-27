@@ -4,9 +4,9 @@ title: Zuzana Králíková
 firstName: Zuzana
 lastName: Králíková
 slug: /zuzana-kralikova
-order: 1
+order: 0
 category: core
-description: Administrativní pracovnice
+description: Administrativa
 featuredImage: /assets/members/zuzana-kralikova-thumbnail.jpg
 language: cz
 ---
