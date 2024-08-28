@@ -436,6 +436,12 @@ p{
   color: #2c3161;
 }
 
+@media (max-width: 700px) {
+  .contactActive > a{
+    font-size: 20px;
+  }
+}
+
 .contact-page .mail-container > p {
   text-align: center;
 }
