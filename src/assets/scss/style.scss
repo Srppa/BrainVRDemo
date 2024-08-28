@@ -411,6 +411,10 @@ p{
   padding-right: 0px;
 }
 
+.about-page .wrapper a{
+  text-decoration: underline;
+}
+
 .contactActive {
   max-width: 800px;
   text-align: justify;
@@ -893,10 +897,6 @@ article img {
 .about-page .aboutLinks{
   max-width: 768px;
   margin: 0 auto;
-}
-
-.about-page .wrapper a{
-  color: #3c3539;
 }
 
 // Buttons
