@@ -17,7 +17,7 @@ The goal of the "Virtual city" project is the development of a comprehensive tra
 
 The virtual city consists of several complex tasks designed to train long-term and short-term memory, planning and other executive functions, navigation, attention, psychomotor speed, and visuomotor coordination. Seniors can train these functions through everyday activities such as planning daily tasks (e.g., a trip to the doctor), shopping, swatting pesky flies in the kitchen, or a trip to an amusement park. In 2020, prototypes of these tasks were tested on more than 60 seniors, and they were met with positive response regarding the simplicity of controls and the entertainment of the tasks.
 
-You can find more information on the website [vrmesto.cz](/https://vrmesto.cz/)
+You can find more information on the website [vrmesto.cz](https://vrmesto.cz/)
 
 The project is being carried out in cooperation with the company 3dsense s.r.o. with the financial support from the ETA programme of the Technology Agency of the Czech Republic (TACR), project No. TL01000309.
 
