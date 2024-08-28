@@ -15,7 +15,7 @@ The project is devoted to the use of e-mental health tools (e-mental health: the
 
 ![e-mental-health-tools 2](/e-mental-health-tools-02.png)
 
-DigiWell: Research of Excellence on Digital Technologies and Wellbeing.
+**DigiWell: Research of Excellence on Digital Technologies and Wellbeing.**
 
 Project registered under the number CZ. 02.01.01/00/22_008/0004583 within the framework of The Johannes Amos Comenius Programme (P JAC) is being developed with the support of the Ministry of Education, Youth and Sport of the Czech Republic and is co-financed by the European Union.
 
