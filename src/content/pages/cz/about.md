@@ -5,13 +5,17 @@ title: O nás
 language: cz
 ---
 
-Hlavním cílem centra je uplatnění technologie virtuální reality (VR) v komplexní péči o duševní zdraví, ve vzdělávání a výzkumu v oblasti psychiatrie a neurověd. Hlavním posláním centra je péče o duševní zdraví a s tím související vývoj a testování inovativních VR metod, které by bylo možné uplatnit v oblasti diagnostiky a terapie neuropsychiatrických onemocnění (zejména úzkostných poruch, obsedantně-kompulzivní poruchy atd.) a rehabilitaci kognitivního deficitu (zejména u neurodegenerativních onemocnění a schizofrenie).
+Hlavním cílem centra je uplatnění technologie virtuální reality (VR) v komplexní péči o duševní zdraví. Centrum své poslání realizuje ve třech hlavních směrech – vývoj nových metod, vzdělávání a výzkum.
 
-Mezi další činnosti centra patří také vzdělávání v oblasti duševního zdraví a duševních onemocnění s využitím VR metod, které zahrnuje nejen vzdělávání zdravotnických pracovníků (psychologů a psychiatrů) ve spolupráci s 3. lékařskou fakultou Univerzity Karlovy, ale také vzdělávání odborné a laické veřejnosti.
+Centrum se zaměřuje zejména na vývoj a testování inovativních VR metod využitelných v péči o duševní zdraví. Zaměření VR aplikací je orientované na uplatnění v oblasti diagnostiky a terapie neuropsychiatrických onemocnění (zejména úzkostných poruch, obsedantně-kompulzivní poruchy atd.) a rehabilitaci kognitivního deficitu (zejména u neurodegenerativních onemocnění a schizofrenie).
 
-Výzkumná činnost centra se orientuje na využití VR technologie v základním a aplikovaném neurovědném a psychologickém výzkumu, zejména v oblasti pochopení kognitivních procesů (prostorová orientace, paměť) a související činnosti mozku, či projevů duševních onemocnění. S ohledem na interdisciplinární zaměření je náš tým složen z psychologů, psychiatrů, neurovědců a samozřejmě i VR vývojářů a programátorů. Tým centra úzce spolupracuje nejen s dalšími výzkumnými organizacemi a univerzitami v ČR i v zahraničí, ale také se soukromou sférou.
+Mezi další činnosti centra patří také vzdělávání v oblasti duševního zdraví a duševních onemocnění s využitím VR metod. Tato činnost zahrnuje nejen vzdělávání zdravotnických pracovníků (psychologů a psychiatrů) ve spolupráci s 3. lékařskou fakultou Univerzity Karlovy (3. LF UK), ale také vzdělávání odborné a laické veřejnosti.
 
-VR centrum tvoří sekce odpovídající jednotlivým druhům činností, tj. klinická sekce (VR klinika), výuková sekce (VR učebna) a výzkumná sekce (VR laboratoř).
+Výzkumná činnost centra se orientuje na využití VR technologie v základním a aplikovaném neurovědném a psychologickém výzkumu, zejména v oblasti pochopení kognitivních procesů (prostorová orientace, paměť) a související činnosti mozku, či projevů duševních onemocnění.
+
+S ohledem na interdisciplinární zaměření je náš tým složen z psychologů, psychiatrů, neurovědců a samozřejmě i VR vývojářů a programátorů. Tým centra úzce spolupracuje nejen s dalšími výzkumnými organizacemi a univerzitami v ČR i v zahraničí, ale také se soukromou sférou.
+
+VR centrum tvoří sekce odpovídající jednotlivým druhům činností, tj. klinická sekce (VR klinika), vzdělávací sekce (VR učebna) a výzkumná sekce (VR laboratoř).
 
 **Specifikace činností a cílů jednotlivých sekcí centra:**
 

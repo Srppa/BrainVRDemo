@@ -10,11 +10,13 @@ The main goal of the center is the utilization of virtual reality (VR) technolog
 The center focuses mainly on the development and testing of innovative VR methods that can be used in mental health care. The focus of VR applications is oriented towards use in the field of diagnosis and therapy of neuropsychiatric diseases (especially anxiety disorders, obsessive-compulsive disorders, etc.) and rehabilitation of cognitive deficits (especially in neurodegenerative diseases and schizophrenia).
 
 Other activities of the center also include education in the field of mental health and mental illnesses using VR methods. This effort includes not only the education of healthcare workers (psychologists and psychiatrists) in cooperation with the Third Faculty of Medicine of Charles University (3rd FM UK), but also the education of the professional and lay public.
+
 The research activity of the center is oriented towards the use of VR technology in basic and applied neuroscience and psychological research, especially in the field of understanding cognitive processes (spatial orientation, memory) and related brain activity, or manifestations of mental illnesses.
 
 With regard to the interdisciplinary focus, our team consists of psychologists, psychiatrists, neuroscientists and, of course, VR developers and programmers. The center's team closely cooperates not only with other research organizations and universities in the Czech Republic and abroad, but also with the private sector.
 
 The VR center consists of sections corresponding to individual types of activities, i.e. clinical section (VR clinic), educational section (VR classroom), and research section (VR laboratory).
+
 
 **Specification of activities and goals of individual sections of the center:**
 
