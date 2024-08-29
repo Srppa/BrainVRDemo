@@ -11,5 +11,4 @@ featuredImage: /assets/members/tereza-langova-thumbnail.jpg
 language: en
 ---
 
-Bc. Tereza Langová vystudovala obor Počítačová grafika na FIT ČVUT a v současnosti dokončuje magisterské studium se stejným zaměřením na FEL ČVUT. Přes dva roky se ve volném čase věnuje vývoji her, do kterých tvoří převážně grafiku a navrhuje uživatelské rozhraní, ale také se příležitostně věnuje jejich programování. V současnosti pracuje na diplomové práci, která se věnuje návrhu a implementaci VR aplikace pro lidi upoutané na lůžko, která jim má poskytnout zábavu a podpořit je v mírném cvičení. V NÚDZ se věnuje především tvorbě grafiky do VR scén.
-
+Bc. Tereza Langová graduated from the Faculty of Information Technology at the Czech Technical University with a degree in Computer Graphics, and is currently pursuing a Master's degree in the same field at the Faculty of Electrical Engineering at CTU. She has been developing games in her free time for more than two years, mostly creating graphics and designing user interfaces, but occasionally programming as well. She is currently working on her master's thesis, which focuses on designing and implementing a VR application for bedridden people to entertain them and encourage them to exercise a little. At NUDZ, her main focus is on creating graphics for VR scenes.

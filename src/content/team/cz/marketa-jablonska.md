@@ -1,7 +1,7 @@
 ---
 template: team-member
-title: Markéta Jablonská
-firstName: Markéta
+title: Markéta Kolman Jablonská
+firstName: Markéta Kolman
 lastName: Jablonská
 slug: /marketa-jablonska
 order: 1
