@@ -45,10 +45,11 @@ const Contact = ({ data, pageContext }) => {
         </div>
       </div>
       <div className="adress-container">
-        <p>{pageContext.messages["full-adress"]}</p>
+        <p>{pageContext.messages["address"]}:</p>
+        <p>{pageContext.messages["full-address"]}</p>
       </div>
       <div className="mail-container">
-      
+      <p>Email:</p>
       <p>{pageContext.messages["vr-research"]}:  <a className="contact-mail" href="mailto:brainvrgroup@gmail.com">brainvrgroup@gmail.com</a></p>
       <p>{pageContext.messages["vr-therapy"]}:  <a className="contact-mail" href="mailto:vrterapie@nudz.cz">vrterapie@nudz.cz</a></p>
        
