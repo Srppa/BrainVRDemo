@@ -7,7 +7,7 @@ authors: Francová A, Jablonská M, Lhotská L, Husák J, & Fajnerová I
 category: Journal
 jurnal: SciencecDirect
 pdfFile: 
-pdfLink: https://www.isvavai.cz/riv?s=jednoduche-vyhledavani&ss=detail&n=0&h=RIV%2F00023752%3A_____%2F23%3A43921160%21RIV24-TA0-00023752
+pdfLink: https://www.sciencedirect.com/science/article/abs/pii/S0005791625000199
 language: uni
 ---
 
