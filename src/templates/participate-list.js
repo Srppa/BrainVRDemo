@@ -10,6 +10,7 @@ import Seo from "../components/seo"
 export const blogListQuery = graphql`
   query mediaListQuery {
     allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
       filter: { frontmatter: { template: { eq: "participate-link" } } }
     ) {
       edges {
