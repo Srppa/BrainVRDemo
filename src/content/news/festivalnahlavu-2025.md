@@ -1,8 +1,8 @@
 ---
 template: news-post
-title: Festival Na Hlavu 2024
+title: Festival Na Hlavu 2025
 slug: /festivalnahlavu-2024
-date: 2024-02-29
+date: 2026-01-01
 featuredImage: /assets/tyden-mozku-2025-thumbnail.jpg
 language: cz
 ---
