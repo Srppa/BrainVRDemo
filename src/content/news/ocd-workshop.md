@@ -15,7 +15,7 @@ Během workshopu MUDr. Stopková přednesla teoretický koncept s ukázkami apli
 
 V odpoledním bloku proběhli praktické ukázky aplikace OCD dům i dalších aplikací určených jako doplňující intervence pro OCD i pro jiné potíže typu specfických fóbií. Účastníci pak měli možnost klást doplňující dotazy a vyjádřit zpětnou vazbu k workshopu.
 
-Program naleznete [na tomto okazu](/Harmonogram_workshop.pdf).
+Program naleznete [na tomto okazu](/assets/Harmonogram_workshop.pdf).
 
 ![ocd-workshop-1](/ocd-workshop-1.jpg "ocd-workshop-1.jpg")
 
